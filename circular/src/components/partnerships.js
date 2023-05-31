@@ -5,6 +5,8 @@ import caregoodlogo from '../images/caregoodlogo.png'
 import desclogo from '../images/desclogo.png'
 import smaelogo from '../images/smaelogo.png'
 import gp from '../images/gp.jpg'
+import dslogo from '../images/dslogo.png'
+import osmanialogo from '../images/osmanialogo.jpeg'
 import Aos from 'aos';
 
 const Partnerships = () => {
@@ -35,10 +37,10 @@ const Partnerships = () => {
             <p data-aos="slide-left" data-aos-delay="200" className='para'>
             We partner with media outlets and influencers that can help us raise awareness and visibility of our work, as well as inspire and engage the public. We provide them with access to our stories, events, and campaigns, and invite them to join us in spreading our message of sustainability and well-being.
             </p>
-            <div className='p-container'>
+            <div className='p-container mt-5'>
               <img className='gp' src={gp} alt="gp" />
               <div>
-                <div className='text-center mb-4'>
+                <div className='text-center'>
                     <h1 className='sec2-head'>GOLDEN PARTNERS</h1>
                     <hr className='line' style={{width:"200px"}}/>
                 </div>
@@ -68,6 +70,22 @@ const Partnerships = () => {
                   </div>
                   <div className='logo-box d-flex justify-content-center' >
                     <img className='cg-logo' src={caregoodlogo} alt="caregoodlogo"/>
+                  </div>
+                </div>
+                <div className='logo-text'>  
+                  <div className='logo-box' >
+                    <img className='co-logo' src={dslogo} alt="dslogo"/>
+                    <div>
+                      <h1 className='logo-heading'>DSS</h1>
+                      <h2 className='logo-name'>Divyang Solar Society</h2>
+                    </div>
+                  </div>
+                  <div className='logo-box' >
+                    <img className='co-logo' src={osmanialogo} alt="osmanialogo"/>
+                    <div>
+                      <h1 className='logo-heading'>JRO</h1>
+                      <h2 className='logo-name'>Japal-Rangapur Observatory</h2>
+                    </div>
                   </div>
                 </div>
                 

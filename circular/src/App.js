@@ -7,6 +7,8 @@ import Focus from './components/focus';
 import HumanCapital from './components/humancapital';
 import Health from './components/health';
 import Partnerships from './components/partnerships';
+import AboutUs from './components/aboutUs';
+import Visionandmission from './components/visionandmission';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
         <Route path="/humancapital" element={<HumanCapital/>}/>
         <Route path="/humancapital/health" element={<Health/>}/>
         <Route path="/partnerships" element={<Partnerships/>}/>
+        <Route path="/aboutus" element={<AboutUs/>}/>
+        <Route path="/aboutus/visionandmission" element={<Visionandmission/>}/>
       </Routes>
       <Footer/>
     </Router>

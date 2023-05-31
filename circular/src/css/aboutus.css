@@ -1,0 +1,18 @@
+.main-heading{
+    font-family: 'montserrat';
+    font-size: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.sub-heading{
+    font-family: 'montserrat';
+    font-size: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-weight: bold;
+}
+.abhay-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
