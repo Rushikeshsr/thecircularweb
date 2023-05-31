@@ -4,7 +4,6 @@ import Aos from 'aos'
 import indianemb from '../images/indianemb.png';
 import telangana from '../images/telangana.png';
 import homeVid from '../images/homeVid.mp4';
-import {Link} from 'react-router-dom';
 import sridharp from '../images/sridharp.jpg'
 import ripal from '../images/ripal.jpg'
 import aishwaryak from '../images/aishwaryak.jpg'
@@ -178,12 +177,12 @@ const Home = () => {
           <img className='logo' src={telangana} alt="telangana logo"/>
         </div>
         <div className='navigator mb-2'>
-          <Link to="/focus"><button className='button'>Focus</button></Link>
-          <Link to="/partnerships"><button className='button'>Partnerships</button></Link>
-          <Link to="/humancapital"><button className='button'>Human Capital</button></Link>
-          <Link to="/aboutus"><button className='button'>About Us</button></Link>
-          <Link to="/contactus"><button className='button'>Contact Us</button></Link>
-          <Link to="/resources"><button className='button'>Impact Data</button></Link>
+          <HashLink smooth to="/focus#top"><button className='button'>Focus</button></HashLink>
+          <HashLink smooth to="/partnerships#top"><button className='button'>Partnerships</button></HashLink>
+          <HashLink smooth to="/humancapital#top"><button className='button'>Human Capital</button></HashLink>
+          <HashLink smooth to="/aboutus#top"><button className='button'>About Us</button></HashLink>
+          <HashLink smooth to="/contactus#top"><button className='button'>Contact Us</button></HashLink>
+          <HashLink smooth to="/resources#top"><button className='button'>Impact Data</button></HashLink>
         </div>
         
       </div>

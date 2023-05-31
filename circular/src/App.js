@@ -10,6 +10,7 @@ import Partnerships from './components/partnerships';
 import AboutUs from './components/aboutUs';
 import Visionandmission from './components/visionandmission';
 import ContactUs from './components/contactUs';
+import CircularEconomy from './components/circulareconomy';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/home" element={<Home/>}/>
         <Route path="/focus" element={<Focus/>}/>
+        <Route path="/focus/circulareconomy" element={<CircularEconomy/>}/>
         <Route path="/humancapital" element={<HumanCapital/>}/>
         <Route path="/humancapital/health" element={<Health/>}/>
         <Route path="/partnerships" element={<Partnerships/>}/>

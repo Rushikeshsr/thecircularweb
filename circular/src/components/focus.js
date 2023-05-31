@@ -16,6 +16,7 @@ import focuspic3 from '../images/focuspic3.jpg';
 import focuspic4 from '../images/focuspic4.jpg'
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import Aos from 'aos';
 
 const Focus = () => {
@@ -112,7 +113,7 @@ const Focus = () => {
                         <p>Discover how we integrate circular economy principles into local businesses,<br/>
                         promoting waste reduction, recycling, and innovative approaches to resource management.
                         </p> <br/><br/>
-                        <Link to='/focus/circulareconomy'><button className='btnlr'>Learn More</button></Link>
+                        <HashLink smooth to='/focus/circulareconomy#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200">
                         <img className='pic' src={ce} alt="circular economy"/>
