@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/header.css'
 import logo from '../images/logo.png'
 import {Link} from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 import { FaCaretDown } from "react-icons/fa";
 const Header = () => {
   return (
@@ -59,8 +60,8 @@ const Header = () => {
                     <div className='dropdown'>
                         <Link className='link' to="/contactus"><li className='list-items'>Contact Us <FaCaretDown style={{fontSize:'14px'}}/></li></Link>
                         <div className='focus-items' style={{minWidth:"120px"}}>
-                            <Link className='link' to="/contactus/supportus">Support Us</Link>
-                            <Link className='link' to="/contactus/joinus">Join Us</Link>
+                            <HashLink smooth className='link' to="/contactus/#supportus">Support Us</HashLink>
+                            <HashLink smooth className='link' to="/contactus/#joinus">Join Us</HashLink>
                         </div>
                     </div>
                 </ul>

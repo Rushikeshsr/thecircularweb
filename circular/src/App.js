@@ -9,6 +9,7 @@ import Health from './components/health';
 import Partnerships from './components/partnerships';
 import AboutUs from './components/aboutUs';
 import Visionandmission from './components/visionandmission';
+import ContactUs from './components/contactUs';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/partnerships" element={<Partnerships/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
         <Route path="/aboutus/visionandmission" element={<Visionandmission/>}/>
+        <Route path="/contactus" element={<ContactUs/>}/>
       </Routes>
       <Footer/>
     </Router>
