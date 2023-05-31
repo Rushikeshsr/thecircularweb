@@ -127,7 +127,7 @@ const Focus = () => {
                         <p>Learn about our initiatives to protect and restore ecosystems, conserve biodiversity,<br/>
                          and create sustainable solutions for a harmonious relationship between humans and nature.
                         </p> <br/><br/>
-                        <Link to='/focus/nature'><button className='btnlr'>Learn More</button></Link>
+                        <HashLink smooth to='/focus/nature#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
                         <img className='pic' src={Nature} alt="Nature"/>
