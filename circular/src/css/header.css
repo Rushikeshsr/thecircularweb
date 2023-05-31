@@ -1,0 +1,83 @@
+@font-face{
+    font-family:'montserrat';
+    src:local("montserrat"),url('../fonts/Montserrat-Regular.ttf')
+  }
+
+  .nav-bar{
+    height:15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:aliceblue;
+    top:0;
+    padding: 10px;
+  }
+  
+  .logo{
+    height:80px;
+    width:80px;
+  }
+  .logo-text{
+    display: flex;
+    align-items: center;
+  }
+  .main-head{
+    font-size: 32px;
+    font-family: "montserrat";
+    color:aliceblue;
+  }
+  .list{
+    list-style-type:none;
+    display: flex;
+  }
+  .link{
+    text-decoration: none;
+  }
+  .list-items{
+    font-family:'montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 30px;
+    color:aliceblue;
+  }
+  .main-head:hover{
+    color:#00ff0d;
+    transition: 0.5s; 
+  }
+  .list-items:hover{
+    color:#00ff0d;
+    transition: 0.5s;    
+  }
+  .dropdown{
+    position: relative;
+  }
+  .focus-items{
+    display: none;
+    position: absolute;
+    background-color:aliceblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;   
+  }
+  .focus-items .link{
+    color:black;
+    padding: 5px 7px;
+    font-size: 15px;
+    font-family: 'montserrat';
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .focus-items .link:hover{
+    background-color: black;
+    color: #00ff0d;
+    transition: 0.5s; 
+  }
+  
+  .dropdown:hover > .focus-items{
+    display: block;
+    
+  }
+

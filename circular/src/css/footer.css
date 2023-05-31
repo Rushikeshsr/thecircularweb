@@ -1,0 +1,18 @@
+.footer{
+    position: relative;
+    bottom:0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: 'montserrat';
+    background-color: black;
+    padding:10px;
+    color:aliceblue;
+    align-items: center;
+}
+
+#res:hover{
+    color: #00ff0d;
+    transition: 0.5s;
+}
+
