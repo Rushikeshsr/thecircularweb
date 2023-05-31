@@ -1,5 +1,10 @@
 import React,{useEffect} from 'react'
 import '../css/partnership.css';
+import aranyalogo from '../images/aranyalogo.jpeg'
+import caregoodlogo from '../images/caregoodlogo.png'
+import desclogo from '../images/desclogo.png'
+import smaelogo from '../images/smaelogo.png'
+import gp from '../images/gp.jpg'
 import Aos from 'aos';
 
 const Partnerships = () => {
@@ -27,9 +32,48 @@ const Partnerships = () => {
             <p data-aos="slide-right" data-aos-delay="200" className='para'>
             We partner with academic institutions and research centers that have relevant knowledge and skills in our areas of interest. We engage with them in conducting research and innovation, developing curricula and educational materials, and providing mentorship and internship opportunities for students and researchers.
             </p>
-            <p data-aos="slide-down" data-aos-delay="200" className='para'>
+            <p data-aos="slide-left" data-aos-delay="200" className='para'>
             We partner with media outlets and influencers that can help us raise awareness and visibility of our work, as well as inspire and engage the public. We provide them with access to our stories, events, and campaigns, and invite them to join us in spreading our message of sustainability and well-being.
             </p>
+            <div className='p-container'>
+              <img className='gp' src={gp} alt="gp" />
+              <div>
+                <div className='text-center mb-4'>
+                    <h1 className='sec2-head'>GOLDEN PARTNERS</h1>
+                    <hr className='line' style={{width:"200px"}}/>
+                </div>
+                <div className='logo-text'>
+                  <div className='logo-box' >
+                    <img className='co-logo' src={aranyalogo} alt="aranyalogo"/>
+                    <div>
+                      <h1 className='logo-heading'>Aranya</h1>
+                      <h2 className='logo-name'>Agricultural Alternatives</h2>
+                    </div>
+                  </div>
+                  <div className='logo-box' >
+                    <img className='co-logo' src={desclogo} alt="desclogo"/>
+                    <div>
+                      <h1 className='logo-heading'>DESC</h1>
+                      <h2 className='logo-name'>Digital Education and Skills Council</h2>
+                    </div>
+                  </div>
+                </div>
+                <div className='logo-text'>  
+                  <div className='logo-box' >
+                    <img className='co-logo' src={smaelogo} alt="smaelogo"/>
+                    <div>
+                      <h1 className='logo-heading'>SMAE</h1>
+                      <h2 className='logo-name'>Society of Mechanical and Automobile Engineers</h2>
+                    </div>
+                  </div>
+                  <div className='logo-box d-flex justify-content-center' >
+                    <img className='cg-logo' src={caregoodlogo} alt="caregoodlogo"/>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
         </div>
     </>
   )

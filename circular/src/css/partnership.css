@@ -9,3 +9,54 @@
     justify-content: center;
     align-items: center;
 }
+.logo-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    padding: 15px;
+    width: 350px;
+    
+}
+.logo-box:hover{
+    box-shadow: 2px 2px 20px #00ff0d;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.co-logo{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.logo-heading{
+    font-family: 'montserrat';
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo-name{
+    font-family: 'montserrat';
+    font-size: 20px;
+}
+.p-container{
+    padding-left: 65px;
+    padding-right: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+.gp{
+    width: 300px;
+    height:700px;
+    border-radius: 10px;
+    border:2px solid black;
+}
+.logo-text{
+    display: flex;
+    justify-content: space-around;
+    margin:25px;
+}
+.cg-logo{
+    width:280px;
+    height:100px;
+   
+}
