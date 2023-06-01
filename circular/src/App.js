@@ -16,7 +16,7 @@ import Medicine from './components/medicine';
 import Hospitality from './components/hospitality';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Hepatology from './components/hepatology';
-
+import Gynaecology from './components/gynaecology';
 function App() {
   return (
     <>
@@ -31,6 +31,7 @@ function App() {
         <Route path="/focus/medicine" element={<Medicine/>}/>
         <Route path="/focus/hospitality" element={<Hospitality/>}/>
         <Route path="/focus/hepatology" element={<Hepatology/>}/>
+        <Route path="/focus/gynaecology" element={<Gynaecology/>}/>
         <Route path="/humancapital" element={<HumanCapital/>}/>
         <Route path="/humancapital/health" element={<Health/>}/>
         <Route path="/partnerships" element={<Partnerships/>}/>

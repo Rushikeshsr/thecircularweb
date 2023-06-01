@@ -5,7 +5,7 @@ const Medicine = () => {
   return (
     <>
         <div className='cover-imageM p-5'>
-            <h1 className='cover-text' style={{color:"black", opacity:"0.8"}}>Medicine</h1>
+            <h1 className='cover-text' style={{color:"black", opacity:"0.8"}}>MEDICINE</h1>
         </div>
         <div className='section2 p-5'>
             <p className='paragh'>
