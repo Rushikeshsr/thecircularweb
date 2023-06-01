@@ -13,6 +13,7 @@ import ContactUs from './components/contactUs';
 import CircularEconomy from './components/circulareconomy';
 import Nature from './components/nature';
 import Medicine from './components/medicine';
+import Hospitality from './components/hospitality';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/focus/circulareconomy" element={<CircularEconomy/>}/>
         <Route path="/focus/nature" element={<Nature/>}/>
         <Route path="/focus/medicine" element={<Medicine/>}/>
+        <Route path="/focus/hospitality" element={<Hospitality/>}/>
         <Route path="/humancapital" element={<HumanCapital/>}/>
         <Route path="/humancapital/health" element={<Health/>}/>
         <Route path="/partnerships" element={<Partnerships/>}/>
