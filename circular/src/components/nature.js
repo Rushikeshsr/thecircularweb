@@ -60,7 +60,7 @@ const Nature = () => {
             </div>
         </div>
         <div id="story7" name="story7" className='section3 d-flex justify-content-center p-5'>
-            <div data-aos="zoom-in" className='cardbox d-flex'>
+            <div data-aos="zoom-in"  className='cardbox d-flex'>
                 <img className='image-card' src={story7} alt="Chandrakala"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Chandrakala</h1>
@@ -72,9 +72,9 @@ const Nature = () => {
         </div>
         <div className='p-5'>
             <div className="image-container mb-4">
-                <img data-aos="flip-right"  className='nepic' src={neAbhay1} alt="neAbhay1"/>
-                <img data-aos="flip-down" className='nepic' src={neAbhay4} alt="neAbhay1"/>
-                <img data-aos="flip-left" className='nepic' src={neAbhay3} alt="neAbhay4"/>
+                <img data-aos="flip-right" data-aos-delay="100" className='nepic' src={neAbhay1} alt="neAbhay1"/>
+                <img data-aos="flip-down" data-aos-delay="100" className='nepic' src={neAbhay4} alt="neAbhay1"/>
+                <img data-aos="flip-left" data-aos-delay="100" className='nepic' src={neAbhay3} alt="neAbhay4"/>
             </div>
         </div>
     </>

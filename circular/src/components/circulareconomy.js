@@ -42,9 +42,9 @@ const CircularEconomy = () => {
                 <img data-aos="flip-left" data-aos-delay="100" className='cimpic' src={rishi_6} alt="rishi_6"/>
             </div>
             <div className="image-container">
-                <img data-aos="flip-right" data-aos-delay="100" className='cimpic' src={rishi_4} alt="rishi_4"/>
-                <img data-aos="flip-up" data-aos-delay="100" className='cimpic' src={rishi_5} alt="rishi_5"/>
-                <img data-aos="flip-left" data-aos-delay="100" className='cimpic' src={rishi_3} alt="rishi_3"/>
+                <img data-aos="flip-right" data-aos-delay="200" className='cimpic' src={rishi_4} alt="rishi_4"/>
+                <img data-aos="flip-up" data-aos-delay="200" className='cimpic' src={rishi_5} alt="rishi_5"/>
+                <img data-aos="flip-left" data-aos-delay="200" className='cimpic' src={rishi_3} alt="rishi_3"/>
             </div>
         </div>
         <div className='p-5'>    
