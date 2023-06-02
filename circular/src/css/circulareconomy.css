@@ -110,7 +110,7 @@
     width: 25%;
     height: 25%;
     border:2px solid white;
-    border-radius: 5%;
+    border-radius: 15px;
 }
 .medpich{
     width: 450px;
@@ -121,6 +121,12 @@
 .medpicv{
     width:340px;
     height:600px;
+    border:2px solid white;
+    border-radius: 15px;
+}
+.nepic{
+    width: 300px;
+    height:450px;
     border:2px solid white;
     border-radius: 15px;
 }

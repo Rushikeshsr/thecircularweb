@@ -3,12 +3,15 @@ import "../css/circulareconomy.css"
 import nature_video from '../images/nature_video.mp4';
 import story6 from '../images/6story.jpg';
 import story7 from '../images/7story.jpg';
+import neAbhay1 from '../images/neAbhay1.jpg';
+import neAbhay3 from '../images/neAbhay3.jpg';
+import neAbhay4 from '../images/neAbhay4.jpg';
 
 const Nature = () => {
   return (
     <>
         <div className='cover-imageN p-5'>
-            <h1 className='cover-text' style={{color:"aliceblue", opacity:"0.9"}}>Nature</h1>
+            <h1 className='cover-text' style={{color:"aliceblue", opacity:"0.8", textShadow:"2px 2px 20px black"}}>Nature</h1>
         </div>
         <div className='section2 p-5'>
             <p className='paragh'>
@@ -46,7 +49,7 @@ const Nature = () => {
             </p>
         </div>
         <div id="story6" name="story6" className='section3 d-flex justify-content-center p-5'>
-            <div data-aos="zoom-in" data-aos-delay="100" className='cardbox d-flex'>
+            <div data-aos="zoom-in" className='cardbox d-flex'>
                 <img className='image-card' src={story6} alt="Prameela"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Prameela</h1>
@@ -57,7 +60,7 @@ const Nature = () => {
             </div>
         </div>
         <div id="story7" name="story7" className='section3 d-flex justify-content-center p-5'>
-            <div data-aos="zoom-in" data-aos-delay="100" className='cardbox d-flex'>
+            <div data-aos="zoom-in" className='cardbox d-flex'>
                 <img className='image-card' src={story7} alt="Chandrakala"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Chandrakala</h1>
@@ -65,6 +68,13 @@ const Nature = () => {
                     Chandrakala's life took an unexpected turn when she lost her husband. Left to shoulder the responsibility of her family, she sought ways to provide for her children and secure a better future for them. In her quest for sustainable livelihood options, Chandrakala discovered the world of natural farming. Intrigued by its principles of ecological balance and self-sufficiency, she saw an opportunity to not only support her family but also contribute to the well-being of her community. With unwavering determination, she immersed herself in the knowledge and practices of natural farming. Her commitment to sustainable practices not only yielded bountiful harvests but also preserved the environment for future generations. Through her hard work and dedication, she achieved financial independence. The income generated from her natural farming endeavors became the primary source of sustenance for her family. Moreover, she empowered her son by involving him in farm activities, providing him with a valuable source of income by selling organic produce in nearby cities.
                     </p>
                 </div>
+            </div>
+        </div>
+        <div className='p-5'>
+            <div className="image-container mb-4">
+                <img data-aos="flip-right"  className='nepic' src={neAbhay1} alt="neAbhay1"/>
+                <img data-aos="flip-down" className='nepic' src={neAbhay4} alt="neAbhay1"/>
+                <img data-aos="flip-left" className='nepic' src={neAbhay3} alt="neAbhay4"/>
             </div>
         </div>
     </>

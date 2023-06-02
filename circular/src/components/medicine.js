@@ -43,9 +43,6 @@ const Medicine = () => {
             </p>
         </div>
         <div className='p-5'>    
-            {/* <p className='para'>
-            We are committed to fostering partnerships with businesses, organizations, and individuals who share our vision. Together, we can make a significant impact and reshape the way we think about waste. By supporting our initiatives, you become a catalyst for change, driving the transformation of textile waste into valuable resources and inspiring others to follow suit.
-            </p> */}
             <div className="image-container mb-4">
                 <div className='d-flex flex-column'>
                     <img data-aos="fade-up" data-aos-delay="100" className='medpich' src={med1} alt="cir1"/>

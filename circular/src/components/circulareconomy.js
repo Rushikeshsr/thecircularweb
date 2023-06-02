@@ -18,7 +18,7 @@ const CircularEconomy = () => {
   return (
     <>
         <div className='cover-imageC p-5'>
-            <h1 className='cover-text' style={{color:"aliceblue", opacity:"0.9"}}>CIRCULAR ECONOMY</h1>
+            <h1 className='cover-text' style={{color:"aliceblue", opacity:"0.8",textShadow:"2px 2px 20px black"}}>CIRCULAR ECONOMY</h1>
         </div>
         <div className='section2 p-5'>
             <p className='paragh'>
