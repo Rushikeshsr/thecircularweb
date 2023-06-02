@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 const Caregood = () => {
   return (
     <>
-        <div className='cover-imageC p-5'>
+        <div className='cover-imageCC p-5'>
             <h1 className='cover-text' style={{color:"aliceblue", opacity:"0.9",textShadow:"2px 2px 20px black"}}>CAREGOOD</h1>
         </div>
         <div className='section2 p-5'>
