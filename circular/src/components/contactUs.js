@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import emailjs from 'emailjs-com';
-import '../css/contactus.css'
+import '../css/contactus.css';
+import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 const ContactUs = () => {
     const [form,setForm] = useState({user_name:"",
                         user_email:"",
@@ -35,9 +36,24 @@ const ContactUs = () => {
     <div className='p-5'>
         <h2 className='main-heading'>Contact Us</h2>
         <p className='para'>Please feel free to reach out to us for all your questions and concerns</p>
+        <p className='para'><FaPhone style={{fontSize:'20px'}}/>&nbsp;&nbsp;+917032064985</p>
+        <p className='para'><FaEnvelope style={{fontSize:'20px'}}/>&nbsp;&nbsp; secretary@thecircular.in <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;president@thecircular.in</p>
+        <div className='d-flex para'>
+            <FaMapMarkerAlt style={{fontSize:'25px'}}/>
+            <div>
+                <p style={{fontSize:"20px", fontFamily:"montserrat"}}>&nbsp;India</p>
+                <p style={{fontSize:"15px", fontFamily:"montserrat"}}>&nbsp;Hyderabad</p>
+                <p style={{fontSize:"15px", fontFamily:"montserrat"}}>&nbsp;New Delhi</p>
+            </div>
+        </div>
     </div>
     <div id="supportus" className='section2 p-5'>
         <h2 className='main-heading'style={{color:"aliceblue"}}>Support Us</h2>
+        <p className='paragh'>
+        Hello, Distinguished and Passionate Humans.
+        We hope all is well with you.
+        We appreciate you stopping by and reading thus far on our website. We are aware of your never-ending workload in this VUCA world. Let's pause for a moment, though, to thank nature for being so patient despite how long we plunder the resources to sate our avarice. In this regard, it is our duty to ensure that we are protecting the environment and improving it for the sake of our future generations. Please donate what you can in order to help us serve our planet on your behalf.
+        </p>
     </div>
     <div id="joinus" className='section4 p-5'>
         <h2 className='main-heading'>Join Us</h2>
