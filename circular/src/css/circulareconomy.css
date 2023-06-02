@@ -112,3 +112,15 @@
     border:2px solid white;
     border-radius: 5%;
 }
+.medpich{
+    width: 450px;
+    height:300px;
+    border:2px solid white;
+    border-radius: 15px;
+}
+.medpicv{
+    width:340px;
+    height:600px;
+    border:2px solid white;
+    border-radius: 15px;
+}
