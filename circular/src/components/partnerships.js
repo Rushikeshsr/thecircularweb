@@ -8,6 +8,7 @@ import gp from '../images/gp.jpg'
 import dslogo from '../images/dslogo.png'
 import osmanialogo from '../images/osmanialogo.jpeg'
 import Aos from 'aos';
+import { HashLink } from 'react-router-hash-link';
 
 const Partnerships = () => {
   useEffect(()=>{
@@ -45,48 +46,60 @@ const Partnerships = () => {
                     <hr className='line' style={{width:"200px"}}/>
                 </div>
                 <div className='logo-text'>
-                  <div className='logo-box' >
-                    <img className='co-logo' src={aranyalogo} alt="aranyalogo"/>
-                    <div>
-                      <h1 className='logo-heading'>Aranya</h1>
-                      <h2 className='logo-name'>Agricultural Alternatives</h2>
+                  <HashLink className='redirect' smooth to="/partnerships/aranya#top">
+                    <div className='logo-box' >
+                        <img className='co-logo' src={aranyalogo} alt="aranyalogo"/>
+                        <div>
+                          <h1 style={{"color":"black"}} className='logo-heading'>Aranya</h1>
+                          <h2 style={{"color":"black"}} className='logo-name'>Agricultural Alternatives</h2>
+                        </div>  
                     </div>
-                  </div>
-                  <div className='logo-box' >
-                    <img className='co-logo' src={desclogo} alt="desclogo"/>
-                    <div>
-                      <h1 className='logo-heading'>DESC</h1>
-                      <h2 className='logo-name'>Digital Education and Skills Council</h2>
+                  </HashLink>
+                  <HashLink className='redirect' smooth to="/partnerships/desc#top">
+                    <div className='logo-box' >
+                      <img className='co-logo' src={desclogo} alt="desclogo"/>
+                      <div>
+                        <h1 style={{"color":"black"}} className='logo-heading'>DESC</h1>
+                        <h2 style={{"color":"black"}} className='logo-name'>Digital Education and Skills Council</h2>
+                      </div>
                     </div>
-                  </div>
+                  </HashLink>
                 </div>
                 <div className='logo-text'>  
+                <HashLink className='redirect' smooth to="/partnerships/smae#top">
                   <div className='logo-box' >
                     <img className='co-logo' src={smaelogo} alt="smaelogo"/>
-                    <div>
+                    <div style={{"color":"black"}}>
                       <h1 className='logo-heading'>SMAE</h1>
                       <h2 className='logo-name'>Society of Mechanical and Automobile Engineers</h2>
                     </div>
                   </div>
+                 </HashLink> 
+                 <HashLink className='redirect' smooth to="/partnerships/caregood#top">
                   <div className='logo-box d-flex justify-content-center' >
                     <img className='cg-logo' src={caregoodlogo} alt="caregoodlogo"/>
                   </div>
+                  </HashLink>
                 </div>
                 <div className='logo-text'>  
-                  <div className='logo-box' >
-                    <img className='co-logo' src={dslogo} alt="dslogo"/>
-                    <div>
-                      <h1 className='logo-heading'>DSS</h1>
-                      <h2 className='logo-name'>Divyang Solar Society</h2>
+                  <HashLink className='redirect' smooth to="/partnerships/rer#top">
+                    <div className='logo-box' >
+                      <img className='co-logo' src={dslogo} alt="dslogo"/>
+                      <div style={{"color":"black"}}>
+                        <h1 className='logo-heading'>DSS</h1>
+                        <h2 className='logo-name'>Divyang Solar Society</h2>
+                      </div>
                     </div>
-                  </div>
-                  <div className='logo-box' >
-                    <img className='co-logo' src={osmanialogo} alt="osmanialogo"/>
-                    <div>
-                      <h1 className='logo-heading'>JRO</h1>
-                      <h2 className='logo-name'>Japal-Rangapur Observatory</h2>
+                  </HashLink>
+                  <HashLink className='redirect' smooth to="/partnerships/others#top">
+                    <div className='logo-box' >
+                      <img className='co-logo' src={osmanialogo} alt="osmanialogo"/>
+                      <div style={{"color":"black"}}>
+                        <h1 className='logo-heading'>JRO</h1>
+                        <h2 className='logo-name'>Japal-Rangapur Observatory</h2>
+                      </div>
                     </div>
-                  </div>
+                  </HashLink>
                 </div>
                 
               </div>
