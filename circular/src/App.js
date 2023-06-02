@@ -19,6 +19,8 @@ import Hepatology from './components/hepatology';
 import Gynaecology from './components/gynaecology';
 import Desc from './components/desc';
 import Smae from './components/smae';
+import Caregood from './components/caregood';
+
 
 function App() {
   return (
@@ -38,6 +40,7 @@ function App() {
         <Route path="/partnerships" element={<Partnerships/>}/>
         <Route path="/partnerships/desc" element={<Desc/>}/>
         <Route path="/partnerships/smae" element={<Smae/>}/>
+        <Route path="/partnerships/caregood" element={<Caregood/>}/>
         <Route path="/humancapital" element={<HumanCapital/>}/>
         <Route path="/humancapital/health" element={<Health/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
