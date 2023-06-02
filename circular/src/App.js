@@ -22,6 +22,7 @@ import Smae from './components/smae';
 import Caregood from './components/caregood';
 import Aranya from './components/aranya';
 import Rer from './components/rer';
+import Others from './components/others';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="/partnerships/caregood" element={<Caregood/>}/>
         <Route path="/partnerships/aranya" element={<Aranya/>}/>
         <Route path="/partnerships/rer" element={<Rer/>}/>
+        <Route path="/partnerships/others" element={<Others/>}/>
         <Route path="/humancapital" element={<HumanCapital/>}/>
         <Route path="/humancapital/health" element={<Health/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
