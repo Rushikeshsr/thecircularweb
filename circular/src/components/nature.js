@@ -1,5 +1,8 @@
 import React from 'react'
 import "../css/circulareconomy.css"
+import nature_video from '../images/nature_video.mp4';
+import story6 from '../images/6story.jpg';
+import story7 from '../images/7story.jpg';
 
 const Nature = () => {
   return (
@@ -14,6 +17,11 @@ const Nature = () => {
             <p className='paragh'>
                 Nature is at the heart of everything we do. We understand the urgent need to address environmental challenges and find innovative solutions that strike a balance between human development and the preservation of our natural heritage. That's why we have dedicated ourselves to the cause of conservation, working tirelessly to safeguard biodiversity, protect habitats, and restore ecosystems.
             </p>
+            <div className='paragh text-center'>
+                <video width="700px" height="400px" controls>
+                    <source src={nature_video} type='video/mp4'/>
+                </video> 
+            </div>
             <p className='paragh'>
                 <span style={{fontSize:"20px",color:"#00ff0d"}}>Our conservation efforts span a wide range of areas, including</span>
             </p>
@@ -36,6 +44,28 @@ const Nature = () => {
             <p className='paragh'>
                 We believe that conserving nature is not a solitary endeavor. It requires collective action and collaboration. That's why we actively seek partnerships with like-minded organizations, government agencies, and individuals who share our passion for conservation. By working together, we can amplify our impact and create a powerful force for change.
             </p>
+        </div>
+        <div id="story6" name="story6" className='section3 d-flex justify-content-center p-5'>
+            <div data-aos="zoom-in" data-aos-delay="100" className='cardbox d-flex'>
+                <img className='image-card' src={story6} alt="Prameela"/>
+                <div className='textbox'>
+                    <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Prameela</h1>
+                    <p className='image-para'>
+                    In her pursuit of a fulfilling livelihood, Prameela came across the world of organic farming. Drawn to its sustainable practices, environmental consciousness, and potential for financial independence, she saw an opportunity to transform her life while contributing to a healthier and more sustainable future. Armed with her newfound skills and expertise, As Prameela delved into the intricacies of agricultural productivity, she discovered innovative techniques and technologies that could enhance farming practices and maximize crop yields. With unwavering dedication, she immersed herself in implementing cutting-edge methods such as soil health management and water conservation strategies. By adopting these approaches, Prameela not only witnessed a significant increase in agricultural productivity but also experienced a profound sense of purpose and accomplishment.. Her commitment to agriculture not only provided her with financial stability but also instilled a deep sense of fulfillment and purpose in her life.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="story7" name="story7" className='section3 d-flex justify-content-center p-5'>
+            <div data-aos="zoom-in" data-aos-delay="100" className='cardbox d-flex'>
+                <img className='image-card' src={story7} alt="Chandrakala"/>
+                <div className='textbox'>
+                    <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Chandrakala</h1>
+                    <p className='image-para'>
+                    Chandrakala's life took an unexpected turn when she lost her husband. Left to shoulder the responsibility of her family, she sought ways to provide for her children and secure a better future for them. In her quest for sustainable livelihood options, Chandrakala discovered the world of natural farming. Intrigued by its principles of ecological balance and self-sufficiency, she saw an opportunity to not only support her family but also contribute to the well-being of her community. With unwavering determination, she immersed herself in the knowledge and practices of natural farming. Her commitment to sustainable practices not only yielded bountiful harvests but also preserved the environment for future generations. Through her hard work and dedication, she achieved financial independence. The income generated from her natural farming endeavors became the primary source of sustenance for her family. Moreover, she empowered her son by involving him in farm activities, providing him with a valuable source of income by selling organic produce in nearby cities.
+                    </p>
+                </div>
+            </div>
         </div>
     </>
   )

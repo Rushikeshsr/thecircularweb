@@ -83,17 +83,21 @@ const Home = () => {
             </div>
           </div>
           <div className='col-4 d-flex justify-content-center'>
-            <div className='card image story6'>
-              <h2 className='name'>Prameela</h2>
-            </div>
+            <HashLink smooth style={{textDecoration:"none"}} name="story6" to='/focus/nature#story6'>
+              <div className='card image story6'>
+                <h2 className='name'>Prameela</h2>
+              </div>
+            </HashLink> 
           </div>
 
         </div>
         <div className='image-row'>
           <div className='col-4 d-flex justify-content-center'>
-            <div className='card image story7'>
-              <h2 className='name'>Chandrakala</h2>
-            </div>
+            <HashLink smooth style={{textDecoration:"none"}} name="story7" to='/focus/nature#story7'>
+              <div className='card image story7'>
+                <h2 className='name'>Chandrakala</h2>
+              </div>
+            </HashLink>
           </div>
           <div className='col-4 d-flex justify-content-center'>
             <HashLink smooth style={{textDecoration:"none"}} name="story8" to='/humancapital/health#story8'>
