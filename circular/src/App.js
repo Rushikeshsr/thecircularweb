@@ -18,6 +18,8 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Hepatology from './components/hepatology';
 import Gynaecology from './components/gynaecology';
 import Desc from './components/desc';
+import Smae from './components/smae';
+
 function App() {
   return (
     <>
@@ -35,6 +37,7 @@ function App() {
         <Route path="/focus/gynaecology" element={<Gynaecology/>}/>
         <Route path="/partnerships" element={<Partnerships/>}/>
         <Route path="/partnerships/desc" element={<Desc/>}/>
+        <Route path="/partnerships/smae" element={<Smae/>}/>
         <Route path="/humancapital" element={<HumanCapital/>}/>
         <Route path="/humancapital/health" element={<Health/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
