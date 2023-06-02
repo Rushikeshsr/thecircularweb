@@ -25,7 +25,7 @@ const Aranya = () => {
                 Recognizing the importance of education and awareness, we have introduced Aranya's sustainable agriculture principles in schools and educational institutions. Through our fellowship program, we collaborate with teachers, students, and educational organizations to incorporate sustainability and environmental stewardship into the curriculum. By nurturing a generation that understands and values sustainable agriculture, we aim to create a future where sustainable practices are ingrained in society.
             </p>
             <p className='paragh'>
-                <span style={{"color":"#00ff0d",fontSize:'20px',textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}} >Fellowship for Tangible Results: Collaborating with Organizations for Impactful Change</span><br/> 
+                <span style={{"color":"#00ff0d",fontSize:'20px',textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}} >Fellowship for Tangible Results : Collaborating with Organizations for Impactful Change</span><br/> 
                 To create tangible and lasting results, we have established a fellowship program that brings together organizations working towards supporting sustainable agriculture practices. By collaborating with Aranya and other like-minded partners, we pool our expertise, resources, and networks to drive impactful change. Through this fellowship, we aim to implement scalable projects, develop innovative solutions, and influence policy to promote sustainable agriculture and empower communities.
             </p>
             <p className='paragh'>

@@ -14,22 +14,22 @@ const Rer = () => {
             </p>
             <p className='paragh'>
                 One of our significant collaborations in the renewable energy sector is with :
-                <span style={{"color":"#00ff0d",fontSize:'15px'}} >  Divyang Solar Society</span> 
+                <span style={{"color":"#00ff0d",fontSize:'15px'}} > &nbsp;Divyang Solar Society</span> 
                 &nbsp; based in Sangareddy, Telangana. Led by Zubeida, a remarkable woman with a locomotor disability, the society was established under the guidance of Medak District Collector Ronald Rose. Their mission is to provide sustainable livelihood opportunities to physically handicapped individuals by training them in the manufacturing of solar mini lights.
             </p>
             <p className='paragh'>
                 The partnership between The Circular and Divyang Solar Society is driven by our shared vision of promoting renewable energy and social empowerment. Together, we aim to achieve the following goals.
             </p>
             <p className='paragh'>
-                <span style={{"color":"#00ff0d",fontSize:'15px',}} >Empowering the Differently-Abled:</span>
+                <span style={{"color":"#00ff0d",fontSize:'15px',}} >Empowering the Differently-Abled :&nbsp;</span>
                 Through our collaboration, we incorporate differently-abled individuals into the supply chain of the renewable energy industry. We provide them with comprehensive training and employment opportunities, allowing them to showcase their skills and abilities. By empowering the differently-abled, we enable them to become self-sufficient and lead dignified lives.
             </p>
             <p className='paragh'>
-                <span style={{"color":"#00ff0d",fontSize:'15px',}} >Access to Clean Energy:</span>
+                <span style={{"color":"#00ff0d",fontSize:'15px',}} >Access to Clean Energy :&nbsp;</span>
                 Divyang Solar Society manufactures solar mini lights that are affordable, effective, and energy-efficient. These lights provide a sustainable lighting solution for rural communities, particularly farmers who can benefit from the convenience of these lights both in the fields and at home. By promoting the use of renewable energy, we contribute to a cleaner and greener future.
             </p>
             <p className='paragh'>
-                <span style={{"color":"#00ff0d",fontSize:'15px',}} >Economic Sustainability: </span>
+                <span style={{"color":"#00ff0d",fontSize:'15px',}} >Economic Sustainability :&nbsp;</span>
                 In addition to assembly and marketing, Divyang Solar Society generates income from the sales of solar lights. This economic sustainability ensures the long-term viability of the society, enabling it to expand its impact and reach even more individuals in need. Together, we foster entrepreneurship and economic growth within the differently-abled community.
             </p>
             <p className='paragh'>
