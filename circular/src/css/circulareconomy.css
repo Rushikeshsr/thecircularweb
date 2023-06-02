@@ -101,3 +101,14 @@
     text-decoration: none;
     color:black;
 }
+.image-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cimpic{
+    width: 25%;
+    height: 25%;
+    border:2px solid white;
+    border-radius: 5%;
+}
