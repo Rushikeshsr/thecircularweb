@@ -5,6 +5,9 @@ import Home from './components/home';
 import Footer from './components/footer';
 import Focus from './components/focus';
 import HumanCapital from './components/humancapital';
+import Education from './components/education';
+import Skills from './components/skills';
+
 import Health from './components/health';
 import Partnerships from './components/partnerships';
 import AboutUs from './components/aboutUs';
@@ -48,6 +51,9 @@ function App() {
         <Route path="/partnerships/others" element={<Others/>}/>
         <Route path="/humancapital" element={<HumanCapital/>}/>
         <Route path="/humancapital/health" element={<Health/>}/>
+        <Route path="/humancapital/education" element={<Education/>}/>
+        <Route path="/humancapital/skills" element={<Skills/>}/>
+
         <Route path="/aboutus" element={<AboutUs/>}/>
         <Route path="/aboutus/visionandmission" element={<Visionandmission/>}/>
         <Route path="/contactus" element={<ContactUs/>}/>

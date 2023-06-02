@@ -12,7 +12,7 @@ import abhay from '../images/abhay.jpg';
 import story8 from '../images/story8.jpg';
 import Aos from 'aos';
 
-const Health = () => {
+const Education = () => {
     const [show,setShow]=useState(false);
     const [showBtn,setBtn]=useState(true);
     const showContent=()=>{
@@ -31,20 +31,23 @@ const Health = () => {
   return (
     <>
         <div className='cover-image p-5'>
-            <h1 className='cover-text'>HEALTH</h1>
+            <h1 className='cover-text'>EDUCATION</h1>
         </div>
         <div className='p-5 '>
             <p className='para'>
-                In addition to our focus on education and sustainability, The Circular recognizes the importance of healthcare in promoting the well-being and human capital development of individuals within educational institutions. To address this, we collaborate with healthcare providers and institutions to establish a network of quality and affordable healthcare services for our partner educational institutions.            </p>
+                We believe in implementing, executing, and operating at the root level to drive real change. One of our key strategies is partnering with educational institutions and academics to create co-hiring opportunities for students. Through these partnerships, we aim to provide students with meaningful projects that have a positive impact on the environment and society. By working on such projects, students gain valuable experience while contributing to sustainable development.
+            </p>
             <p data-aos="slide-left" data-aos-delay="200" className='para'>
-                By working closely with healthcare providers, we aim to ensure that students, faculty, and staff have access to essential healthcare services that meet their needs. This includes preventive care, primary healthcare, and specialized services, as required. Our goal is to create a healthcare ecosystem that supports the overall health and well-being of the educational community.
+                In addition to co-hiring initiatives, we collaborate with educational institutions to enhance their operational excellence. We work closely with them to improve their administrative functions, such as faculty recruitment and retention, financial management, and research administration. Our goal is to modernize and streamline their back-office structures, empowering them to effectively run complex organizations in the 21st century. By strengthening the operational aspects of educational institutions, we enable them to focus more on providing quality education and fostering innovation.
             </p>
             <p data-aos="slide-right" data-aos-delay="200" className='para'>
-                We also understand the significance of measuring the impact of healthcare on human capital outcomes. By conducting research and analysis, we assess the correlation between healthcare interventions and outcomes such as learning, earnings, and life expectancy. This helps us understand the effectiveness of healthcare initiatives and guides our decision-making process to optimize the impact on human capital development.            </p>
+                Furthermore, we actively support educational institutions in aligning with the National Education Policy. This comprehensive policy covers a wide spectrum of school education, from pre-primary to senior secondary levels, with an emphasis on equity, quality, and innovation. As part of our collaboration, we help educational institutions implement the policy recommendations, such as the provision of 50 hours of mandatory continuous professional development for teachers, multiple entry and exit points for learners, and the establishment of academic credit banks. By facilitating the implementation of these recommendations, we contribute to the overall improvement of the education system.
+            </p>
             <p data-aos="slide-left" data-aos-delay="200" className='para'>
-                Quality and accountability are fundamental principles in delivering healthcare services. At The Circular, we are committed to ensuring the quality of healthcare services provided to our partner educational institutions. We leverage data and feedback to monitor and evaluate the performance of healthcare providers, allowing us to identify areas for improvement and enhance the overall quality of care. Through this approach, we strive to deliver healthcare services that meet the highest standards and promote positive health outcomes.            </p>
+                Cross-disciplinary learning and research are also integral to our partnerships with educational institutions. We create opportunities for students and faculty members to engage in collaborative projects and research related to sustainability and the circular economy. By exposing them to these important topics and providing hands-on experience, we nurture their understanding and expertise in these fields. Through such cross-disciplinary initiatives, we foster innovation and encourage the development of sustainable solutions.
+            </p>
             <p data-aos="slide-right" data-aos-delay="200" className='para'>
-                Our collaboration with healthcare providers and institutions allows us to establish a network of quality and affordable healthcare services for our partner educational institutions. By measuring the impact of healthcare on human capital outcomes, ensuring quality and accountability, and continuously improving our healthcare services, we contribute to the overall well-being and development of individuals within educational communities.
+                Overall, our partnerships with educational institutions are designed to create a strong foundation for sustainable development. By combining academic knowledge, practical experience, and operational excellence, we empower students and institutions to make a lasting impact on society and the environment.
             </p>
             
         </div>
@@ -114,4 +117,4 @@ const Health = () => {
   )
 }
 
-export default Health;
+export default Education ;

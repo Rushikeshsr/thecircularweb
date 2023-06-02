@@ -36,22 +36,17 @@ const Home = () => {
       </div>
       <div className='p-5'>
             <p data-aos="fade-up" className='para'>
-            Our journey began with a shared vision, a deep sense of purpose, and an unwavering commitment to creating a better world. It was the realization that our planet and its inhabitants were facing unprecedented challenges that fueled our passion to make a difference. We were driven by a burning desire to transform the way we interact with the environment, our health, and each other.
+            At The Circular, we began our journey with a simple yet powerful mission: to clean communities, promote sustainable well-being, and combat the outbreak of diseases caused by unhealthy environments. What started as a humble initiative has now grown into a comprehensive organization making a significant impact on numerous lives. It was the realization that our planet and its inhabitants were facing unprecedented challenges that fueled our passion to make a difference. We were driven by a burning desire to transform the way we interact with the environment, our health, and each other.
             </p>
             <p data-aos="flip-left" data-aos-delay="400" style={{"color":"#00ff0d",fontSize:'20px',textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000",fontWeight:"bold"}} className='para'>
-              Reached 12000+ students, 400+ farmers, 1000+ Middle-Class communities
+              Reached 12000+ students, 400+ farmers, 1000+ Communities
+
             </p>
             <p data-aos="fade-left" data-aos-delay="400" className='para'>
-            Why focus on “Middle-Class Students and Communities”? This is the question that we were asked many times. In a society that often celebrates the extremes of poverty and wealth, the struggles faced by middle-class students in India often go unnoticed. These students find themselves in a constant battle, navigating a landscape of societal expectations and financial limitations. They are the unsung heroes, fighting against the odds to pursue their dreams and aspirations. Middle-class students in India occupy a unique position, neither in abject poverty nor enjoying the privileges of the wealthy. They face the challenge of pursuing their education without the safety net of financial aid or scholarships that are often available to low-income students. They also lack the vast resources and connections that students from affluent backgrounds may have at their disposal. This places them in a precarious situation, where they must work harder and make sacrifices to afford their education.
+            Sustainability is at the heart of everything we do. We believe that by adopting circular economy principles and fostering partnerships, we can create a positive and lasting impact on the environment and society.
             </p>
             <p data-aos="fade-right" data-aos-delay="400" className='para'>
-              In addition to financial struggles, middle-class students in India often face the burden of familial responsibilities. Many come from families where parents may be struggling to make ends meet or facing health issues. They may have younger siblings who depend on them for care and support. These responsibilities demand their time and energy, leaving little room for personal growth or self-care. Yet, these students rise to the occasion, demonstrating immense strength and resilience.
-            </p>
-            <p data-aos="fade-left" data-aos-delay="400" className='para'>
-              So, motivated by the urgent need to address pressing issues such as climate change, resource depletion, and societal inequities, our leadership team embarked on a mission to foster positive change. We firmly believe that by embracing the principles of circular economy, harnessing the power of nature, advancing medicine, and promoting sustainable hospitality, we can pave the way for a brighter and more sustainable future. 
-            </p>
-            <p data-aos="fade-down" data-aos-delay="400" className='para'>
-              Our journey has been guided by emotions - a deep sense of responsibility, empathy for our fellow beings, and an unyielding love for our planet. We are driven by the profound belief that every individual has the power to make a difference, and it is through collective action that we can bring about transformative change.
+            Our journey has been guided by emotions - a deep sense of responsibility, empathy for our fellow beings, and an unyielding love for our planet. We are driven by the profound belief that every individual has the power to make a difference, and it is through collective action that we can bring about transformative change.
             </p>
        </div>
       <div className='section2 p-3'>
