@@ -4,13 +4,22 @@ import Header from './components/header';
 import Home from './components/home';
 import Footer from './components/footer';
 import Focus from './components/focus';
+
+import Partnerships from './components/partnerships';
+import Desc from './components/desc';
+import Smae from './components/smae';
+import Caregood from './components/caregood';
+import Aranya from './components/aranya';
+import Rer from './components/rer';
+import Others from './components/others';
+
 import HumanCapital from './components/humancapital';
 import Education from './components/education';
 import Skills from './components/skills';
 import Health from './components/health';
 import Quality from './components/quality';
+import Transparency from './components/transparency';
 
-import Partnerships from './components/partnerships';
 import AboutUs from './components/aboutUs';
 import Visionandmission from './components/visionandmission';
 import ContactUs from './components/contactUs';
@@ -21,12 +30,6 @@ import Hospitality from './components/hospitality';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Hepatology from './components/hepatology';
 import Gynaecology from './components/gynaecology';
-import Desc from './components/desc';
-import Smae from './components/smae';
-import Caregood from './components/caregood';
-import Aranya from './components/aranya';
-import Rer from './components/rer';
-import Others from './components/others';
 
 function App() {
   return (
@@ -55,7 +58,7 @@ function App() {
         <Route path="/humancapital/skills" element={<Skills/>}/>
         <Route path="/humancapital/health" element={<Health/>}/>
         <Route path="/humancapital/quality" element={<Quality/>}/>
-
+        <Route path="/humancapital/transparency" element={<Transparency/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
         <Route path="/aboutus/visionandmission" element={<Visionandmission/>}/>
         <Route path="/contactus" element={<ContactUs/>}/>

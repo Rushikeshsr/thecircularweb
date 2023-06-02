@@ -12,7 +12,7 @@ import abhay from '../images/abhay.jpg';
 import story8 from '../images/story8.jpg';
 import Aos from 'aos';
 
-const Quality = () => {
+const Transparency = () => {
     const [show,setShow]=useState(false);
     const [showBtn,setBtn]=useState(true);
     const showContent=()=>{
@@ -31,45 +31,33 @@ const Quality = () => {
   return (
     <>
         <div className='cover-image p-5'>
-            <h1 className='cover-text'>Quality</h1>
+            <h1 className='cover-text'>TRANSPARENCY</h1>
         </div>
         <div className='p-5 '>
-            <p className='para'>
-                The Circular's focus on enhancing the quality of human capital has resulted in several positive outcomes, which have had significant effects on individuals, educational institutions, and the broader society. These outcomes include:
-            </p>
             <p data-aos="slide-left" data-aos-delay="200" className='para'>
-                Improved Skill Development: Through the co-hiring model and cross-disciplinary learning initiatives, the Circular has facilitated the development of practical skills among students. As a result, students have gained valuable work experience, enhanced their problem-solving abilities, and acquired a broader set of competencies. This has made them more competitive in the job market and better prepared to contribute effectively to the workforce
+                <span style={{fontSize:"20px",color:"#00ff0d"}}>Transparency in Fostering Quality Human Capital</span><br/>
+                At The Circular, we are committed to fostering quality and efficient human capital by establishing transparency at every level of our operations. We believe that transparency is essential for building trust, ensuring accountability, and driving positive outcomes in education, employment, and corporate governance. Through our transparent approach, we aim to create a fair and equitable environment where individuals can thrive and reach their full potential.
             </p>
             <p data-aos="slide-right" data-aos-delay="200" className='para'>
-                Enhanced Educational Excellence: By supporting partner educational institutions in implementing the National Education Policy 2020 and promoting operational excellence, the Circular has contributed to the overall improvement of the quality of education. Institutions have been able to modernize their administrative functions, attract and retain high-quality faculty, and streamline their operations. This has led to enhanced educational outcomes and improved learning experiences for students.
+                <span style={{fontSize:"20px",color:"#00ff0d"}}>Promoting Ethical Corporate Governance</span><br/>
+                Unethical corporate governance practices can hinder the growth and development of human capital. To address this, we have adopted external standards, such as the ISO 37001 Anti-Bribery Management Systems Standard, to establish a clear framework for ethical behavior. We define clear roles for boards and top management in overseeing and implementing anti-corruption programs, ensuring accountability and leadership commitment. By conducting due diligence, monitoring, and auditing, we assess compliance with anti-corruption laws and regulations, promoting transparency and curbing unethical practices. We believe in reporting and disclosing our anti-corruption activities and performance to demonstrate transparency and build trust among our stakeholders.
             </p>
             <p data-aos="slide-left" data-aos-delay="200" className='para'>
-                Quality and accountability are fundamental principles in delivering healthcare services. At The Circular, we are committed to ensuring the quality of healthcare services provided to our partner educational institutions. We leverage data and feedback to monitor and evaluate the performance of healthcare providers, allowing us to identify areas for improvement and enhance the overall quality of care. Through this approach, we strive to deliver healthcare services that meet the highest standards and promote positive health outcomes.            
+                <span style={{fontSize:"20px",color:"#00ff0d"}}>Curbing Student Exploitation</span><br/>
+                In the realm of education, we are committed to preventing student exploitation and unethical practices. We collaborate with educational institutions to provide a safe and transparent environment for students. Through due diligence, we assess compliance with relevant regulations and identify any risks or red flags. We prioritize the protection of whistleblowers, enabling them to report any suspected or actual corruption cases without fear of retaliation. Our enforcement of sanctions for breaches or violations of our anti-corruption program ensures the integrity and reputation of The Circular.
             </p>
             <p data-aos="slide-right" data-aos-delay="200" className='para'>
-                Increased Employability: The Circular's focus on internships, projects, and mentorship programs has enhanced the employability of students. By providing them with practical exposure to real-world challenges and opportunities, students have developed industry-relevant skills and expanded their professional networks. This has increased their chances of securing employment and transitioning smoothly into the workforce.
+                <span style={{fontSize:"20px",color:"#00ff0d"}}>Early Interventions for Quality Human Capital</span><br/>
+                We recognize that building quality human capital starts at an early stage. Therefore, we focus on basic and early interventions to enhance educational outcomes. We support early childhood education initiatives and remedial education programs to ensure a strong foundation for learning. Our commitment to teacher training and development empowers educators with the necessary skills to deliver quality education. We enhance educational curricula to align with the evolving needs of the workforce, integrating essential skills into the learning experience.<br/>
+                Through career guidance, mentorship programs, and industry-academia collaboration, we provide students with guidance, exposure, and practical experiences, facilitating their personal and professional growth. Also, we believe in equal access to education and strive to eliminate financial barriers. Through partnerships with educational institutions and stakeholders, we support scholarships and financial aid programs. Our aim is to provide deserving students, especially those from underprivileged backgrounds, with the financial assistance they need to pursue their educational aspirations. By ensuring financial inclusivity, we promote equality of opportunity and contribute to the development of a diverse and skilled human capital pool.
             </p>
             <p data-aos="slide-left" data-aos-delay="200" className='para'>
-                Measurable Impact on Human Capital: The Circular's measurement of healthcare impact on human capital outcomes, such as learning, earnings, and life expectancy, has provided valuable insights. This data-driven approach has allowed for evidence-based decision-making and the identification of areas for improvement. By continuously monitoring and improving healthcare services, the Circular has positively impacted the well-being, productivity, and overall quality of life of individuals.            </p>
+                <span style={{fontSize:"20px",color:"#00ff0d"}}>Measuring Impact and Driving Future Growth</span><br/>
+                Transparency is not only about establishing ethical practices but also about measuring and driving impact. We continuously evaluate the outcomes of our initiatives and collect data to understand the effectiveness of our programs. By analyzing education, health, income, and employment indicators, we assess the quality and efficiency of human capital. This data-driven approach enables us to identify areas for improvement and inform future strategies to enhance human capital development.
+                </p>
             <p data-aos="slide-right" data-aos-delay="200" className='para'>
-                Sustainable and Resilient Communities: The Circular's efforts in promoting sustainability and circular economy principles have contributed to the development of sustainable and resilient communities. By integrating these principles into education, employment, and healthcare, the Circular has fostered a culture of responsible consumption, resource efficiency, and environmental stewardship. This has long-term benefits for the well-being of individuals, the conservation of natural resources, and the mitigation of climate change.
+                At The Circular, we are committed to transparency as a guiding principle in our pursuit of fostering quality human capital. By adopting external standards, promoting ethical corporate governance, curbing student exploitation, implementing early interventions, providing scholarships and financial aid, and measuring impact, we strive to create an environment where individuals can thrive and contribute to a sustainable and prosperous future.
             </p>
-            <p data-aos="slide-left" data-aos-delay="200" className='para'>
-                @@@@@@ quality some heading            
-            </p>
-            <p data-aos="slide-right" data-aos-delay="200" className='para'>
-                Continued Skill Development: The Circular's emphasis on continuous professional development and practical learning opportunities will further enhance the skills of students and professionals. This will help bridge the skill gap, equip individuals with the necessary competencies for the future job market, and foster a culture of lifelong learning.
-            </p>
-            <p data-aos="slide-left" data-aos-delay="200" className='para'>
-                Innovation and Research Advancements: The Circular's support for cross-disciplinary learning and research will foster innovation and the development of sustainable solutions. By encouraging collaboration among students and faculty from various disciplines, the Circular will drive the creation of new knowledge and the development of cutting-edge technologies that address environmental and societal challenges.
-            </p>
-            <p data-aos="slide-right" data-aos-delay="200" className='para'>
-                Increased Social and Economic Impact: As individuals equipped with quality education and skills enter the workforce, they will contribute to the growth and prosperity of the economy. The Circular's focus on employability and creating employment opportunities will lead to improved income levels, reduced inequality, and increased economic productivity. This, in turn, will have a positive impact on the overall social and economic well-being of communities.
-            </p>
-            <p data-aos="slide-left" data-aos-delay="200" className='para'>
-                Long-Term Sustainability: By promoting sustainability and circular economy principles, the Circular will contribute to the creation of a sustainable future. The adoption of environmentally friendly practices, resource efficiency, and responsible consumption will help mitigate the adverse effects of climate change and preserve natural resources for future generations.
-            </p>
-            
             
         </div>
         <div className='sec2 p-5'>
@@ -138,4 +126,4 @@ const Quality = () => {
   )
 }
 
-export default Quality;
+export default Transparency;
