@@ -3,6 +3,10 @@ import '../css/aboutus.css'
 import AbhayCSwb from '../images/AbhayCSwb.png'
 import Aos from 'aos'
 import {Link} from 'react-router-dom';
+import 'react-image-gallery/styles/css/image-gallery.css';
+import ImageGallery from 'react-image-gallery';
+import { imageGallery } from './imageGallery';
+
 const AboutUs = () => {
     useEffect(()=>{
         Aos.init({duration:1000, easing:"ease-in"})
@@ -11,6 +15,9 @@ const AboutUs = () => {
     <>
     <div className='p-5'>
         <h1 className='main-heading'>About Us</h1>
+        <div className="image-gallery-wrapper">
+        <ImageGallery autoPlay={true} showThumbnails={false} items={imageGallery} />
+      </div>
     </div>
     <div className='section4 p-5'>
         <div className='text-center'>

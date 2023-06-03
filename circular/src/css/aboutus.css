@@ -16,3 +16,11 @@
     justify-content: center;
     align-items: center;
 }
+.image-gallery-wrapper {
+    margin-top: 5rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid rgb(146, 129, 242);
+    box-shadow: #2b15453d 1px 10px 10px 5px;
+  }
