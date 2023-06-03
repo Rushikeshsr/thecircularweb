@@ -1,5 +1,7 @@
 import React from 'react'
 import "../css/circulareconomy.css"
+import ImageGallery from 'react-image-gallery';
+import { descGallery } from './descgallery';
 
 
 const Desc = () => {
@@ -24,6 +26,11 @@ const Desc = () => {
             <p className='paragh'>
                 Through this partnership, we are not only strengthening our commitment to promoting sustainability through education but also expanding our reach and impact across the nation. We believe that by joining forces with DESC, we can create a significant and lasting change in the lives of individuals, communities, and the environment.
             </p>
+        </div>
+        <div className='p-5 '>
+            <div className="image-gallery-wrapper">
+                <ImageGallery autoPlay={true} items={descGallery} />
+            </div>
         </div>
     </>
   )
