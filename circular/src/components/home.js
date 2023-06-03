@@ -13,6 +13,7 @@ import vasudevv from '../images/vasudevv.jpg'
 import { HashLink } from 'react-router-hash-link';
 import 'aos/dist/aos.css';
 
+
 const Home = () => {
   useEffect(()=>{
     Aos.init({duration:1000,easing:'ease-in'});
@@ -48,6 +49,11 @@ const Home = () => {
             <p className='para'>
             Our journey has been guided by emotions - a deep sense of responsibility, empathy for our fellow beings, and an unyielding love for our planet. We are driven by the profound belief that every individual has the power to make a difference, and it is through collective action that we can bring about transformative change.
             </p>
+            <div className='d-flex justify-content-center'>
+              <iframe src="https://www.youtube.com/embed/yflcBF8sH8E"
+               width={1000} height={500} title='The Circularstellar' 
+               allowFullScreen allow='autoplay; encrypted-media'></iframe>
+            </div>
        </div>
       <div className='section2 p-3'>
         <div className='text-center'>
