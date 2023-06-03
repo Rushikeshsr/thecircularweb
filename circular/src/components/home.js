@@ -39,7 +39,7 @@ const Home = () => {
             <p className='para'>
             At The Circular, we began our journey with a simple yet powerful mission: to clean communities, promote sustainable well-being, and combat the outbreak of diseases caused by unhealthy environments. What started as a humble initiative has now grown into a comprehensive organization making a significant impact on numerous lives. It was the realization that our planet and its inhabitants were facing unprecedented challenges that fueled our passion to make a difference. We were driven by a burning desire to transform the way we interact with the environment, our health, and each other.
             </p>
-            <p data-aos="flip-left" data-aos-delay="400" style={{"color":"#00ff0d",fontSize:'20px',textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000",fontWeight:"bold"}} className='para'>
+            <p data-aos="flip-left" data-aos-delay="100" style={{"color":"#00ff0d",fontSize:'20px',textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000",fontWeight:"bold"}} className='para'>
               Reached 12000+ students, 400+ farmers, 1000+ Communities
 
             </p>
