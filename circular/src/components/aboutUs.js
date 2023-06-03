@@ -16,8 +16,8 @@ const AboutUs = () => {
     <div className='p-5'>
         <h1 className='main-heading'>About Us</h1>
         <div className="image-gallery-wrapper">
-        <ImageGallery autoPlay={true} items={imageGallery} />
-      </div>
+          <ImageGallery autoPlay={true} items={imageGallery} />
+        </div>
     </div>
     <div className='section4 p-5'>
         <div className='text-center'>
