@@ -55,7 +55,8 @@ const Quality = () => {
                 Sustainable and Resilient Communities: The Circular's efforts in promoting sustainability and circular economy principles have contributed to the development of sustainable and resilient communities. By integrating these principles into education, employment, and healthcare, the Circular has fostered a culture of responsible consumption, resource efficiency, and environmental stewardship. This has long-term benefits for the well-being of individuals, the conservation of natural resources, and the mitigation of climate change.
             </p>
             <p data-aos="slide-left" data-aos-delay="200" className='para'>
-                @@@@@@ quality some heading            
+                @@@@@@ 
+                quality some heading            
             </p>
             <p data-aos="slide-right" data-aos-delay="200" className='para'>
                 Continued Skill Development: The Circular's emphasis on continuous professional development and practical learning opportunities will further enhance the skills of students and professionals. This will help bridge the skill gap, equip individuals with the necessary competencies for the future job market, and foster a culture of lifelong learning.

@@ -1,22 +1,40 @@
+import ig1 from '../images/gallery/ig1.jpg'
+import ig2 from '../images/gallery/ig2.jpg'
+import ig3 from '../images/gallery/ig3.jpg'
+import ig4 from '../images/gallery/ig4.jpg'
+import ig5 from '../images/gallery/ig5.jpg'
+import ig6 from '../images/gallery/ig6.jpg'
+import ig7 from '../images/gallery/ig7.jpg'
+
 export const imageGallery = [
     {
-      original: 'https://picsum.photos/id/1024/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1024/250/150/',
+      original: ig1,
+      thumbnail: ig2,
     },
     {
-      original: 'https://picsum.photos/id/1025/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1025/250/150/',
+      original: ig2,
+      thumbnail: ig3,
     },
     {
-      original: 'https://picsum.photos/id/1026/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1026/250/150/',
+      original: ig3,
+      thumbnail: ig4,
     },
     {
-      original: 'https://picsum.photos/id/1027/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1027/250/150/',
+      original: ig4,
+      thumbnail: ig5,
     },
     {
-      original: 'https://picsum.photos/id/1029/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1029/250/150/',
+      original: ig5,
+      thumbnail: ig6,
     },
+    {
+      original: ig6,
+      thumbnail: ig7,
+    },
+    {
+      original: ig7,
+      thumbnail: ig1,
+    },
+
+    
   ];
