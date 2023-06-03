@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/circulareconomy.css"
+import gynecimg from "../images/gynecimg.jpg"
 
 const Gynaecology = () => {
   return (
@@ -23,7 +24,9 @@ const Gynaecology = () => {
             <p className='paragh'>
                 Contact us today to learn more about our Gynaecology Program, discover ways to support our initiatives, or seek guidance and care for yourself or someone you care about. Let's work together to create a world where every woman has access to compassionate, comprehensive, and empowering Gynaecological care.
             </p>
-            
+            <div className='text-center m-3'>
+                <img className='medpich' style={{width:"650px"}} src={gynecimg} alt='gynecimg'></img>
+            </div>
         </div>
     </>
   )
