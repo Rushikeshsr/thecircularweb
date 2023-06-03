@@ -50,7 +50,7 @@ const Home = () => {
             Our journey has been guided by emotions - a deep sense of responsibility, empathy for our fellow beings, and an unyielding love for our planet. We are driven by the profound belief that every individual has the power to make a difference, and it is through collective action that we can bring about transformative change.
             </p>
             <div className='d-flex justify-content-center'>
-              <iframe src="https://www.youtube.com/embed/yflcBF8sH8E"
+              <iframe src="https://www.youtube.com/embed/yflcBF8sH8E?rel=0"
                width={1000} height={500} title='The Circularstellar' 
                allowFullScreen allow='autoplay; encrypted-media'></iframe>
             </div>
