@@ -8,6 +8,7 @@ import humanCapitalVid from '../images/humanCapitalVid.mp4';
 import Transparency from '../images/Transparency.jpg'
 import { HashLink } from 'react-router-hash-link';
 import Aos from 'aos';
+
 const HumanCapital = () => {
   useEffect(()=>{
     Aos.init({duration:1000, easing:"ease-in"})

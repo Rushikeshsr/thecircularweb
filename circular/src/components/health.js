@@ -100,8 +100,8 @@ const Health = () => {
             </div>
             
         </div>
-        <div id="story8" name="story8" className='section3 d-flex justify-content-center p-5'>
-            <div data-aos="zoom-in" data-aos-delay="200" className='cardbox d-flex'>
+        <div className='section3 d-flex justify-content-center p-5'>
+            <div id="story8" name="story8" data-aos="zoom-in" data-aos-delay="200" className='cardbox d-flex'>
                 <img className='image-card' src={story8} alt="Lakshmamma"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Lakshmamma</h1>
