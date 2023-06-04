@@ -20,6 +20,28 @@
     justify-content: center;
     align-items: center; 
 }
+.cover-imageQ{
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685881492/Circular%20website/quality/Quality_zpzf6e.jpg');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.cover-imageT{
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849395/Circular%20website/Transparency_bljpif.jpg');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 .cover-imageM{
     background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849384/Circular%20website/medicine_cover_image_jfb4tp.jpg');
     width: 100%;
