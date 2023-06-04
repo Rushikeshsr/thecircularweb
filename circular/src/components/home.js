@@ -48,11 +48,60 @@ const Home = () => {
             <p className='para'>
             Our journey has been guided by emotions - a deep sense of responsibility, empathy for our fellow beings, and an unyielding love for our planet. We are driven by the profound belief that every individual has the power to make a difference, and it is through collective action that we can bring about transformative change.
             </p>
-            <div className='d-flex justify-content-center'>
+       </div>
+       <div className='section4 p-5'>
+          <div className='d-flex justify-content-center'>
               <iframe src="https://www.youtube.com/embed/yflcBF8sH8E?rel=0"
                width={1000} height={500} title='The Circularstellar' 
                allowFullScreen allow='autoplay; encrypted-media'></iframe>
             </div>
+          <div className='text-center mt-4'>
+            <h1 className='heading' style={{color:"black"}}>CURRENT RESEARCH</h1>
+            <hr className='line' style={{width:"150px", borderColor:"aliceblue"}}/>
+          </div>
+          <p className='para'>
+            Light pollution, the intrusion of artificial light into our night sky, poses a growing threat to the delicate balance of nature and our well-being. At The Circular, we are dedicated to elucidating on this pressing issue and spearheading initiatives to mitigate its adverse effects. Light pollution transcends the boundaries of astronomy, impacting the lives of individuals who are unaware of its profound implications. Excessive and misdirected lighting disrupts the natural day-night cycles that regulate our lives, leading to sleep disturbances and reduced melatonin levels in our brains. This interruption in our circadian rhythms has far-reaching consequences for our overall health and well-being. Moreover, the energy consumed by unnecessary and inefficient lighting contributes to environmental degradation and wasteful economic practices.
+          </p>
+          <div className='text-center'>
+            <img className='medpich' src="" alt="lightpollution"/>
+           </div> 
+          <p className='para'>
+            <span style={{fontSize:"20px",fontWeight:"bold"}}>Causes and Consequences</span><br/>
+            <span style={{fontWeight:"bold"}}>Inefficient Lighting </span>: Poorly designed or placed streetlights and floodlights, along with the widespread use of blue-white LEDs, contribute to light pollution. This not only consumes excessive energy but also affects human health, disrupting our sleep patterns and affecting our overall physiology.
+          </p>
+          <p className='para'>
+            <span style={{fontWeight:"bold"}}>Ecological Imbalance </span>: Light pollution disrupts the natural behaviors of wildlife in both urban and rural areas. Nocturnal species suffer from altered feeding and breeding patterns, impacting entire ecosystems. Migration patterns of birds and other creatures are also disrupted, leading to potential population declines.
+          </p>
+          <p className='para'>
+            <span style={{fontWeight:"bold"}}>Cultural Heritage </span>: Indigenous communities, deeply connected to the night sky as part of their cultural identity, face the loss of this intangible heritage. Light pollution obscures their ability to observe and engage with celestial events, eroding their traditional knowledge and spiritual practices.
+          </p>
+          <p className='para'>
+            <span style={{fontWeight:"bold"}}>Economic Implications </span>: The unnecessary wastage of energy due to light pollution translates into a significant economic burden. By curbing light pollution, we can reduce energy consumption, lower costs, and redirect resources toward more sustainable and meaningful endeavors.
+          </p>
+          <div className='d-flex justify-content-center'>
+            <img className='medpich' src="" alt="circadian"/>
+            <img className='medpich' src="" alt="nocturnal"/>
+           </div> 
+          <p className='para'>
+            <span style={{fontSize:"20px",fontWeight:"bold"}}>Solutions</span><br/>
+            <span style={{fontWeight:"bold"}}>Responsible Outdoor Lighting </span>: Embrace the Five Principles for Responsible Outdoor Lighting by DarkSky International. Consider factors like light direction, shielding, and appropriate light intensity to minimize light spillage and glare.
+          </p>
+          <p className='para'>
+            <span style={{fontWeight:"bold"}}>Transition to Warm LEDs </span>: Replace blue-white LEDs with warm (less than 3000K) LEDs, which are energy-efficient and less disruptive to human and animal biology. This transition can have a significant impact on reducing light pollution.
+          </p>
+          <p className='para'>
+            <span style={{fontWeight:"bold"}}>Community Engagement </span>: Foster conversations about light pollution in your community. Raise awareness of its effects on human health, wildlife, and cultural heritage. Encourage responsible lighting practices among neighbors and local businesses.
+          </p>
+          <p className='para'>
+            <span style={{fontWeight:"bold"}}>Astronomical Education </span>: Promote educational programs that highlight the importance of dark skies and celestial observations. Categorize educational resources to increase awareness about the connection between sunspot activity, solar phenomena, and their impact on our energy systems and climate dynamics.
+          </p>
+          <p className='para'>
+            <span style={{fontWeight:"bold"}}>Collaboration and Advocacy </span>: Partner with observatories, astrophotographers, amateur astronomers, and relevant stakeholders to advocate for the protection of dark skies. Support initiatives that aim to reduce light pollution and promote sustainable lighting practices.
+          </p>
+          <p data-aos="flip-left" data-aos-delay="100" className='para text-center' style={{fontSize:"20px",fontWeight:"bold"}}>
+            Together, let us reclaim our dark skies, inspire scientific curiosity,<br/>
+            and establish healthy and sustainable communities.
+          </p>
        </div>
       <div className='section2 p-3'>
         <div className='text-center'>
