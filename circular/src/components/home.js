@@ -98,6 +98,10 @@ const Home = () => {
           <p className='para'>
             <span style={{fontWeight:"bold"}}>Collaboration and Advocacy </span>: Partner with observatories, astrophotographers, amateur astronomers, and relevant stakeholders to advocate for the protection of dark skies. Support initiatives that aim to reduce light pollution and promote sustainable lighting practices.
           </p>
+          <p data-aos="flip-left" data-aos-delay="100" className='para text-center' style={{fontSize:"20px",fontWeight:"bold"}}>
+            Together, let us reclaim our dark skies, inspire scientific curiosity,<br/>
+            and establish healthy and sustainable communities.
+          </p>
        </div>
       <div className='section2 p-3'>
         <div className='text-center'>
