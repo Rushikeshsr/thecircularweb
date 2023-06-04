@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import emailjs from 'emailjs-com';
 import '../css/contactus.css';
-import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhone, FaEnvelope} from "react-icons/fa";
 const ContactUs = () => {
     const [form,setForm] = useState({user_name:"",
                         user_email:"",
@@ -54,6 +54,15 @@ const ContactUs = () => {
         We hope all is well with you.
         We appreciate you stopping by and reading thus far on our website. We are aware of your never-ending workload in this VUCA world. Let's pause for a moment, though, to thank nature for being so patient despite how long we plunder the resources to sate our avarice. In this regard, it is our duty to ensure that we are protecting the environment and improving it for the sake of our future generations. Please donate what you can in order to help us serve our planet on your behalf.
         </p>
+        <p className='paragh d-flex' style={{justifyContent:"space-around",alignItems:"center"}}>
+            <img style={{width:"500px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685897213/Circular%20website/HypupAd-Pay-Frame006_nhsys2.png" alt="paymentoptions"/>
+            <div className='text-center'>
+                <img style={{width:"200px", height:"200px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685897424/Circular%20website/IMG_20230604_185315_cxbqzg.jpg" alt="QRcode"/>
+                <p className='paragh'>abhikeyfoundation@uboi</p>
+            </div>
+            
+        </p>
+        
     </div>
     <div id="joinus" className='section4 p-5'>
         <h2 className='main-heading'>Join Us</h2>
