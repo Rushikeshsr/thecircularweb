@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import '../css/focus.css';
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import Aos from 'aos';
 
@@ -127,7 +126,7 @@ const Focus = () => {
                         <p>We strive to advance equity in health, improve access to medicines,<br/>
                          and promote preventive measures to ensure healthier lives for all.
                         </p> <br/><br/>
-                        <Link to='/focus/medicine'><button className='btnlr'>Learn More</button></Link>
+                        <HashLink smooth to='/focus/medicine#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
                         <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849381/Circular%20website/Medicine_o2wetw.jpg"} alt="Medicine"/>
@@ -141,7 +140,7 @@ const Focus = () => {
                         <p>Experience our sustainable hospitality initiatives, promoting responsible<br/>
                          tourism, eco-friendly practices, and supporting local communities.
                         </p> <br/><br/>
-                        <Link to='/focus/hospitality'><button className='btnlr'>Learn More</button></Link>
+                        <HashLink smooth to='/focus/hospitality#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
                         <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849375/Circular%20website/Hospitality_iaobf5.jpg"} alt="Hospitality"/>
@@ -155,7 +154,7 @@ const Focus = () => {
                         <p>Learn about our efforts to raise awareness, prevent, and treat liver <br/>
                          diseases, ensuring liver health for individuals and communities.
                         </p> <br/><br/>
-                        <Link to='/focus/hepatology'><button className='btnlr'>Learn More</button></Link>
+                        <HashLink smooth to='/focus/hepatology#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
                         <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849374/Circular%20website/Hepatology_xfq0kd.jpg"} alt="Hepatology"/>
@@ -169,7 +168,7 @@ const Focus = () => {
                         <p>Discover our initiatives to promote women's health, provide reproductive <br/>
                          healthcare services, and empower women with knowledge and support.
                         </p> <br/><br/>
-                        <Link to='/focus/gynaecology'><button className='btnlr'>Learn More</button></Link>
+                        <HashLink smooth to='/focus/gynaecology#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
                         <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849368/Circular%20website/Gynaecology_k38hqo.jpg"} alt="Gynaecology"/>

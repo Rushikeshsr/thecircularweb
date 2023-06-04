@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react'
-import { Link } from 'react-router-dom';
 import Education from '../images/Education.jpg';
 import Health from '../images/Health.jpg';
 import Skills from '../images/Skills.jpg';
@@ -64,7 +63,7 @@ const HumanCapital = () => {
                         culture of lifelong learning, we aim to empower individuals to reach their full potential <br/>
                          and become agents of positive change.
                         </p> <br/>
-                        <Link to='/humancapital/education'><button className='btnlr'>Learn More</button></Link>
+                        <HashLink smooth to='/humancapital/education#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200">
                         <img className='pic' src={Education} alt="education"/>
@@ -83,7 +82,7 @@ const HumanCapital = () => {
                         the needs of the job market, we aim to enhance employability, promote entrepreneurship,<br/>
                         and drive economic growth.
                         </p> <br/><br/>
-                        <Link to='/humancapital/skills'><button className='btnlr'>Learn More</button></Link>
+                        <HashLink smooth to='/humancapital/skills#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
                         <img className='pic' src={Skills} alt="Skills"/>
@@ -119,7 +118,7 @@ const HumanCapital = () => {
                         programs with industry needs,India can nurture a skilled workforce that meets <br/>
                         the demands of a dynamic and evolving economy.
                         </p> <br/><br/>
-                        <Link to='/humancapital/quality'><button className='btnlr'>Learn More</button></Link>
+                        <HashLink smooth to='/humancapital/quality#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
                         <img className='pic' src={Quality} alt="Quality"/>
@@ -135,7 +134,7 @@ const HumanCapital = () => {
                           development. By embracing transparency in these areas, individuals, organizations,<br/>
                         and societies can create a more equitable, accountable, and prosperous future.
                         </p> <br/><br/>
-                        <Link to='/humancapital/transparency'><button className='btnlr'>Learn More</button></Link>
+                        <HashLink smooth to='/humancapital/transparency#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
                         <img className='pic' src={Transparency} alt="Hepatology"/>
