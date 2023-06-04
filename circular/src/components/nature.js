@@ -1,6 +1,5 @@
 import React from 'react'
 import "../css/circulareconomy.css"
-import nature_video from '../images/nature_video.mp4';
 import story6 from '../images/6story.jpg';
 import story7 from '../images/7story.jpg';
 import neAbhay1 from '../images/neAbhay1.jpg';
@@ -22,7 +21,7 @@ const Nature = () => {
             </p>
             <div className='paragh text-center'>
                 <video width="700px" height="400px" controls>
-                    <source src={nature_video} type='video/mp4'/>
+                    <source src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685849405/Circular%20website/nature_video_b5hduy.mp4" type='video/mp4'/>
                 </video> 
             </div>
             <p className='paragh'>

@@ -1,6 +1,5 @@
 import React,{useEffect} from 'react'
 import "../css/circulareconomy.css"
-import med_video from '../images/med_video.mp4';
 import med1 from '../images/med1.jpg';
 import med2 from '../images/med2.jpg';
 import med3 from '../images/med3.jpg';
@@ -25,7 +24,7 @@ const Medicine = () => {
             </p>
             <div className='paragh text-center'>
                 <video width="700px" height="400px" controls>
-                    <source src={med_video} type='video/mp4'/>
+                    <source src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685849381/Circular%20website/med_video_ttdcrj.mp4" type='video/mp4'/>
                 </video>
                 <p className='paragh'>DES Council acknowledges our President Mr Abhay Chakra Sadineni for spending 5 lakhs INR on <br/> medicine drives in Rural Telangana on behalf of The Circular</p> 
             </div>
