@@ -4,7 +4,6 @@ import Education from '../images/Education.jpg';
 import Health from '../images/Health.jpg';
 import Skills from '../images/Skills.jpg';
 import Quality from '../images/Quality.jpg';
-import humanCapitalVid from '../images/humanCapitalVid.mp4';
 import Transparency from '../images/Transparency.jpg'
 import { HashLink } from 'react-router-hash-link';
 import Aos from 'aos';
@@ -18,7 +17,7 @@ const HumanCapital = () => {
    <div className='main'>
       <div className='section1'> 
           <div className='overlay'></div>
-          <video className='video' src={humanCapitalVid} loop autoPlay muted/>
+          <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685849392/Circular%20website/humanCapitalVid_benkbr.mp4" loop autoPlay muted/>
           <div className='content d-flex flex-column justify-content-center'>
             <p style={{fontSize:"40px"}}>
                 Welcome to <br/>

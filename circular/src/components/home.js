@@ -3,7 +3,6 @@ import '../css/home.css'
 import Aos from 'aos'
 import indianemb from '../images/indianemb.png';
 import telangana from '../images/telangana.png';
-import homeVid from '../images/homeVid.mp4';
 import sridharp from '../images/sridharp.jpg'
 import ripal from '../images/ripal.jpg'
 import aishwaryak from '../images/aishwaryak.jpg'
@@ -23,7 +22,7 @@ const Home = () => {
     <div className='main'>
       <div className='section1 col-12'> 
           <div className='overlay'></div>
-          <video className='video' src={homeVid} loop autoPlay muted/>
+          <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685849388/Circular%20website/homeVid_pbjtyk.mp4" loop autoPlay muted/>
           <div className='content d-flex flex-column justify-content-center'>
             <p>
             Welcome to <span style={{color:"#00ff0d"}}>The Circular</span>, <br/>

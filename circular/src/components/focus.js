@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react'
-import focusbgVid from '../images/focusbgVid.mp4'
 import '../css/focus.css';
 import ce from '../images/Circulareconomy.png';
 import Nature from '../images/Nature.jpg';
@@ -40,7 +39,7 @@ const Focus = () => {
    <div className='main'>
       <div className='section1'> 
           <div className='overlay'></div>
-          <video className='video' src={focusbgVid} loop autoPlay muted/>
+          <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685849408/Circular%20website/focusbgVid_f4t2lw.mp4" loop autoPlay muted/>
           <div className='content d-flex flex-column justify-content-center'>
             <p>
                 At <span style={{color:"#00ff0d"}}>The Circular</span>, <br/>
