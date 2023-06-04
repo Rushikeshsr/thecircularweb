@@ -53,7 +53,15 @@ const Caregood = () => {
                 <span style={{"color":"#00ff0d",fontSize:'15px'}} >Community Engagement :&nbsp;</span>
                 We actively engage with local communities, schools, and organizations to create awareness, organize events, and foster intergenerational connections. This includes initiatives such as interactive workshops, cultural exchanges, and storytelling sessions.
             </p>
-            <p className='paragh'>
+        </div>
+        <div className='section3 p-5'>
+            <div className='text-center m-3'>
+                <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856854/Circular%20website/caregood%20images/ci1_v3pbf6.jpg"} alt='cloudinery ci1'></img>
+                <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856849/Circular%20website/caregood%20images/ci2_xdvfc1.jpg"} alt='cloudinery ci2'></img>
+                <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856849/Circular%20website/caregood%20images/ci3_bnspzf.jpg"} alt='cloudinery ci3'></img>
+                <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856851/Circular%20website/caregood%20images/ci4_xlckvz.jpg"} alt='cloudinery ci4'></img>
+            </div>
+            <p className='para'>
                 <HashLink  smooth to="/contactus/#joinus" style={{fontSize:'20px', textDecoration:"none", "color":"#00ff0d"}} >Join Our Mission : Together, Let's Empower Senior Citizens</HashLink><br/> 
                 The Circular and the CareGood Foundation invite you to join us in our mission to empower senior citizens through medicine drives and comprehensive healthcare initiatives. Your support can make a significant difference in the lives of older adults, ensuring they receive the care, dignity, and support they deserve. Whether you choose to contribute financially, volunteer your time, or spread awareness about our partnership and initiatives, your involvement is invaluable.
             </p>
