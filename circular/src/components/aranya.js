@@ -5,9 +5,15 @@ import "../css/circulareconomy.css"
 const Aranya = () => {
   return (
     <>
-        <div className='cover-imageC p-5'>
-            <h1 className='cover-text' style={{color:"aliceblue", opacity:"0.9",textShadow:"2px 2px 20px black"}}>ARANYA</h1>
-        </div>
+        <div className='section1 col-12'> 
+          <div className='overlay'></div>
+          <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685859488/Circular%20website/aranya_cover_uhkloz.mp4" loop autoPlay muted/>
+          <div className='content text-center d-flex flex-column justify-content-center'>
+            <p className='cover-text' style={{color:"aliceblue",opacity:"0.8", textShadow:"2px 2px 20px black"}}>
+            ARANYA
+            </p>
+          </div>   
+      </div>
         <div className='section2 p-5'>
             <p className='paragh'>
                 Aranya is a pioneering organization dedicated to scaling permaculture and introducing sustainable agriculture practices. Together, we share a common vision of supporting marginalized communities, protecting the environment, and fostering sustainable development. Through our collaboration, we aim to empower communities and create a positive impact on both people and the planet.
@@ -27,16 +33,16 @@ const Aranya = () => {
         </div>
         <div className='section3 p-5'>
             <div className='text-center m-3'>
-                <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856854/Circular%20website/caregood%20images/ci1_v3pbf6.jpg"} alt='cloudinery ci1'></img>
-                <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856849/Circular%20website/caregood%20images/ci2_xdvfc1.jpg"} alt='cloudinery ci2'></img>
-                <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856849/Circular%20website/caregood%20images/ci3_bnspzf.jpg"} alt='cloudinery ci3'></img>
-                <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856851/Circular%20website/caregood%20images/ci4_xlckvz.jpg"} alt='cloudinery ci4'></img>
+                <img className='medpich' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858377/Circular%20website/aranya%20images/ai1_crvqjy.jpg"} alt='cloudinery ci1'></img>
+                <img className='medpich' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859575/Circular%20website/aranya%20images/Screenshot_270_xeii8w.jpg"} alt='cloudinery ci2'></img>
+                <img className='medpich' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858368/Circular%20website/aranya%20images/ai2_yw6xb8.jpg"} alt='cloudinery ci3'></img>
+                <img className='medpich' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858368/Circular%20website/aranya%20images/ai3_y9lvgq.jpg"} alt='cloudinery ci4'></img>
             </div>
-            <p className='paragh'>
-                <span style={{"color":"#00ff0d",fontSize:'20px',textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}} >Fellowship for Tangible Results : Collaborating with Organizations for Impactful Change</span><br/> 
+            <p className='para'>
+                <span style={{"color":"#00ff0d",fontSize:'20px',textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}} >Fellowship for Tangible Results : Collaborating with Organizations for Impactful Change</span><br/><br/> 
                 To create tangible and lasting results, we have established a fellowship program that brings together organizations working towards supporting sustainable agriculture practices. By collaborating with Aranya and other like-minded partners, we pool our expertise, resources, and networks to drive impactful change. Through this fellowship, we aim to implement scalable projects, develop innovative solutions, and influence policy to promote sustainable agriculture and empower communities.
             </p>
-            <p className='paragh'>
+            <p className='para'>
                 The Circular and Aranya invite you to join us on this journey towards sustainable agriculture and community empowerment. Whether you are a farmer, educator, student, or an individual passionate about sustainable practices, your contribution is vital in shaping a better future. Together, let us create a world where sustainable agriculture thrives, communities flourish, and the planet is nurtured for generations to come.
             </p>
                         
