@@ -1,12 +1,5 @@
 import React,{useEffect} from 'react'
 import '../css/partnership.css';
-import aranyalogo from '../images/aranyalogo.jpeg'
-import caregoodlogo from '../images/caregoodlogo.png'
-import desclogo from '../images/desclogo.png'
-import smaelogo from '../images/smaelogo.png'
-import gp from '../images/gp.jpg'
-import dslogo from '../images/dslogo.png'
-import osmanialogo from '../images/osmanialogo.jpeg'
 import Aos from 'aos';
 import { HashLink } from 'react-router-hash-link';
 
@@ -39,7 +32,7 @@ const Partnerships = () => {
             We partner with media outlets and influencers that can help us raise awareness and visibility of our work, as well as inspire and engage the public. We provide them with access to our stories, events, and campaigns, and invite them to join us in spreading our message of sustainability and well-being.
             </p>
             <div className='p-container mt-5'>
-              <img className='gp' src={gp} alt="gp" />
+              <img className='gp' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849370/Circular%20website/gp_ixt5m2.jpg"} alt="gp" />
               <div>
                 <div className='text-center'>
                     <h1 className='sec2-head'>GOLDEN PARTNERS</h1>
@@ -48,7 +41,7 @@ const Partnerships = () => {
                 <div className='logo-text'>
                   <HashLink className='redirect' smooth to="/partnerships/aranya#top">
                     <div className='logo-box' >
-                        <img className='co-logo' src={aranyalogo} alt="aranyalogo"/>
+                        <img className='co-logo' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849362/Circular%20website/aranyalogo_dnktdw.jpg"} alt="aranyalogo"/>
                         <div>
                           <h1 style={{"color":"black"}} className='logo-heading'>Aranya</h1>
                           <h2 style={{"color":"black"}} className='logo-name'>Agricultural Alternatives</h2>
@@ -57,7 +50,7 @@ const Partnerships = () => {
                   </HashLink>
                   <HashLink className='redirect' smooth to="/partnerships/desc#top">
                     <div className='logo-box' >
-                      <img className='co-logo' src={desclogo} alt="desclogo"/>
+                      <img className='co-logo' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849363/Circular%20website/desclogo_oyydpo.png"} alt="desclogo"/>
                       <div>
                         <h1 style={{"color":"black"}} className='logo-heading'>DESC</h1>
                         <h2 style={{"color":"black"}} className='logo-name'>Digital Education and Skills Council</h2>
@@ -68,7 +61,7 @@ const Partnerships = () => {
                 <div className='logo-text'>  
                 <HashLink className='redirect' smooth to="/partnerships/smae#top">
                   <div className='logo-box' >
-                    <img className='co-logo' src={smaelogo} alt="smaelogo"/>
+                    <img className='co-logo' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849394/Circular%20website/smaelogo_hcammp.png"} alt="smaelogo"/>
                     <div style={{"color":"black"}}>
                       <h1 className='logo-heading'>SMAE</h1>
                       <h2 className='logo-name'>Society of Mechanical and Automobile Engineers</h2>
@@ -77,14 +70,14 @@ const Partnerships = () => {
                  </HashLink> 
                  <HashLink className='redirect' smooth to="/partnerships/caregood#top">
                   <div className='logo-box d-flex justify-content-center' >
-                    <img className='cg-logo' src={caregoodlogo} alt="caregoodlogo"/>
+                    <img className='cg-logo' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849362/Circular%20website/caregoodlogo_ers3le.png"} alt="caregoodlogo"/>
                   </div>
                   </HashLink>
                 </div>
                 <div className='logo-text'>  
                   <HashLink className='redirect' smooth to="/partnerships/rer#top">
                     <div className='logo-box' >
-                      <img className='co-logo' src={dslogo} alt="dslogo"/>
+                      <img className='co-logo' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849363/Circular%20website/dslogo_ozg9fx.png"} alt="dslogo"/>
                       <div style={{"color":"black"}}>
                         <h1 className='logo-heading'>DSS</h1>
                         <h2 className='logo-name'>Divyang Solar Society</h2>
@@ -93,7 +86,7 @@ const Partnerships = () => {
                   </HashLink>
                   <HashLink className='redirect' smooth to="/partnerships/others#top">
                     <div className='logo-box' >
-                      <img className='co-logo' src={osmanialogo} alt="osmanialogo"/>
+                      <img className='co-logo' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849387/Circular%20website/osmanialogo_rujxcb.jpg"} alt="osmanialogo"/>
                       <div style={{"color":"black"}}>
                         <h1 className='logo-heading'>JRO</h1>
                         <h2 className='logo-name'>Japal-Rangapur Observatory</h2>
