@@ -49,7 +49,7 @@ const Nature = () => {
         </div>
         <div id="story6" name="story6" className='section3 d-flex justify-content-center p-5'>
             <div data-aos="zoom-in" className='cardbox d-flex'>
-                <img className='image-card' src={story6} alt="Prameela"/>
+                <img className='image-card' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849360/Circular%20website/6story_m2aaof.jpg"} alt="Prameela"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Prameela</h1>
                     <p className='image-para'>
@@ -60,7 +60,7 @@ const Nature = () => {
         </div>
         <div id="story7" name="story7" className='section3 d-flex justify-content-center p-5'>
             <div data-aos="zoom-in"  className='cardbox d-flex'>
-                <img className='image-card' src={story7} alt="Chandrakala"/>
+                <img className='image-card' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849360/Circular%20website/7story_fglbbf.jpg"} alt="Chandrakala"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Chandrakala</h1>
                     <p className='image-para'>
@@ -71,9 +71,9 @@ const Nature = () => {
         </div>
         <div className='p-5'>
             <div className="image-container mb-4">
-                <img data-aos="flip-right" data-aos-delay="100" className='nepic' src={neAbhay1} alt="neAbhay1"/>
-                <img data-aos="flip-down" data-aos-delay="100" className='nepic' src={neAbhay4} alt="neAbhay1"/>
-                <img data-aos="flip-left" data-aos-delay="100" className='nepic' src={neAbhay3} alt="neAbhay4"/>
+                <img data-aos="flip-right" data-aos-delay="100" className='nepic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849383/Circular%20website/neAbhay1_c4wpce.jpg"} alt="neAbhay1"/>
+                <img data-aos="flip-down" data-aos-delay="100" className='nepic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849388/Circular%20website/neAbhay4_tn7uir.jpg"} alt="neAbhay1"/>
+                <img data-aos="flip-left" data-aos-delay="100" className='nepic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849386/Circular%20website/neAbhay3_dmoub5.jpg"} alt="neAbhay4"/>
             </div>
         </div>
     </>
