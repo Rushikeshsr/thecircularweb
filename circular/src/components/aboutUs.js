@@ -12,8 +12,25 @@ const AboutUs = () => {
   return (
     <>
     <div className='p-5'>
-        <h1 className='main-heading'>About Us</h1>
-        
+        <div className='text-center'>
+         <h1 className='heading' style={{color:"black"}}>ABOUT</h1>
+         <hr className='line' style={{width:"80px"}}/>
+        </div>
+        <p className='para'>
+          As a non-profit organization initially focused on promoting the principles of circular economy, The Circular embarked on a remarkable journey of exploration and discovery. Driven by our unwavering commitment to sustainability and our quest to make a positive impact on the world, we underwent a transformative transition into the domains of astronomy, the environment, and human health. This shift was catalyzed by a deep realization of the interconnectedness of these fields and the urgent need to address the pervasive issues.
+        </p>
+        <p className='para'>
+          We realized that it was essential to bridge the gap between astronomy and environmentalism. By shedding light on the interplay between celestial observations, environmental factors, and the preservation of ecological balance, we sought to ignite a sense of awareness and urgency among individuals and communities.
+        </p>
+        <p className='para'>
+          As we delved further into the realm of astronomy, we were confronted with the stark reality of light pollution's detrimental consequences. Artificial light, spreading far and wide, disrupted natural patterns and intruded upon ecosystems with devastating results. The fragile balance of habitats was thrown into disarray, posing a threat to biodiversity and jeopardizing the sustainability of our planet's delicate ecosystems.  In our exploration, we were astounded to discover the profound impact of light pollution on human health. The disruption of natural day-night cycles, the suppression of melatonin levels, and the resulting sleep disturbances emerged as pressing concerns.
+        </p>
+        <p className='para'>
+          We recognized that these disturbances had far-reaching implications for overall well-being, potentially contributing to long-term health challenges that demanded attention and action. Our investigations revealed an intricate web of connections, demonstrating the critical importance of preserving the ecological balance in the face of light pollution. It became evident that the adverse effects of excessive artificial light extended beyond human health to the well-being of nocturnal species and the broader ecosystems they inhabit. Protecting the dark skies and mitigating light pollution emerged as urgent imperatives to safeguard the delicate balance of nature.
+        </p>
+        <p className='para'>
+          We aim to engage and empower people with knowledge, inspiring them to embrace sustainable practices and take action to create a harmonious coexistence between humanity and the natural world. By forging collaborations with research organizations, policy makers, and think tanks, we strive to drive meaningful change and foster a collective commitment to building a better future for all.
+        </p>
     </div>
     <div className='section4 p-5'>
         <div className='text-center'>
