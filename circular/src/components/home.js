@@ -1,14 +1,6 @@
 import React,{useEffect} from 'react'
 import '../css/home.css'
 import Aos from 'aos'
-import indianemb from '../images/indianemb.png';
-import telangana from '../images/telangana.png';
-import sridharp from '../images/sridharp.jpg'
-import ripal from '../images/ripal.jpg'
-import aishwaryak from '../images/aishwaryak.jpg'
-import pankhurij from '../images/pankhurij.jpg'
-import sharitijas from '../images/sharitijas.jpg'
-import vasudevv from '../images/vasudevv.jpg'
 import { HashLink } from 'react-router-hash-link';
 import 'aos/dist/aos.css';
 
@@ -187,31 +179,31 @@ const Home = () => {
         </div>
         <div className='d-flex justify-content-center mt-4'>
           <div className='col-4 image-box'>
-            <img className='persons' src={sridharp} alt="sridharp"/>
+            <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849394/Circular%20website/sridharp_asyeye.jpg"} alt="sridharp"/>
             <p>Sridhar Pabbisetty</p>
           </div>
           <div className='col-4 image-box'>
-            <img className='persons' src={ripal} alt="ripal"/>
+            <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849389/Circular%20website/ripal_h77oin.jpg"} alt="ripal"/>
             <p>Ripal Desai</p>
           </div>
           <div className='col-4 image-box'>
-            <img className='persons' src={vasudevv} alt="vasudevv"/>
+            <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849395/Circular%20website/vasudevv_sodpzp.jpg"} alt="vasudevv"/>
             <p>Vasudev Vangara</p>
           </div>
          </div> 
          <div className='d-flex justify-content-center mt-4'>
           <HashLink to="/humancapital/health#aishwaryak" style={{textDecoration:"none"}} name="aishwaryak" smooth> 
             <div className='col-4 image-box'>
-              <img className='persons' src={aishwaryak} alt="aishwaryak"/>
+              <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849362/Circular%20website/aishwaryak_vtp2qg.jpg"} alt="aishwaryak"/>
               <p style={{color:"black"}}>Aishwarya Karnataki</p>
             </div>
           </HashLink>
           <div className='col-4 image-box'>
-            <img className='persons' src={sharitijas} alt="shartijas"/>
+            <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849393/Circular%20website/sharitijas_lbtg2h.jpg"} alt="shartijas"/>
             <p>Sharitija Saxena</p>
           </div>
           <div className='col-4 image-box'>
-            <img className='persons' src={pankhurij} alt="pankhurij"/>
+            <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849387/Circular%20website/pankhurij_ldow5h.jpg"} alt="pankhurij"/>
             <p>Pankhuri Jain</p>
           </div>
         </div>
@@ -227,10 +219,10 @@ const Home = () => {
         </div>
       <div className='section4 p-3'>
         <div className='text-logo mb-4'>
-          <img className='logo' src={indianemb} alt="indianemblem"/>
+          <img className='logo' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849377/Circular%20website/indianemb_muosh4.png"} alt="indianemblem"/>
           <p className='para'>Recognized by Government of India NGO Darpan. Unique ID: TS/2023/0345218.<br/>
           Under the Registrar of Societies, Government of Telangana</p>
-          <img className='logo' src={telangana} alt="telangana logo"/>
+          <img className='logo' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849394/Circular%20website/telangana_c5wfx6.png"} alt="telangana logo"/>
         </div>
         <div className='navigator mb-2'>
           <HashLink smooth to="/focus#top"><button className='button'>Focus</button></HashLink>
