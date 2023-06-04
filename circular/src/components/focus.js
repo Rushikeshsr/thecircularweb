@@ -1,18 +1,5 @@
 import React, {useEffect, useState} from 'react'
 import '../css/focus.css';
-import ce from '../images/Circulareconomy.png';
-import Nature from '../images/Nature.jpg';
-import Medicine from '../images/Medicine.jpg';
-import Hospitality from '../images/Hospitality.jpg';
-import Hepatology from '../images/Hepatology.jpg';
-import Gynaecology from '../images/Gynaecology.jpeg';
-import ghmc1 from '../images/ghmc1.png';
-import ghmc2 from '../images/ghmc2.png';
-import MadhuriR from '../images/MadhuriR.jpg';
-import focuspic1 from '../images/focuspic1.jpg';
-import focuspic2 from '../images/focuspic2.jpg';
-import focuspic3 from '../images/focuspic3.jpg';
-import focuspic4 from '../images/focuspic4.jpg'
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
@@ -71,20 +58,20 @@ const Focus = () => {
         Supporting the construction of sewage management systems to mitigate urban floods.
         </p>
         <div className='image-arrange'>
-            <img data-aos="fade-right" data-aos-delay="200" className='black-image col-6' style={{width:"650px"}} src={focuspic1} alt="focuspic1"/>
-            <img data-aos="fade-left" data-aos-delay="200" className='black-image col-6' style={{width:"300px"}} src={focuspic2} alt="focuspic2"/>
+            <img data-aos="fade-right" data-aos-delay="200" className='black-image col-6' style={{width:"650px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849367/Circular%20website/focuspic1_zsoo98.jpg"} alt="focuspic1"/>
+            <img data-aos="fade-left" data-aos-delay="200" className='black-image col-6' style={{width:"300px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849365/Circular%20website/focuspic2_c41gsa.jpg"} alt="focuspic2"/>
         </div>
         <div className='image-arrange p-5'>
-            <img data-aos="fade-right" data-aos-delay="200" className='black-image col-6' src={focuspic3} alt="focuspic3"/>
-            <img data-aos="fade-left" data-aos-delay="200" className='black-image col-6' src={focuspic4} alt="focuspic4"/>
+            <img data-aos="fade-right" data-aos-delay="200" className='black-image col-6' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849365/Circular%20website/focuspic3_cpujlm.jpg"} alt="focuspic3"/>
+            <img data-aos="fade-left" data-aos-delay="200" className='black-image col-6' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849367/Circular%20website/focuspic4_uajiir.jpg"} alt="focuspic4"/>
         </div>
         <h1 data-aos="flip-left" className='heading' style={{paddingLeft:"60px"}}>Water Conservation and Rain Water Harvesting are always our focus areas.</h1>
         <div className='text-image-box'>
-            <img data-aos="fade-right" data-aos-delay="200" className='ghmc' src={ghmc1} alt="ghmc1"/>
-            <img data-aos="fade-left" data-aos-delay="200" className="ghmc" src={ghmc2} alt="ghmc2"/>
+            <img data-aos="fade-right" data-aos-delay="200" className='ghmc' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849366/Circular%20website/ghmc1_xdrbqh.png"} alt="ghmc1"/>
+            <img data-aos="fade-left" data-aos-delay="200" className="ghmc" src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849367/Circular%20website/ghmc2_ap4fpb.png"} alt="ghmc2"/>
         </div> 
         <div className='ghmc-text mb-3'>
-            <img className='persons' src={MadhuriR} alt="MadhuriR"/>
+            <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849377/Circular%20website/MadhuriR_zp3xti.jpg"} alt="MadhuriR"/>
             <p style={{marginLeft:'30px'}}>Derived from the Ph.D thesis of Dr. Madhuri Rampalli at BITS - Pilani, Hyderabad. 
             {showBtn?<button onClick={showContent} className='seemore' >See more<FaAngleDown style={{fontSize:'15px'}}/></button>:
             <button onClick={hideContent} className='seemore' >See less<FaAngleUp style={{fontSize:'15px'}}/></button>}
@@ -115,7 +102,7 @@ const Focus = () => {
                         <HashLink smooth to='/focus/circulareconomy#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200">
-                        <img className='pic' src={ce} alt="circular economy"/>
+                        <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849363/Circular%20website/Circulareconomy_ul7vt5.png"} alt="circular economy"/>
                     </div>
                 </div>
             </div>
@@ -129,7 +116,7 @@ const Focus = () => {
                         <HashLink smooth to='/focus/nature#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
-                        <img className='pic' src={Nature} alt="Nature"/>
+                        <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849388/Circular%20website/Nature_zgsy4z.jpg"} alt="Nature"/>
                     </div>
                 </div>
             </div>
@@ -143,7 +130,7 @@ const Focus = () => {
                         <Link to='/focus/medicine'><button className='btnlr'>Learn More</button></Link>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
-                        <img className='pic' src={Medicine} alt="Medicine"/>
+                        <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849381/Circular%20website/Medicine_o2wetw.jpg"} alt="Medicine"/>
                     </div>
                 </div>
             </div>
@@ -157,7 +144,7 @@ const Focus = () => {
                         <Link to='/focus/hospitality'><button className='btnlr'>Learn More</button></Link>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
-                        <img className='pic' src={Hospitality} alt="Hospitality"/>
+                        <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849375/Circular%20website/Hospitality_iaobf5.jpg"} alt="Hospitality"/>
                     </div>
                 </div>
             </div>
@@ -171,7 +158,7 @@ const Focus = () => {
                         <Link to='/focus/hepatology'><button className='btnlr'>Learn More</button></Link>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
-                        <img className='pic' src={Hepatology} alt="Hepatology"/>
+                        <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849374/Circular%20website/Hepatology_xfq0kd.jpg"} alt="Hepatology"/>
                     </div>
                 </div>
             </div>
@@ -185,7 +172,7 @@ const Focus = () => {
                         <Link to='/focus/gynaecology'><button className='btnlr'>Learn More</button></Link>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
-                        <img className='pic' src={Gynaecology} alt="Gynaecology"/>
+                        <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849368/Circular%20website/Gynaecology_k38hqo.jpg"} alt="Gynaecology"/>
                     </div>
                 </div>
             </div>
