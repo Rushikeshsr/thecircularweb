@@ -17,36 +17,36 @@ const Quality = () => {
             <p className='paragh'>
                 The Circular's focus on enhancing the quality of human capital has resulted in several positive outcomes, which have had significant effects on individuals, educational institutions, and the broader society. These outcomes include:
             </p>
-            <p data-aos="slide-left" data-aos-delay="200" className='paragh'>
+            <p data-aos="fade-left" data-aos-delay="200" className='paragh'>
                 <span style={{color:"#00ff0d"}}>Improved Skill Development</span>: Through the co-hiring model and cross-disciplinary learning initiatives, the Circular has facilitated the development of practical skills among students. As a result, students have gained valuable work experience, enhanced their problem-solving abilities, and acquired a broader set of competencies. This has made them more competitive in the job market and better prepared to contribute effectively to the workforce
             </p>
-            <p data-aos="slide-right" data-aos-delay="200" className='paragh'>
+            <p data-aos="fade-right" data-aos-delay="200" className='paragh'>
                 <span style={{color:"#00ff0d"}}>Enhanced Educational Excellence</span>: By supporting partner educational institutions in implementing the National Education Policy 2020 and promoting operational excellence, the Circular has contributed to the overall improvement of the quality of education. Institutions have been able to modernize their administrative functions, attract and retain high-quality faculty, and streamline their operations. This has led to enhanced educational outcomes and improved learning experiences for students.
             </p>
-            <p data-aos="slide-left" data-aos-delay="200" className='paragh'>
+            <p data-aos="fade-left" data-aos-delay="200" className='paragh'>
                 Quality and accountability are fundamental principles in delivering healthcare services. At The Circular, we are committed to ensuring the quality of healthcare services provided to our partner educational institutions. We leverage data and feedback to monitor and evaluate the performance of healthcare providers, allowing us to identify areas for improvement and enhance the overall quality of care. Through this approach, we strive to deliver healthcare services that meet the highest standards and promote positive health outcomes.            
             </p>
-            <p data-aos="slide-right" data-aos-delay="200" className='paragh'>
+            <p data-aos="fade-right" data-aos-delay="200" className='paragh'>
                 <span style={{color:"#00ff0d"}}>Increased Employability</span>: The Circular's focus on internships, projects, and mentorship programs has enhanced the employability of students. By providing them with practical exposure to real-world challenges and opportunities, students have developed industry-relevant skills and expanded their professional networks. This has increased their chances of securing employment and transitioning smoothly into the workforce.
             </p>
-            <p data-aos="slide-left" data-aos-delay="200" className='paragh'>
+            <p data-aos="fade-left" data-aos-delay="200" className='paragh'>
                 <span style={{color:"#00ff0d"}}>Measurable Impact on Human Capital</span>: The Circular's measurement of healthcare impact on human capital outcomes, such as learning, earnings, and life expectancy, has provided valuable insights. This data-driven approach has allowed for evidence-based decision-making and the identification of areas for improvement. By continuously monitoring and improving healthcare services, the Circular has positively impacted the well-being, productivity, and overall quality of life of individuals.            </p>
-            <p data-aos="slide-right" data-aos-delay="200" className='paragh'>
+            <p data-aos="fade-right" data-aos-delay="200" className='paragh'>
                 <span style={{color:"#00ff0d"}}>Sustainable and Resilient Communities</span>: The Circular's efforts in promoting sustainability and circular economy principles have contributed to the development of sustainable and resilient communities. By integrating these principles into education, employment, and healthcare, the Circular has fostered a culture of responsible consumption, resource efficiency, and environmental stewardship. This has long-term benefits for the well-being of individuals, the conservation of natural resources, and the mitigation of climate change.
             </p>
-            <p data-aos="slide-left" data-aos-delay="200" className='paragh'>
+            <p data-aos="fade-left" data-aos-delay="200" className='paragh'>
                 Looking to the future, the Circular's commitment to quality in hiring, education, and employment is expected to yield further positive outcomes. These outcomes may include:            
             </p>
-            <p data-aos="slide-right" data-aos-delay="200" className='paragh'>
+            <p data-aos="fade-right" data-aos-delay="200" className='paragh'>
                 <span style={{color:"#00ff0d"}}>Continued Skill Development</span>: The Circular's emphasis on continuous professional development and practical learning opportunities will further enhance the skills of students and professionals. This will help bridge the skill gap, equip individuals with the necessary competencies for the future job market, and foster a culture of lifelong learning.
             </p>
-            <p data-aos="slide-left" data-aos-delay="200" className='paragh'>
+            <p data-aos="fade-left" data-aos-delay="200" className='paragh'>
                 <span style={{color:"#00ff0d"}}>Innovation and Research Advancements</span>: The Circular's support for cross-disciplinary learning and research will foster innovation and the development of sustainable solutions. By encouraging collaboration among students and faculty from various disciplines, the Circular will drive the creation of new knowledge and the development of cutting-edge technologies that address environmental and societal challenges.
             </p>
-            <p data-aos="slide-right" data-aos-delay="200" className='paragh'>
+            <p data-aos="fade-right" data-aos-delay="200" className='paragh'>
                 <span style={{color:"#00ff0d"}}>Increased Social and Economic Impact</span>: As individuals equipped with quality education and skills enter the workforce, they will contribute to the growth and prosperity of the economy. The Circular's focus on employability and creating employment opportunities will lead to improved income levels, reduced inequality, and increased economic productivity. This, in turn, will have a positive impact on the overall social and economic well-being of communities.
             </p>
-            <p data-aos="slide-left" data-aos-delay="200" className='paragh'>
+            <p data-aos="fade-left" data-aos-delay="200" className='paragh'>
                 <span style={{color:"#00ff0d"}}>Long-Term Sustainability</span>: By promoting sustainability and circular economy principles, the Circular will contribute to the creation of a sustainable future. The adoption of environmentally friendly practices, resource efficiency, and responsible consumption will help mitigate the adverse effects of climate change and preserve natural resources for future generations.
             </p>
         </div>

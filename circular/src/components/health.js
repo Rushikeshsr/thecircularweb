@@ -36,14 +36,14 @@ const Health = () => {
         <div className='p-5 '>
             <p className='para'>
                 In addition to our focus on education and sustainability, The Circular recognizes the importance of healthcare in promoting the well-being and human capital development of individuals within educational institutions. To address this, we collaborate with healthcare providers and institutions to establish a network of quality and affordable healthcare services for our partner educational institutions.            </p>
-            <p data-aos="slide-left" data-aos-delay="200" className='para'>
+            <p data-aos="fade-left" data-aos-delay="200" className='para'>
                 By working closely with healthcare providers, we aim to ensure that students, faculty, and staff have access to essential healthcare services that meet their needs. This includes preventive care, primary healthcare, and specialized services, as required. Our goal is to create a healthcare ecosystem that supports the overall health and well-being of the educational community.
             </p>
-            <p data-aos="slide-right" data-aos-delay="200" className='para'>
+            <p data-aos="fade-right" data-aos-delay="200" className='para'>
                 We also understand the significance of measuring the impact of healthcare on human capital outcomes. By conducting research and analysis, we assess the correlation between healthcare interventions and outcomes such as learning, earnings, and life expectancy. This helps us understand the effectiveness of healthcare initiatives and guides our decision-making process to optimize the impact on human capital development.            </p>
-            <p data-aos="slide-left" data-aos-delay="200" className='para'>
+            <p data-aos="fade-left" data-aos-delay="200" className='para'>
                 Quality and accountability are fundamental principles in delivering healthcare services. At The Circular, we are committed to ensuring the quality of healthcare services provided to our partner educational institutions. We leverage data and feedback to monitor and evaluate the performance of healthcare providers, allowing us to identify areas for improvement and enhance the overall quality of care. Through this approach, we strive to deliver healthcare services that meet the highest standards and promote positive health outcomes.            </p>
-            <p data-aos="slide-right" data-aos-delay="200" className='para'>
+            <p data-aos="fade-right" data-aos-delay="200" className='para'>
                 Our collaboration with healthcare providers and institutions allows us to establish a network of quality and affordable healthcare services for our partner educational institutions. By measuring the impact of healthcare on human capital outcomes, ensuring quality and accountability, and continuously improving our healthcare services, we contribute to the overall well-being and development of individuals within educational communities.
             </p>
             
@@ -52,7 +52,6 @@ const Health = () => {
             <h1 className='text-head mb-2'>The Circular at Primary Health Centers in Rural Telangana.</h1>
             <div className='images-tag mb-4'>
                 <img data-aos="fade-left" data-aos-delay="200" className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src={health1} alt="health1" />
-                {/* <img data-aos="fade-down" data-aos-delay="200" className='col-4 pic' style={{boxShadow:"none"}} src={health2} alt="health1" /> */}
                 <img data-aos="fade-right" data-aos-delay="200" className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src={health3} alt="health1" />
             </div>
             <div className='d-flex justify-content-center mb-3'>
