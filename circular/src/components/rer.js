@@ -1,8 +1,12 @@
-import React from 'react'
-import "../css/circulareconomy.css"
-
+import React,{useEffect} from 'react';
+import "../css/circulareconomy.css";
+import Aos from 'aos';
 
 const Rer = () => {
+    useEffect(()=>{
+        Aos.init({duration:1000, easing:"ease-in"})
+    },[])
+
   return (
     <>
         <div className='section1 col-12'> 
@@ -19,7 +23,7 @@ const Rer = () => {
                 Renewable Energy Resources (RER) is a collaborative effort with multiple renewable energy providers. Our partnership with RER aims to accelerate the adoption of renewable energy solutions, reduce carbon emissions, and create a clean energy future. By promoting sustainable energy practices, we contribute to the global transition towards a greener and more sustainable world.
             </p>
             <div className='paragh'>
-                <img className='persons' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858576/Circular%20website/rer%20images/ri4_xuwmfc.jpg" alt="Zubeida"/>
+                <img data-aos="flip-left" data-aos-delay="100" className='persons' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858576/Circular%20website/rer%20images/ri4_xuwmfc.jpg" alt="Zubeida"/>
                 <p>
                 One of our significant collaborations in the renewable energy sector is with :
                 <span style={{"color":"#00ff0d",fontSize:'15px'}} > &nbsp;Divyang Solar Society</span> 
