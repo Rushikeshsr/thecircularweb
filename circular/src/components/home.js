@@ -63,7 +63,7 @@ const Home = () => {
             Light pollution, the intrusion of artificial light into our night sky, poses a growing threat to the delicate balance of nature and our well-being. At The Circular, we are dedicated to elucidating on this pressing issue and spearheading initiatives to mitigate its adverse effects. Light pollution transcends the boundaries of astronomy, impacting the lives of individuals who are unaware of its profound implications. Excessive and misdirected lighting disrupts the natural day-night cycles that regulate our lives, leading to sleep disturbances and reduced melatonin levels in our brains. This interruption in our circadian rhythms has far-reaching consequences for our overall health and well-being. Moreover, the energy consumed by unnecessary and inefficient lighting contributes to environmental degradation and wasteful economic practices.
           </p>
           <div className='text-center'>
-            <img className='medpich' src="" alt="lightpollution"/>
+            <img className='medpich' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859666/Circular%20website/light_pollution_r95cnj.jpg" alt="lightpollution"/>
            </div> 
           <p className='para'>
             <span style={{fontSize:"20px",fontWeight:"bold"}}>Causes and Consequences</span><br/>
@@ -79,8 +79,8 @@ const Home = () => {
             <span style={{fontWeight:"bold"}}>Economic Implications </span>: The unnecessary wastage of energy due to light pollution translates into a significant economic burden. By curbing light pollution, we can reduce energy consumption, lower costs, and redirect resources toward more sustainable and meaningful endeavors.
           </p>
           <div className='d-flex justify-content-center'>
-            <img className='medpich' src="" alt="circadian"/>
-            <img className='medpich' src="" alt="nocturnal"/>
+            <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685861010/Circular%20website/homeImage_bgo7at.jpg" alt="circadian"/>
+            <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859670/Circular%20website/nocturnal_xlx0v2.jpg" alt="nocturnal"/>
            </div> 
           <p className='para'>
             <span style={{fontSize:"20px",fontWeight:"bold"}}>Solutions</span><br/>
@@ -102,6 +102,10 @@ const Home = () => {
             Together, let us reclaim our dark skies, inspire scientific curiosity,<br/>
             and establish healthy and sustainable communities.
           </p>
+          <div className='d-flex justify-content-center'>
+            <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859867/Circular%20website/75587568_732265917278541_7891593705902047232_n_wpuigk.jpg" alt="together1"/>
+            <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859865/Circular%20website/326721101_3368144893464345_705687219525769447_n_vgsvfm.jpg" alt="together2"/>
+           </div> 
        </div>
       <div className='section2 p-3'>
         <div className='text-center'>
