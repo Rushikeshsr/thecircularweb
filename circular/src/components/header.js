@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/header.css'
-import logo from '../images/logo.png'
 import {Link} from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 import { FaCaretDown } from "react-icons/fa";
@@ -11,8 +10,10 @@ const Header = () => {
         <div className='row'>
             <nav className='col-12 nav-bar'>
                 <div className='logo-text'>
-                    <img className='logo' src={logo} alt="logo"/>
-                    <Link className='link' to="/home"><h1 className='main-head'>The Circular</h1></Link>
+                    <Link className='link d-flex' style={{alignItems:"center"}} to="/home">
+                        <img className='logo' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849377/Circular%20website/logo_l4dzvx.png" alt="logo"/>
+                        <h1 className='main-head'>The Circular</h1>
+                    </Link>
                 </div>
                 <ul className='list'>
                     <div className='dropdown'>

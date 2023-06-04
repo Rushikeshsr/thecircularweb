@@ -1,6 +1,5 @@
 import React,{useEffect} from 'react'
 import '../css/aboutus.css'
-import AbhayCSwb from '../images/AbhayCSwb.png'
 import Aos from 'aos'
 import {Link} from 'react-router-dom';
 import 'react-image-gallery/styles/css/image-gallery.css';
@@ -38,7 +37,7 @@ const AboutUs = () => {
             <hr className='line' style={{width:"200px",borderColor:"aliceblue"}}/>
         </div>
         <div style={{paddingLeft:"60px",paddingRight:"60px"}}> 
-            <img data-aos="flip-left" src={AbhayCSwb} className='co-logo' alt="Abhay"/>     
+            <img data-aos="flip-left" src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849361/Circular%20website/AbhayCSwb_bfwjla.png" className='co-logo' alt="Abhay"/>     
         </div>
         <p className='para'>
         My Dear Co-existing Peeps,

@@ -1,15 +1,7 @@
 import React,{useState, useEffect} from 'react'
 import '../css/health.css'
-import health1 from '../images/health1.jpg'
-import health2 from '../images/health2.jpg'
-import health3 from '../images/health3.jpg'
-import health4 from '../images/health4.jpg';
-import health5 from '../images/health5.jpg';
-import aishwaryak from '../images/aishwaryak.jpg';
 import { FaAngleDoubleDown, FaAngleDoubleUp } from "react-icons/fa";
 import M_D_Surv_Abhay_DESC from '../images/audio/M_D_Surv_Abhay_DESC.mp3';
-import abhay from '../images/abhay.jpg';
-import story8 from '../images/story8.jpg';
 import Aos from 'aos';
 
 const Health = () => {
@@ -51,19 +43,19 @@ const Health = () => {
         <div className='sec2 p-5'>
             <h1 className='text-head mb-2'>The Circular at Primary Health Centers in Rural Telangana.</h1>
             <div className='images-tag mb-4'>
-                <img data-aos="fade-left" data-aos-delay="200" className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src={health1} alt="health1" />
-                <img data-aos="fade-right" data-aos-delay="200" className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src={health3} alt="health1" />
+                <img data-aos="fade-left" data-aos-delay="200" className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849373/Circular%20website/health1_fxx78m.jpg" alt="health1" />
+                <img data-aos="fade-right" data-aos-delay="200" className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849373/Circular%20website/health3_n67n03.jpg" alt="health1" />
             </div>
             <div className='d-flex justify-content-center mb-3'>
-                <img data-aos="fade-down" data-aos-delay="200" className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src={health2} alt="health1" />
+                <img data-aos="fade-down" data-aos-delay="200" className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849372/Circular%20website/health2_zwp9nn.jpg" alt="health1" />
             </div>
             <h1 className='text-head mb-2'>Awareness Campaigns</h1>
             <p className='paragraph'>We've  organized multiple awareness campaigns to make sure that healthcare is accessible across all the regions irrespective of their locality.</p>
             <div className='d-flex justify-content-start'>
-                <img data-aos="fade-left" data-aos-delay="200" className='col-12 big-image' style={{boxShadow:"none",marginLeft:"25px"}} src={health4} alt="health4" />
+                <img data-aos="fade-left" data-aos-delay="200" className='col-12 big-image' style={{boxShadow:"none",marginLeft:"25px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849377/Circular%20website/health4_apuo8b.jpg" alt="health4" />
             </div>
             <div className='d-flex justify-content-end'>
-            <img data-aos="fade-right" data-aos-delay="200" className='col-12 big-image' style={{boxShadow:"none",marginRight:"25px"}} src={health5} alt="health5" />
+            <img data-aos="fade-right" data-aos-delay="200" className='col-12 big-image' style={{boxShadow:"none",marginRight:"25px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849376/Circular%20website/health5_vuvaiy.jpg" alt="health5" />
             </div>
             
 
@@ -71,7 +63,7 @@ const Health = () => {
         <div id="aishwaryak" name="aishwaryak" className='section3 p-5'>
             <div className='image-text'>
                 <div data-aos="flip-right" data-aos-delay="200" className='col-6 box-image'>
-                    <img className='person' src={aishwaryak} alt="aishwaryak"/>
+                    <img className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849362/Circular%20website/aishwaryak_vtp2qg.jpg" alt="aishwaryak"/>
                     <p>Aishwarya Karnataki</p>
                 </div>
                 <p className='col-6 image-para'>
@@ -93,7 +85,7 @@ const Health = () => {
             <p className='audio-head'>A snippet from the Global Body Meeting at DESC where Mr. Abhay Chakra Sadineni has initiated a nationwide Medical/Disease Surveillance Project !!</p>          
             <div data-aos="slide-right" data-aos-delay="200" className='d-flex justify-content-center'>
                 <div className='audio-tag'>
-                    <img className='small-image' src={abhay} alt="abhay"/>
+                    <img className='small-image' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849361/Circular%20website/abhay_zmzwiq.jpg" alt="abhay"/>
                     <audio src={M_D_Surv_Abhay_DESC} controls/>     
                 </div>
             </div>
@@ -101,7 +93,7 @@ const Health = () => {
         </div>
         <div className='section3 d-flex justify-content-center p-5'>
             <div id="story8" name="story8" data-aos="zoom-in" data-aos-delay="200" className='cardbox d-flex'>
-                <img className='image-card' src={story8} alt="Lakshmamma"/>
+                <img className='image-card' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849398/Circular%20website/story8_vggwax.jpg" alt="Lakshmamma"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Lakshmamma</h1>
                     <p className='image-para'>Lakshmamma, a senior citizen residing in rural Telangana, found herself struggling to access the government pension she was entitled to. She lacked the knowledge and understanding of the policies and benefits available to her. Living in ignorance, she was unable to avail the financial support she needed in her later years. Our dedicated team took the time to educate Lakshmamma about the pension schemes and resources available to her. Through personalized guidance and support, we empowered her to navigate the bureaucratic processes. Through community engagement programs and regular interactions, she found solace and a sense of belonging, knowing that she was not alone in her struggles. Lakshmamma found purpose and joy in cultivating organic produce. She not only gained access to her entitled benefits but also discovered a newfound sense of purpose and happiness. She became an active participant in her community, sharing her knowledge and experiences with others who were also seeking support. Lakshmamma's journey exemplifies the transformative power of empowerment and how even the smallest opportunities can create significant positive change in someone's life.</p>

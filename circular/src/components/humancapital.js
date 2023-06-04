@@ -1,9 +1,4 @@
 import React, {useEffect} from 'react'
-import Education from '../images/Education.jpg';
-import Health from '../images/Health.jpg';
-import Skills from '../images/Skills.jpg';
-import Quality from '../images/Quality.jpg';
-import Transparency from '../images/Transparency.jpg'
 import { HashLink } from 'react-router-hash-link';
 import Aos from 'aos';
 
@@ -66,7 +61,7 @@ const HumanCapital = () => {
                         <HashLink smooth to='/humancapital/education#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200">
-                        <img className='pic' src={Education} alt="education"/>
+                        <img className='pic' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849364/Circular%20website/Education_dogxfc.jpg" alt="education"/>
                     </div>
                 </div>
             </div>
@@ -85,7 +80,7 @@ const HumanCapital = () => {
                         <HashLink smooth to='/humancapital/skills#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
-                        <img className='pic' src={Skills} alt="Skills"/>
+                        <img className='pic' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849394/Circular%20website/Skills_tffhzq.jpg" alt="Skills"/>
                     </div>
                 </div>
             </div>
@@ -104,7 +99,7 @@ const HumanCapital = () => {
                         <HashLink smooth to='/humancapital/health#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
-                        <img className='pic' src={Health} alt="Health"/>
+                        <img className='pic' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849369/Circular%20website/Health_o077rk.jpg" alt="Health"/>
                     </div>
                 </div>
             </div>
@@ -121,7 +116,7 @@ const HumanCapital = () => {
                         <HashLink smooth to='/humancapital/quality#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
-                        <img className='pic' src={Quality} alt="Quality"/>
+                        <img className='pic' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685881492/Circular%20website/quality/Quality_zpzf6e.jpg" alt="Quality"/>
                     </div>
                 </div>
             </div>
@@ -137,7 +132,7 @@ const HumanCapital = () => {
                         <HashLink smooth to='/humancapital/transparency#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
-                        <img className='pic' src={Transparency} alt="Hepatology"/>
+                        <img className='pic' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849395/Circular%20website/Transparency_bljpif.jpg" alt="Hepatology"/>
                     </div>
                 </div>
             </div>
