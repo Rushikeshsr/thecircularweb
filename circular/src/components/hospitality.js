@@ -1,6 +1,5 @@
 import React from 'react'
 import "../css/circulareconomy.css"
-import abidi from "../images/abidi.jpg"
 import ImageGallery from 'react-image-gallery';
 import { hospitalityGallery } from './hosipitalitygallery';
 import { hospitalityGallery2 } from './hosipitalitygallery2';
@@ -28,7 +27,7 @@ const Hospitality = () => {
                 At The Circular, our guests' well-being is our top priority. We have carefully designed our facilities to cater to the specific requirements of patients, ensuring comfort and accessibility. From well-appointed rooms equipped with medical-grade amenities to round-the-clock assistance from our compassionate staff, we strive to create a healing environment that goes beyond conventional hospitality.
             </p>
             <div className='text-center m-3'>
-                <img className='medpich' style={{height:"350px"}} src={abidi} alt='abidi'></img>
+                <img className='medpich' style={{height:"350px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849361/Circular%20website/abidi_pvrbnx.jpg"} alt='abidi'></img>
             </div>
             <p className='paragh'>
                 <span style={{fontSize:"20px",color:"#00ff0d"}}>Safe Hospitality Management (SHM)</span> &nbsp;

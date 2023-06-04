@@ -1,8 +1,5 @@
 import React,{useEffect} from 'react'
 import "../css/circulareconomy.css"
-import med1 from '../images/med1.jpg';
-import med2 from '../images/med2.jpg';
-import med3 from '../images/med3.jpg';
 import Aos from 'aos';
 
 const Medicine = () => {
@@ -44,10 +41,10 @@ const Medicine = () => {
         <div className='p-5'>    
             <div className="image-container mb-4">
                 <div className='d-flex flex-column'>
-                    <img data-aos="fade-up" data-aos-delay="100" className='medpich' src={med1} alt="cir1"/>
-                    <img data-aos="fade-down" data-aos-delay="100" className='medpich' src={med3} alt="cir3"/>
+                    <img data-aos="fade-up" data-aos-delay="100" className='medpich' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849380/Circular%20website/med1_lpovmx.jpg"} alt="cir1"/>
+                    <img data-aos="fade-down" data-aos-delay="100" className='medpich' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849381/Circular%20website/med3_bg0w4g.jpg"} alt="cir3"/>
                 </div>
-                <img data-aos="fade-right" data-aos-delay="100" className='medpicv' src={med2} alt="cir2"/>
+                <img data-aos="fade-right" data-aos-delay="100" className='medpicv' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849381/Circular%20website/med2_rm51ii.jpg"} alt="cir2"/>
             </div>
         </div>
     </>
