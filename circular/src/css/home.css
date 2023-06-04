@@ -103,37 +103,37 @@
     box-shadow: 2px 2px 20px #00ff0d;
 }
 .story1{
-    background-image: url('../images/1story.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849368/Circular%20website/1story_lab5zp.jpg');
 }
 .story2{
-    background-image: url('../images/2story.jpg')
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849358/Circular%20website/2story_vtwyud.jpg')
 }
 .story3{
-    background-image: url('../images/3story.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849359/Circular%20website/3story_abkdwy.jpg');
 }
 .story4{
-    background-image: url('../images/4story.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849359/Circular%20website/4story_amx8mg.jpg');
 }
 .story5{
-    background-image: url('../images/5story.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849359/Circular%20website/5story_lbpbfv.jpg');
 }
 .story6{
-    background-image: url('../images/6story.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849360/Circular%20website/6story_m2aaof.jpg');
 }
 .story7{
-    background-image: url('../images/7story.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849360/Circular%20website/7story_fglbbf.jpg');
 }
 .story8{
-    background-image: url('../images/story8.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849398/Circular%20website/story8_vggwax.jpg');
 }
 .story9{
-    background-image: url('../images/9story.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849361/Circular%20website/9story_shqotq.jpg');
 }
 .story10{
-    background-image: url('../images/10story.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849362/Circular%20website/10story_s7dfzs.jpg');
 }
 .story11{
-    background-image:url('../images/story11.jpg');
+    background-image:url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849396/Circular%20website/story11_hkzm6i.jpg');
 }
 .name{
     font-size: 20px;
