@@ -19,8 +19,7 @@ const Home = () => {
   },[]);
   return (
     <>
-    <div className='main'>
-      <div className='section1 col-12'> 
+      <div className='section1'> 
           <div className='overlay'></div>
           <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685849388/Circular%20website/homeVid_pbjtyk.mp4" loop autoPlay muted/>
           <div className='content d-flex flex-column justify-content-center'>
@@ -243,7 +242,6 @@ const Home = () => {
         </div>
         
       </div>
-    </div>
     </>
     
   )

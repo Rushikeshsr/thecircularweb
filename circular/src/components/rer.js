@@ -5,18 +5,27 @@ import "../css/circulareconomy.css"
 const Rer = () => {
   return (
     <>
-        <div className='cover-imageC p-5'>
-            <h1 className='cover-text' style={{color:"aliceblue", opacity:"0.9",textShadow:"2px 2px 20px black"}}>Renewable Energy Resources</h1>
+        <div className='section1 col-12'> 
+          <div className='overlay'></div>
+          <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685863855/Circular%20website/rer_cover_rgkm91.mp4" loop autoPlay muted/>
+          <div className='content d-flex flex-column justify-content-center'>
+            <p className='cover-text' style={{color:"aliceblue",opacity:"0.8", textShadow:"2px 2px 20px black"}}>
+            RENEWABLE ENERGY RESOURCES
+            </p>
+          </div>   
         </div>
         <div className='section2 p-5'>
             <p className='paragh'>
                 Renewable Energy Resources (RER) is a collaborative effort with multiple renewable energy providers. Our partnership with RER aims to accelerate the adoption of renewable energy solutions, reduce carbon emissions, and create a clean energy future. By promoting sustainable energy practices, we contribute to the global transition towards a greener and more sustainable world.
             </p>
-            <p className='paragh'>
+            <div className='paragh'>
+                <img className='persons' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858576/Circular%20website/rer%20images/ri4_xuwmfc.jpg" alt="Zubeida"/>
+                <p>
                 One of our significant collaborations in the renewable energy sector is with :
                 <span style={{"color":"#00ff0d",fontSize:'15px'}} > &nbsp;Divyang Solar Society</span> 
                 &nbsp; based in Sangareddy, Telangana. Led by Zubeida, a remarkable woman with a locomotor disability, the society was established under the guidance of Medak District Collector Ronald Rose. Their mission is to provide sustainable livelihood opportunities to physically handicapped individuals by training them in the manufacturing of solar mini lights.
-            </p>
+                </p>   
+            </div>
             <p className='paragh'>
                 The partnership between The Circular and Divyang Solar Society is driven by our shared vision of promoting renewable energy and social empowerment. Together, we aim to achieve the following goals.
             </p>
@@ -36,6 +45,13 @@ const Rer = () => {
                 Through our partnership with RER and collaborations like the one with Divyang Solar Society, we strive to create positive change by harnessing the potential of renewable energy. By promoting accessibility, empowering communities, and driving economic sustainability, we contribute to a more inclusive and sustainable future for all.
             </p>
                         
+        </div>
+        <div className='section3 p-5'>
+            <div className='text-center m-3'>
+                <img className='medpich' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858569/Circular%20website/rer%20images/ri2_xpafrb.jpg"} alt='cloudinery ci1'></img>
+                <img className='medpich' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858569/Circular%20website/rer%20images/ri3_krdq1q.jpg"} alt='cloudinery ci2'></img>
+                <img className='medpich' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858568/Circular%20website/rer%20images/ri1_nottjn.jpg"} alt='cloudinery ci4'></img>
+            </div>              
         </div>
     </>
   )
