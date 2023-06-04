@@ -1,6 +1,7 @@
 import React from 'react'
 import "../css/circulareconomy.css"
-
+import ImageGallery from 'react-image-gallery';
+import { smaeGallery } from './smaegallery';
 
 const Smae = () => {
   return (
@@ -30,13 +31,19 @@ const Smae = () => {
             <p className='paragh'>
                 Furthermore, The Circular and SMAE recognize the importance of research and development in advancing electric vehicle technology. Together, we are focused on improving battery efficiency, optimizing vehicle performance, and enhancing user experiences in electric go-karts. By pushing the boundaries of electric vehicle technology, we aim to contribute to the growth and acceptance of sustainable transportation solutions.
             </p>
-            <p className='paragh'>
+        </div>
+        <div className='p-5 '>
+            <div className="image-gallery-wrapper">
+                <ImageGallery autoPlay={true} showThumbnails={false} items={smaeGallery} />
+            </div>
+            <p className='para mt-5'>
                 Through joint initiatives, workshops, and mentorship programs, we will provide students with the guidance and support they need to excel in their educational and professional journeys. By connecting them with industry professionals and exposing them to real-world challenges, we empower students to make a tangible difference in the automotive and mechanical engineering sectors.
             </p>
-            <p className='paragh'>
+            <p className='para'>
                 We invite industry stakeholders, educational institutions, and enthusiasts to join us in this journey towards a greener and more sustainable future. Together, we can champion electric go-karts, inspire innovation, and shape the future of sustainable transportation. Let us work hand in hand to create a world where recreational activities and sustainability go hand in hand, where thrilling experiences are powered by clean and efficient electric vehicles.
             </p>
         </div>
+    
     </>
   )
 }

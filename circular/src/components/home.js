@@ -105,7 +105,7 @@ const Home = () => {
        </div>
       <div className='section2 p-3'>
         <div className='text-center'>
-         <h1 className='heading'>STORIES</h1>
+         <h1 className='heading'>PAST STORIES</h1>
          <hr className='line'/>
         </div>
         <div className='image-row'>

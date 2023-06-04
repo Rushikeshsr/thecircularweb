@@ -1,39 +1,31 @@
-import di1 from '../images/gallery/di1.jpg'
-import di2 from '../images/gallery/di2.jpg'
-import di3 from '../images/gallery/di3.jpg'
-import di4 from '../images/gallery/di4.jpg'
-import di5 from '../images/gallery/di5.jpg'
-import di6 from '../images/gallery/di6.jpg'
-import di7 from '../images/gallery/di7.jpg'
-
 export const descGallery = [
     {
-      original: di1,
-      thumbnail: di2,
+      original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849697/Circular%20website/desc%20gallery/di1_apd9o2.jpg",
+      thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849697/Circular%20website/desc%20gallery/di2_eqacup.jpg",
     },
     {
-      original: di2,
-      thumbnail: di3,
+      original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849697/Circular%20website/desc%20gallery/di2_eqacup.jpg",
+      thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849697/Circular%20website/desc%20gallery/di3_eolpq9.jpg",
     },
     {
-      original: di3,
-      thumbnail: di4,
+      original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849697/Circular%20website/desc%20gallery/di3_eolpq9.jpg",
+      thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849697/Circular%20website/desc%20gallery/di4_kwptkf.jpg",
     },
     {
-      original: di4,
-      thumbnail: di5,
+      original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849697/Circular%20website/desc%20gallery/di4_kwptkf.jpg",
+      thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849697/Circular%20website/desc%20gallery/di5_aoncqm.jpg",
     },
     {
-      original: di5,
-      thumbnail: di6,
+      original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849697/Circular%20website/desc%20gallery/di5_aoncqm.jpg",
+      thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849697/Circular%20website/desc%20gallery/di6_sl6fsp.jpg",
     },
     {
-        original: di6,
-        thumbnail: di7,
+        original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849697/Circular%20website/desc%20gallery/di6_sl6fsp.jpg",
+        thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849698/Circular%20website/desc%20gallery/di7_vfwplq.jpg",
     },
     {
-        original: di7,
-        thumbnail: di1,
+        original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849698/Circular%20website/desc%20gallery/di7_vfwplq.jpg",
+        thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849697/Circular%20website/desc%20gallery/di1_apd9o2.jpg",
     },
 
     

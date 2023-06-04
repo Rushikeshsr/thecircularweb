@@ -1,35 +1,27 @@
-import hi1 from '../images/gallery/hi1.jpg'
-import hi2 from '../images/gallery/hi2.jpg'
-import hi3 from '../images/gallery/hi3.jpg'
-import hi4 from '../images/gallery/hi4.jpg'
-import hi5 from '../images/gallery/hi5.jpg'
-import hi6 from '../images/gallery/hi6.jpg'
-
-
 export const hospitalityGallery = [
     {
-      original: hi1,
-      thumbnail: hi2,
+      original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849759/Circular%20website/hospitality%20galley/hi1_vrecqy.jpg",
+      thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849759/Circular%20website/hospitality%20galley/hi2_ltbopt.jpg",
     },
     {
-      original: hi2,
-      thumbnail: hi3,
+      original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849759/Circular%20website/hospitality%20galley/hi2_ltbopt.jpg",
+      thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849759/Circular%20website/hospitality%20galley/hi3_vpynb5.jpg",
     },
     {
-      original: hi3,
-      thumbnail: hi4,
+      original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849759/Circular%20website/hospitality%20galley/hi3_vpynb5.jpg",
+      thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849759/Circular%20website/hospitality%20galley/hi4_m9y2l2.jpg",
     },
     {
-      original: hi4,
-      thumbnail: hi5,
+      original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849759/Circular%20website/hospitality%20galley/hi4_m9y2l2.jpg",
+      thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849759/Circular%20website/hospitality%20galley/hi5_v5kg0b.jpg",
     },
     {
-      original: hi5,
-      thumbnail: hi6,
+      original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849759/Circular%20website/hospitality%20galley/hi5_v5kg0b.jpg",
+      thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849759/Circular%20website/hospitality%20galley/hi6_gymoa8.jpg",
     },
     {
-        original: hi6,
-        thumbnail: hi1,
+        original: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849759/Circular%20website/hospitality%20galley/hi6_gymoa8.jpg",
+        thumbnail: "https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849759/Circular%20website/hospitality%20galley/hi1_vrecqy.jpg",
     },
 
     

@@ -24,6 +24,14 @@ const Aranya = () => {
             <p className='paragh'>
                 Recognizing the importance of education and awareness, we have introduced Aranya's sustainable agriculture principles in schools and educational institutions. Through our fellowship program, we collaborate with teachers, students, and educational organizations to incorporate sustainability and environmental stewardship into the curriculum. By nurturing a generation that understands and values sustainable agriculture, we aim to create a future where sustainable practices are ingrained in society.
             </p>
+        </div>
+        <div className='section3 p-5'>
+            <div className='text-center m-3'>
+                <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856854/Circular%20website/caregood%20images/ci1_v3pbf6.jpg"} alt='cloudinery ci1'></img>
+                <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856849/Circular%20website/caregood%20images/ci2_xdvfc1.jpg"} alt='cloudinery ci2'></img>
+                <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856849/Circular%20website/caregood%20images/ci3_bnspzf.jpg"} alt='cloudinery ci3'></img>
+                <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856851/Circular%20website/caregood%20images/ci4_xlckvz.jpg"} alt='cloudinery ci4'></img>
+            </div>
             <p className='paragh'>
                 <span style={{"color":"#00ff0d",fontSize:'20px',textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}} >Fellowship for Tangible Results : Collaborating with Organizations for Impactful Change</span><br/> 
                 To create tangible and lasting results, we have established a fellowship program that brings together organizations working towards supporting sustainable agriculture practices. By collaborating with Aranya and other like-minded partners, we pool our expertise, resources, and networks to drive impactful change. Through this fellowship, we aim to implement scalable projects, develop innovative solutions, and influence policy to promote sustainable agriculture and empower communities.
