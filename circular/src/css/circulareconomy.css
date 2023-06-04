@@ -1,5 +1,5 @@
 .cover-imageC{
-    background-image: url('../images/Circulareconomy.png');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849363/Circular%20website/Circulareconomy_ul7vt5.png');
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -10,7 +10,7 @@
     align-items: center; 
 }
 .cover-imageN{
-    background-image: url('../images/Nature.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849388/Circular%20website/Nature_zgsy4z.jpg');
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -21,7 +21,7 @@
     align-items: center; 
 }
 .cover-imageM{
-    background-image: url('../images/medicine_cover_image.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849384/Circular%20website/medicine_cover_image_jfb4tp.jpg');
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -32,7 +32,7 @@
     align-items: center; 
 }
 .cover-imageH{
-    background-image: url('../images/hospitality_cover_image.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849376/Circular%20website/hospitality_cover_image_g0vplt.jpg');
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -43,7 +43,7 @@
     align-items: center; 
 }
 .cover-imageHe{
-    background-image: url('../images/hepatology_cover_image.png');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849375/Circular%20website/hepatology_cover_image_ujw1dj.png');
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -54,7 +54,7 @@
     align-items: center; 
 }
 .cover-imageG{
-    background-image: url('../images/gynaecology_cover_image.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849373/Circular%20website/gynaecology_cover_image_bzgscv.jpg');
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -65,7 +65,7 @@
     align-items: center; 
 }
 .cover-imageD{
-    background-image: url('../images/desc_cover.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849363/Circular%20website/desc_cover_dzga8g.jpg');
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -76,7 +76,7 @@
     align-items: center; 
 }
 .cover-imageS{
-    background-image: url('../images/smae_cover.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849394/Circular%20website/smae_cover_kthd54.jpg');
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -87,7 +87,7 @@
     align-items: center; 
 }
 .cover-imageCC{
-    background-image: url('../images/caregood_cover.jpg');
+    background-image: url('https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849362/Circular%20website/caregood_cover_khinmq.jpg');
     width: 100%;
     height: 60vh;
     background-size: cover;
