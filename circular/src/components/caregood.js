@@ -3,6 +3,7 @@ import "../css/circulareconomy.css"
 import { HashLink } from 'react-router-hash-link';
 
 const Caregood = () => {
+
   return (
     <>
         <div className='cover-imageCC p-5'>
@@ -62,7 +63,7 @@ const Caregood = () => {
                 <img className='medpich' style={{height:"320px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685856851/Circular%20website/caregood%20images/ci4_xlckvz.jpg"} alt='cloudinery ci4'></img>
             </div>
             <p className='para'>
-                <HashLink  smooth to="/contactus/#joinus" style={{fontSize:'20px', textDecoration:"none", "color":"#00ff0d"}} >Join Our Mission : Together, Let's Empower Senior Citizens</HashLink><br/> 
+                <HashLink  smooth to="/contactus/#joinus" style={{fontSize:'20px', textDecoration:"none", "color":"#00ff0d",textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}} >Join Our Mission : Together, Let's Empower Senior Citizens</HashLink><br/> 
                 The Circular and the CareGood Foundation invite you to join us in our mission to empower senior citizens through medicine drives and comprehensive healthcare initiatives. Your support can make a significant difference in the lives of older adults, ensuring they receive the care, dignity, and support they deserve. Whether you choose to contribute financially, volunteer your time, or spread awareness about our partnership and initiatives, your involvement is invaluable.
             </p>
             
