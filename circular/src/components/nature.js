@@ -1,10 +1,5 @@
 import React from 'react'
 import "../css/circulareconomy.css"
-import story6 from '../images/6story.jpg';
-import story7 from '../images/7story.jpg';
-import neAbhay1 from '../images/neAbhay1.jpg';
-import neAbhay3 from '../images/neAbhay3.jpg';
-import neAbhay4 from '../images/neAbhay4.jpg';
 
 const Nature = () => {
   return (
