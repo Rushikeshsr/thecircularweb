@@ -10,7 +10,7 @@ const Operations = () => {
         </p>
         <p className='para text-center' style={{fontSize:"20px",fontWeight:"bold"}}>OUR OPERATIONS TEAM</p>
         <div className='d-flex justify-content-center'>
-            <table className='w-50'>
+            <table className='para w-50'>
                 <tr>
                     <th>Name</th>
                     <th>ID</th>
