@@ -25,6 +25,12 @@ const HumanCapital = () => {
             In today's rapidly evolving world, where knowledge, skills, and innovation drive economies, the concept of human capital has gained paramount importance. The Circular recognizes the significance of human capital as a crucial vertical that shapes the sustainable development agenda. By focusing on the development, empowerment, and well-being of individuals, human capital becomes a catalyst for economic growth, social progress, and environmental sustainability.
         </p>
         <p data-aos="fade-left" data-aos-delay="200" className='paragh'>
+            We believe that investing in the development of human capital is essential to ensure the highest standards of quality and professionalism in the industry. Through our skilling initiatives, we strive to equip individuals with the necessary knowledge, technical expertise, and practical skills required to excel in their respective roles. By providing comprehensive training programs, workshops, and mentorship opportunities, we empower workers to enhance their capabilities, fostering a culture of continuous learning and growth.
+        </p>
+        <p data-aos="fade-right" data-aos-delay="200" className='paragh'>
+            Transparency and accountability are key pillars of a thriving workforce. We recognize the need for a robust system that promotes fair practices, ethical conduct, and adherence to industry standards. To address this, we have implemented stringent quality control measures and monitoring mechanisms to ensure that contractors and workers uphold the highest levels of professionalism, integrity, and safety. By establishing clear guidelines, performance metrics, and assessment frameworks, we create an environment that promotes trust, fairness, and transparency in all aspects of contract work.
+        </p>
+        <p data-aos="fade-left" data-aos-delay="200" className='paragh'>
             The Circular's Human Capital vertical was initiated to address the skills gap and establish equity in employment opportunities. As the number of new companies increased, unethical business practices and fraud in hiring became prevalent, leading to detrimental effects on students. Moreover, there were concerns about unethical corporate governance. To tackle these challenges, The Circular introduced the co-hiring model for local businesses.
         </p>
         <p data-aos="fade-right" data-aos-delay="200" className='paragh'>
