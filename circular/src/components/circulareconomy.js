@@ -32,10 +32,19 @@ const CircularEconomy = () => {
                 <img data-aos="flip-down" data-aos-delay="100" className='cimpic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849391/Circular%20website/rishi_2_vcw08t.jpg"} alt="rishi_2"/>
                 <img data-aos="flip-left" data-aos-delay="100" className='cimpic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849393/Circular%20website/rishi_6_mw4qee.jpg"} alt="rishi_6"/>
             </div>
-            <div className="image-container">
+            <div className="image-container mb-4">
                 <img data-aos="flip-right" data-aos-delay="200" className='cimpic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849392/Circular%20website/rishi_4_mq51eu.jpg"} alt="rishi_4"/>
                 <img data-aos="flip-up" data-aos-delay="200" className='cimpic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849394/Circular%20website/rishi_5_enw3b8.jpg"} alt="rishi_5"/>
                 <img data-aos="flip-left" data-aos-delay="200" className='cimpic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849393/Circular%20website/rishi_3_m94gkh.jpg"} alt="rishi_3"/>
+            </div>
+            <div className='image-container mb-4'>
+                <img data-aos="flip-right" data-aos-delay="200" className='medpich' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1686021928/Circular%20website/cirpaper_fao2ra.jpg"} alt="paperbag"/>
+                <img data-aos="flip-right" data-aos-delay="200" className='medpich' style={{width:"300px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1686022328/Circular%20website/cirpaperbag_nugdjm.jpg"} alt="paperbag"/>
+            </div>
+            <div className='paragh text-center'>
+                <video width="700px" height="500px" autoPlay={true} controls>
+                    <source src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1686021947/Circular%20website/cirvideo_monbmb.mp4" type='video/mp4'/>
+                </video> 
             </div>
         </div>
         <div className='p-5'>    
