@@ -4,6 +4,7 @@ import { fieldGallery } from './fieldgallery';
 import { fieldGallerybio } from './fieldgallerybio';
 import { fieldGalleryid } from './fieldgalleryid';
 import { fieldGallerypharma } from './fieldgallerypharma';
+import { fieldGalleryscl } from './fieldgalleryscl';
 
 const Fieldtrips = () => {
   return (
@@ -20,15 +21,22 @@ const Fieldtrips = () => {
         </div>
         <p className='para text-center'>Journey through the Chambal valley</p>
         <h2 className='main-heading text-center mt-4' style={{fontSize:"20px", fontWeight:"bold"}}>Exploring the Nature</h2>
-        <div className='para text-center'>
+        <div className='para text-center mb-4'>
             <video width="700px" height="420px" muted autoPlay={true} controls>
                 <source src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1686036480/Circular%20website/fieldtrip%20gallery/aranya_vid_xm2dx9.mp4" type='video/mp4'/>
             </video> 
             <p>Travelling amid the Teak Forest</p>
         </div>
-        <div className="image-gallery-wrapper">
+        <div className="image-gallery-wrapper mb-5">
             <ImageGallery autoPlay={true} showThumbnails={false} items={fieldGallery} />
+            <p className='para text-center'>Travelling amid the Teak Forest</p>
         </div>
+        
+        <div className="image-gallery-wrapper mb-5">
+            <ImageGallery autoPlay={true} showThumbnails={false} items={fieldGalleryscl} />
+            <p className='para text-center'>At Schools, Farms, and Science Centers</p>
+        </div>
+
         <h2 className='main-heading text-center mt-5' style={{fontSize:"25px", fontWeight:"bold"}}>Events and Conferences</h2>
         <div className='para text-center mb-5'>
             <video width="700px" height="420px" muted autoPlay={true} controls>
@@ -40,23 +48,21 @@ const Fieldtrips = () => {
         <div className='para text-center mb-5'>
             <div className="image-gallery-wrapper">
                 <ImageGallery autoPlay={true} showThumbnails={false} items={fieldGallerybio} />
+                <p className='mt-3'>At BioAsia 2023 Summit </p>
             </div>
-            <p className='mt-3'>At BioAsia 2023 Summit </p>
+            
         </div>
         <div className='para text-center mb-5'>
             <div className="image-gallery-wrapper">
                 <ImageGallery autoPlay={true} showThumbnails={false} items={fieldGalleryid} />
+                <p className='mt-3'>iDAC Conference and Expo 2022</p>
             </div>
-            <p className='mt-3'>iDAC Conference and Expo 2022</p>
-        </div>
-        <div>
-
         </div>
         <div className='para text-center mb-5'>
             <div className="image-gallery-wrapper">
                 <ImageGallery autoPlay={true} showThumbnails={false} items={fieldGallerypharma} />
+                <p className='mt-3'>At Pharmalytica Conference and Expo 2023</p>
             </div>
-            <p className='mt-3'>At Pharmalytica Conferrence and Expo 2023</p>
         </div>
 
     
