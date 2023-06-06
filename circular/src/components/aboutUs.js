@@ -12,7 +12,7 @@ const AboutUs = () => {
     <>
     <div className='p-5'>
         <div className='text-center'>
-         <h1 className='heading' style={{color:"black"}}>ABOUT</h1>
+         <h1 className='heading' style={{color:"black"}}>ABOUT US</h1>
          <hr className='line' style={{width:"80px"}}/>
         </div>
         <p className='para'>
