@@ -16,8 +16,12 @@ const Footer = () => {
                 <div style={{marginRight:"25px"}}>
                     <a id="res" href={instaLink} target="_blank" rel="noreferrer"><FaInstagram style={{marginRight:"10px",fontSize:'20px'}}/></a>
                     <a id="res" href={linkedIn} target="_blank" rel="noreferrer"><FaLinkedinIn style={{fontSize:'20px'}}/></a> <br/><br/>
-                    <p id="res" style={{fontSize:"15px"}}>Resources</p> 
-                    <p id="res" style={{fontSize:"15px"}}> News</p>
+                    <a href='/aboutus/impact' target='_blank' id="res" className='news' rel="noreferrer">
+                       <p>Resources</p> 
+                    </a> 
+                    <a href='https://descworld.org/tidings/' target='_blank' id="res" className='news' rel="noreferrer">
+                        <p> News</p>
+                    </a>
                 </div>
                 
             </div>

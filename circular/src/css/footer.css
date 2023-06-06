@@ -16,3 +16,8 @@
     transition: 0.5s;
 }
 
+.news{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 15px;
+}

@@ -1,0 +1,22 @@
+.lbox-image{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profile{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.lperson{
+    width: 220px;
+    height: 220px;
+    border-radius: 50% ;
+    margin-bottom: 15px;
+}
+.lpara{
+    font-size: 20px;
+    font-family: 'montserrat';
+    margin-top:12px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
