@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../css/operations.css'
 const Operations = () => {
   return (
     <>
@@ -8,7 +8,7 @@ const Operations = () => {
         <p className='para'>
         Operations and Implementation play a vital role in translating ideas and strategies into tangible outcomes and real-world impact. They are the driving force behind turning our vision into reality.
         </p>
-        <p className='para'>Our Operations Team</p>
+        <p className='para text-center' style={{fontSize:"20px",fontWeight:"bold"}}>OUR OPERATIONS TEAM</p>
         <div className='d-flex justify-content-center'>
             <table className='w-50'>
                 <tr>
