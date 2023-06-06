@@ -42,6 +42,26 @@ const Skills = () => {
                 <img className='medpich' style={{height:"420px",width:"420px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685877405/Circular%20website/skills/sk8_piq7sg.jpg"} alt='cloudinery sk2'></img>
             </div>
         </div> 
+        <div className='section4 p-5'>
+            <div id="neelmani" name="jneelmani" data-aos="zoom-in"  className='cardbox d-flex mb-5' style={{height:"410px",boxShadow:"2px 2px 10px black"}}>
+                <img className='image-card' style={{height:"410px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849368/Circular%20website/1story_lab5zp.jpg"} alt="Neelmani"/>
+                <div className='textbox'>
+                    <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Neelmani</h1>
+                    <p className='image-para'>
+                      Neelmani's journey began when he left his hometown in Odisha, driven by the desire to find better opportunities and support his family. With limited resources and a resilient spirit, he set foot in the bustling city, ready to carve a path of his own. As Neelmani delved into the construction industry, he realized the significance of sustainability in shaping a more environmentally conscious future. Inspired by this vision, he made a conscious choice to adopt sustainable practices in his work, seeking opportunities that aligned with his values. He went beyond his own work and actively advocated for eco-friendly practices in the construction projects he was involved in. As Neelmani immersed himself in the world of underground sewage management systems, he became deeply passionate about incorporating sustainable practices into his work. Recognizing the importance of minimizing environmental impact and optimizing resource utilization, he actively sought out projects that aligned with his values. With unwavering determination, he spearheaded efforts to implement eco-friendly construction techniques, advocating for the adoption of sustainable materials, efficient water management systems, and responsible waste disposal practices. Through his dedication and persuasive efforts, he encouraged fellow workers and contractors to embrace sustainable construction methods. While Neelmani pursued his passion for sustainable construction, he also fulfilled his responsibilities toward his family. The income he earned from his work not only supported his own needs but also played a crucial role in ensuring the well-being and education of his loved ones back in Odisha.
+                    </p>
+                </div>
+            </div>
+            <div id="jamuna" name="jamuna" data-aos="zoom-in"  className='cardbox d-flex' style={{boxShadow:"2px 2px 10px black"}}>
+                <img className='image-card' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849359/Circular%20website/5story_lbpbfv.jpg"} alt="Jamuna"/>
+                <div className='textbox'>
+                    <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Jamuna</h1>
+                    <p className='image-para'>
+                    Jamuna faced significant challenges in her life, including societal barriers and limited access to opportunities. However, she never let these obstacles define her. Understanding the immense potential of women in the construction industry, we encouraged Jamuna to explore opportunities within this sector. By joining the construction workforce, Jamuna not only found economic stability but also became an agent of positive change within her community. The impact of Jamuna's work extends far beyond the physical structures she helps to create. Her involvement in constructing underground water systems has brought about a tangible difference in the lives of individuals and communities. By ensuring a reliable water supply, Jamuna has played a vital role in fostering public health, promoting agricultural productivity, and mitigating the impact of water scarcity. Her contributions are not only visible in the structures she helps build but also in the sense of pride and accomplishment she gains from making a tangible impact on her surroundings.
+                    </p>
+                </div>
+            </div>
+        </div>
     </>
     
   )
