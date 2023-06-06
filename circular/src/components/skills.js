@@ -42,8 +42,8 @@ const Skills = () => {
                 <img className='medpich' style={{height:"420px",width:"420px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685877405/Circular%20website/skills/sk8_piq7sg.jpg"} alt='cloudinery sk2'></img>
             </div>
         </div> 
-        <div className='section4 p-5'>
-            <div id="neelmani" name="jneelmani" data-aos="zoom-in"  className='cardbox d-flex mb-5' style={{height:"410px",boxShadow:"2px 2px 10px black"}}>
+        <div id="neelmani" name="neelmani" className='section4 p-5'>
+            <div data-aos="zoom-in"  className='cardbox d-flex' style={{height:"410px",boxShadow:"2px 2px 10px black"}}>
                 <img className='image-card' style={{height:"410px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849368/Circular%20website/1story_lab5zp.jpg"} alt="Neelmani"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Neelmani</h1>
@@ -52,7 +52,9 @@ const Skills = () => {
                     </p>
                 </div>
             </div>
-            <div id="jamuna" name="jamuna" data-aos="zoom-in"  className='cardbox d-flex' style={{boxShadow:"2px 2px 10px black"}}>
+        </div>
+        <div id="jamuna" name="jamuna" className='section4 p-5'>    
+            <div data-aos="zoom-in"  className='cardbox d-flex' style={{boxShadow:"2px 2px 10px black"}}>
                 <img className='image-card' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849359/Circular%20website/5story_lbpbfv.jpg"} alt="Jamuna"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Jamuna</h1>

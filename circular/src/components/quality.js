@@ -87,36 +87,44 @@ const Quality = () => {
                 </video>
             </div>
         </div>
-        <div className='section3 p-5'>
-            <div id="chetan" name="chetan" data-aos="zoom-in" data-aos-delay="100" style={{height:"320px"}} className='cardbox d-flex mb-5'>
+        <div id="chetan" name="chetan" className='section3 p-5'>
+            <div data-aos="zoom-in" data-aos-delay="100" style={{height:"320px"}} className='cardbox d-flex'>
                 <img style={{height:"320px"}} className='image-card' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849358/Circular%20website/2story_vtwyud.jpg" alt="Chetan"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Chetan</h1>
                     <p className='image-para'>Born into a family facing financial struggles, Chetan understood the importance of hard work from an early age. With limited opportunities in his village, Chetan embarked on a journey to the city, driven by the desire to support his family and create a better life for them. In the city, Chetan discovered employment opportunities in the brick-making industry. Despite the challenges and physically demanding nature of the work, he embraced his role with determination and a strong work ethic. His hard work and dedication paid off as he steadily progressed in the brick-making company. With each passing day, he acquired valuable skills and knowledge in the field. With his newfound stability, Chetan took it upon himself to support his family back home. He ensured that his loved ones had access to basic necessities, including food, shelter, and education. Chetan's unwavering determination and sacrifices not only improved his family's quality of life but also inspired hope and resilience in his community. His impact extended beyond his own family. He actively participated in community initiatives aimed at uplifting those in need. Whether it was volunteering his time to help construct homes for the underprivileged or organizing skill development workshops for aspiring brickmakers, Chetan became a catalyst for positive change within his community.</p>
                 </div>
             </div>
-           <div id="sujana" name="sujana" data-aos="zoom-in" data-aos-delay="100" className='cardbox d-flex mb-5'>
+        </div>
+        <div id="sujana" name="sujana" className='section3 p-5'>     
+           <div data-aos="zoom-in" data-aos-delay="100" className='cardbox d-flex'>
                 <img className='image-card' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849359/Circular%20website/3story_abkdwy.jpg" alt="Sujana"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Sujana</h1>
                     <p className='image-para'>We believe in empowering individuals and creating pathways to uplift marginalized communities, and Sujana's journey is a testament to the transformative power of employment and skills utilization. Sujana, like many others, faced the harsh reality of homelessness and the challenges that come with it. Struggling to find work and support herself, she longed for an opportunity to change her circumstances and regain her sense of self-worth. With a deep understanding of the challenges faced by marginalized communities, we collaborated with local partners and businesses to provide meaningful employment opportunities for individuals like Sujana. Recognizing the unique challenges faced by marginalized communities, we collaborated with local partners and businesses to create avenues for meaningful employment. Sujana's skills and potential led us to an innovative solution – working on irrigation related projects. With her newfound employment, Sujana embraced a role that went beyond personal transformation. She became an integral part of projects that aimed to enhance agricultural practices and ensure efficient water management.. This not only offered her a chance to earn a livelihood but also enabled her to contribute to the community and live with dignity.</p>
                 </div>
             </div>
-            <div id="padmini" name="padmini" data-aos="zoom-in" data-aos-delay="100" className='cardbox d-flex mb-5'>
+        </div>
+        <div id="padmini" name="padmini" className='section3 p-5'>    
+            <div data-aos="zoom-in" data-aos-delay="100" className='cardbox d-flex'>
                 <img className='image-card' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849359/Circular%20website/4story_amx8mg.jpg" alt="Padmini"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Padmini</h1>
                     <p className='image-para'>Padmini, like many others, faced the challenge of being socially awkward, which often resulted in limited opportunities for personal and professional growth. In collaboration with our partners, we identified suitable roles for Padmini in the industrial workforce where she could utilize her skills effectively. Recognizing the importance of nurturing self-confidence, we supported Padmini throughout her journey. We provided her with the tools and resources needed to build her confidence, develop her communication skills, and overcome social barriers.Within our inclusive and supportive work environment, Padmini found the space to flourish and grow. With each passing day, her confidence blossomed, and her abilities shone through. She thrived in the challenging world of road construction projects, showcasing her expertise and making significant contributions to the development and improvement of transportation infrastructure. By fostering an inclusive and supportive work environment, we enabled her to gain the confidence necessary to excel in her chosen field. Padmini's story is a powerful reminder of the impact that inclusivity and equal opportunities can have on individuals and communities.</p>
                 </div>
             </div>
-            <div id="yadamma" name="yadamma" data-aos="zoom-in" data-aos-delay="100" className='cardbox d-flex mb-5'>
+        </div>
+        <div id="yadamma" name="yadamma" className='section3 p-5'>    
+            <div  data-aos="zoom-in" data-aos-delay="100" className='cardbox d-flex'>
                 <img className='image-card' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849360/Circular%20website/7story_fglbbf.jpg" alt="Yadamma"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Yadamma</h1>
                     <p className='image-para'>Yadamma, faced with financial challenges and a strong desire to support her son's educational aspirations, embarked on a journey of resilience and determination. She sought opportunities that would not only provide her with a livelihood but also enable her to create a better future for her family. In her pursuit of sustainable and meaningful livelihood options, Yadamma discovered the world of natural farming. Intrigued by its environmentally friendly practices and the potential for financial stability, she saw an opportunity to combine her passion for agriculture with her desire to support her son's educational dreams. With great dedication, she nurtured the land, grew organic crops, and adopted eco-friendly pest and disease management practices. Her dedication to natural farming not only brought her financial stability but also provided her with the means to support her son's education. With her consistent income from the farm, she could ensure that her son received the necessary educational opportunities to pursue his dreams.</p>
                 </div>
             </div>
-            <div id="anitha" name="anitha" data-aos="zoom-in" data-aos-delay="100" style={{height:"340px"}} className='cardbox d-flex mb-5'>
+        </div>
+        <div id="anitha" name="anitha" className='section3 p-5'>    
+            <div  data-aos="zoom-in" data-aos-delay="100" style={{height:"340px"}} className='cardbox d-flex'>
                 <img style={{height:"340px"}} className='image-card' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686051641/Circular%20website/10story_anitha_lstekn.jpg" alt="Anitha"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Anitha</h1>
@@ -124,9 +132,7 @@ const Quality = () => {
                 </div>
             </div>
         </div>
-
-    </>
-    
+    </> 
   )
 }
 

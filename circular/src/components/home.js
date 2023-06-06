@@ -105,31 +105,41 @@ const Home = () => {
         </div>
         <div className='image-row'>
           <div className='col-4 d-flex justify-content-center'>
-            <div className='card image story1'>
-              <h2 className='name'>Neelmani</h2>
-            </div>
+            <HashLink smooth style={{textDecoration:"none"}} name="neelmani" to='/humancapital/skills#neelmani'>
+              <div className='card image story1'>
+                <h2 className='name'>Neelmani</h2>
+              </div>
+            </HashLink>  
           </div>
           <div className='col-4 d-flex justify-content-center'>
-            <div className='card image story2'>
-              <h2 className='name'>Chetan</h2>
-            </div>
+            <HashLink smooth style={{textDecoration:"none"}} name="chetan" to='/humancapital/quality#chetan'>
+              <div className='card image story2'>
+                <h2 className='name'>Chetan</h2>
+              </div>
+            </HashLink>
           </div>
           <div className='col-4 d-flex justify-content-center'>
-            <div className='card image story3'>
-              <h2 className='name'>Sujana</h2>
-            </div>
+            <HashLink smooth style={{textDecoration:"none"}} name="sujana" to='/humancapital/quality#sujana'>
+              <div className='card image story3'>
+                <h2 className='name'>Sujana</h2>
+              </div>
+            </HashLink>  
           </div>
         </div>
         <div className='image-row'>
           <div className='col-4 d-flex justify-content-center'>
-            <div className='card image story4'>
-              <h2 className='name'>Padmini</h2>
-            </div>
+            <HashLink smooth style={{textDecoration:"none"}} name="padmini" to='/humancapital/quality#padmini'>
+              <div className='card image story4'>
+                <h2 className='name'>Padmini</h2>
+              </div>
+            </HashLink> 
           </div>
           <div className='col-4 d-flex justify-content-center'>
-            <div className='card image story5'>
-              <h2 className='name'>Jamuna</h2>
-            </div>
+            <HashLink smooth style={{textDecoration:"none"}} name="jamuna" to='/humancapital/skills#jamuna'>
+              <div className='card image story5'>
+                <h2 className='name'>Jamuna</h2>
+              </div>
+            </HashLink> 
           </div>
           <div className='col-4 d-flex justify-content-center'>
             <HashLink smooth style={{textDecoration:"none"}} name="story6" to='/focus/nature#story6'>
@@ -149,26 +159,30 @@ const Home = () => {
             </HashLink>
           </div>
           <div className='col-4 d-flex justify-content-center'>
-            <HashLink smooth style={{textDecoration:"none"}} name="story8" to='/humancapital/health#story8'>
+            <HashLink smooth style={{textDecoration:"none"}} name="lakshmamma" to='/humancapital/health#lakshmamma'>
               <div className='card image story8'>
                 <h2 className='name'>Lakshmamma</h2>
               </div>
             </HashLink>
           </div>
           <div className='col-4 d-flex justify-content-center'>
+          <HashLink smooth style={{textDecoration:"none"}} name="yadamma" to='/humancapital/quality#yadamma'>
             <div className='card image story9'>
               <h2 className='name'>Yadamma</h2>
             </div>
+            </HashLink>
           </div>
 
         </div>
-        <div className='image-row'>
-          <div className='col-8 d-flex justify-content-center'>
-              <div className='image2 story10'>
-                <h2 className='name'>Anitha</h2>
-              </div>
-            </div>
-        </div>
+        <HashLink smooth style={{textDecoration:"none"}} name="anitha" to='/humancapital/quality#anitha'>
+          <div className='image-row'>
+            <div className='col-8 d-flex justify-content-center'>
+                <div className='image2 story10'>
+                  <h2 className='name'>Anitha</h2>
+                </div>
+            </div> 
+          </div>
+        </HashLink> 
       </div>
       <div className='section3 p-4'>
         <h2 data-aos="fade-right" className='sec3-head '>Triumphing over Challenges</h2>
