@@ -61,7 +61,7 @@ const Transparency = () => {
         <div id="sridhar" name="sridhar" className='section3 p-5'>
             <div className='image-text'>
                 <div className='col-6 box-image'>
-                    <img className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849394/Circular%20website/sridharp_asyeye.jpg" alt="sridhar"/>
+                    <img data-aos="flip-left" className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849394/Circular%20website/sridharp_asyeye.jpg" alt="sridhar"/>
                     <p>Sridhar Pabbisetty</p>
                 </div>
                 <p className='col-6 image-para'>

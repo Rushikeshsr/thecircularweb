@@ -1,7 +1,24 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react';
+import { FaAngleDoubleDown, FaAngleDoubleUp } from "react-icons/fa";
 import "../css/circulareconomy.css"
+import Aos from 'aos'
 
 const Nature = () => {
+    const [show,setShow]=useState(false);
+    const [showBtn,setBtn]=useState(true);
+    const showContent=()=>{
+        setShow(true)
+        setBtn(false)
+    }
+    const hideContent=()=>{
+        setShow(false)
+        setBtn(true)
+    }
+
+    useEffect(()=>{
+        Aos.init({duration:1000, easing:"ease-in"})
+    },[])
+
   return (
     <>
         <div className='cover-imageN p-5'>
@@ -49,6 +66,29 @@ const Nature = () => {
                     <source src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685871769/Circular%20website/duet_video_xtcgdb.mp4" type='video/mp4'/>
                 </video> 
             </div>
+        </div>
+        <div id="vasudev" name="vasudev" className='section3 p-5'>
+            <div className='image-text'>
+                <div className='col-6 box-image'>
+                    <img data-aos="flip-left" className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849395/Circular%20website/vasudevv_sodpzp.jpg" alt="vasudev"/>
+                    <p>Vasudev Vangara</p>
+                </div>
+                <p className='col-6 image-para'>
+                Vasudev Vangara is a passionate individual dedicated to making a positive impact on the environment and society. Currently, he holds the position of Head at Viswambhara Eco Services LLP, an organization committed to building soil health, conserving water, and promoting tree plantation for the betterment of all life forms.
+                    {showBtn?<button onClick={showContent} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
+                    <button onClick={hideContent} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
+                </p>  
+            </div>
+            <div className='col-12 image-text'>
+                {show?<p data-aos="fade-down" className='image-para'>One of Vasudev's notable projects is "Premaculture," which embodies a profound love for nature and follows permaculture principles. Through this initiative, he aims to establish a deep and lasting connection with nature while fostering sustainability and ecological balance.
+                Additionally, Vasudev is actively involved in several other projects, including "The Water Bank Project" and "The Veggie Civilization." These projects focus on promoting water conservation and creating backyards, lawns, and terrace kitchen gardens to encourage sustainable living practices.<br/><br/>
+                Prior to his current role, Vasudev served as the Head of Implementation at Creya Learning & Research, where he inspired and guided thousands of students to innovate through STEM (Science, Technology, Engineering, and Mathematics) and design thinking methodologies. His work at Creya played a pivotal role in nurturing the creative thinking and problem-solving skills of the younger generation.<br/><br/>
+                Vasudev has also made significant contributions in the non-profit sector. During his tenure at The Akshaya Patra Foundation and Samhita Social Ventures, he played a crucial role in forging strong corporate partnerships and implementing CSR (Corporate Social Responsibility) projects. His expertise and dedication helped create sustainable and impactful initiatives within these organizations.<br/><br/>
+                Furthermore, Vasudev's commitment to education and social upliftment led him to serve as a Teach For India fellow, where he had the privilege of teaching and guiding a group of exceptional children. His experience as an educator allowed him to make a meaningful difference in the lives of young learners. Currently, he's working as Senior Venture coach at GITAM University.<br/><br/>
+                Vasudev's extensive involvement in various initiatives and organizations highlights his multifaceted approach towards addressing environmental, educational, and social challenges. With his diverse background, entrepreneurial spirit, and unwavering commitment to sustainable practices, Vasudev Vangara is making a significant contribution towards creating a better and more inclusive world.
+                
+                </p>:null}
+            </div>  
         </div>
         <div id="story6" name="story6" className='section2 d-flex justify-content-center p-5'>
             <div data-aos="zoom-in" className='cardbox d-flex' style={{boxShadow:"2px 2px 10px aliceblue"}}>
