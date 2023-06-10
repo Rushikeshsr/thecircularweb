@@ -198,10 +198,12 @@ const Home = () => {
               <p style={{color:"black"}}>Sridhar Pabbisetty</p>
             </div>
           </HashLink>
-          <div className='col-4 image-box'>
-            <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849389/Circular%20website/ripal_h77oin.jpg"} alt="ripal"/>
-            <p style={{color:"black"}}>Ripal Desai</p>
-          </div>
+          <HashLink to="/humancapital/education#ripal" style={{textDecoration:"none"}} name="ripal" smooth> 
+            <div className='col-4 image-box'>
+              <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849389/Circular%20website/ripal_h77oin.jpg"} alt="ripal"/>
+              <p style={{color:"black"}}>Ripal Desai</p>
+            </div>
+          </HashLink>
           <HashLink to="/focus/nature#vasudev" style={{textDecoration:"none"}} name="vasudev" smooth> 
             <div className='col-4 image-box'>
               <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849395/Circular%20website/vasudevv_sodpzp.jpg"} alt="vasudevv"/>
