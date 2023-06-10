@@ -1,8 +1,20 @@
-import React, {useEffect} from 'react'
+import React, {useState,useEffect} from 'react'
+import { FaAngleDoubleDown, FaAngleDoubleUp } from "react-icons/fa";
 import { HashLink } from 'react-router-hash-link';
 import Aos from 'aos';
 
 const HumanCapital = () => {
+    const [show,setShow]=useState(false);
+    const [showBtn,setBtn]=useState(true);
+    const showContent=()=>{
+        setShow(true)
+        setBtn(false)
+    }
+    const hideContent=()=>{
+        setShow(false)
+        setBtn(true)
+    }
+
   useEffect(()=>{
     Aos.init({duration:1000, easing:"ease-in"})
   },[])
@@ -45,6 +57,26 @@ const HumanCapital = () => {
         <p data-aos="fade-left" data-aos-delay="200" className='paragh'>
             The driving force behind The Circular's initiatives is a deep sense of responsibility, empathy for fellow beings, and an unwavering love for our planet. The belief that every individual has the power to make a difference is at the core of our efforts. Through collective action and collaboration, we strive to bring about transformative change and create a world where sustainability, equity, and compassion thrive.
         </p>
+        <div id="pankhuri" name="pankhuri" className='section3 p-5'>
+            <div className='image-text'>
+                <div className='col-6 box-image'>
+                    <img data-aos="flip-left" className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849387/Circular%20website/pankhurij_ldow5h.jpg" alt="pankhuri"/>
+                    <p style={{color:"aliceblue"}}>Pankhuri Jain</p>
+                </div>
+                <p style={{color:"aliceblue"}} className='col-6 image-para'>
+                Pankhuri Jain is a highly accomplished Chemist with a passion for innovation and creativity. She holds a Master's degree in Chemistry from the prestigious Indian Institute of Technology, Madras. Prior to that, she completed her BSc (hons) in Chemistry from Miranda House.
+                    {showBtn?<button onClick={showContent} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
+                    <button onClick={hideContent} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
+                </p>  
+            </div>
+            <div className='col-12 image-text'>
+                {show?<p style={{color:"aliceblue"}} data-aos="fade-down" className='image-para'>
+                With a strong foundation in chemistry, Pankhuri is driven to explore new areas and expand her knowledge. She has a keen interest in DSA (Data Structures and Algorithms), web development, and MySQL, demonstrating her versatility in both experimental work in the laboratory and computational chemistry. Her proficiency in various software applications related to computational chemistry allows her to leverage technology for effective problem-solving.<br/><br/>
+                Pankhuri is known for her resourcefulness and innovative thinking, which enables her to tackle challenges head-on. She possesses a quick-learning ability and a strong aptitude for acquiring new skills. Her dedication to continuous learning and staying updated with the latest advancements in her field make her a valuable asset to any team or project.<br/><br/>
+                With a strong academic background, a diverse skill set, and a passion for pushing the boundaries of chemistry, Pankhuri Jain is poised to make significant contributions in the field of science and technology.
+                </p>:null}
+            </div>  
+        </div>
        </div>
        <div className='sec3 p-3'>
             <div className='text-center'>

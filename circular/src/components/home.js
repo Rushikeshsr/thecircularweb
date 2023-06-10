@@ -218,16 +218,18 @@ const Home = () => {
               <p style={{color:"black"}}>Aishwarya Karnataki</p>
             </div>
           </HashLink>
-          <HashLink to="/humancapital/skills#sharitija" style={{textDecoration:"none"}} name="aishwaryak" smooth> 
+          <HashLink to="/humancapital/skills#sharitija" style={{textDecoration:"none"}} name="sharitija" smooth> 
             <div className='col-4 image-box'>
               <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849393/Circular%20website/sharitijas_lbtg2h.jpg"} alt="shartijas"/>
               <p style={{color:"black"}}>Sharitija Saxena</p>
             </div>
           </HashLink>
-          <div className='col-4 image-box'>
-            <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849387/Circular%20website/pankhurij_ldow5h.jpg"} alt="pankhurij"/>
-            <p style={{color:"black"}}>Pankhuri Jain</p>
-          </div>
+          <HashLink to="/humancapital#pankhuri" style={{textDecoration:"none"}} name="pankhuri" smooth> 
+            <div className='col-4 image-box'>
+              <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849387/Circular%20website/pankhurij_ldow5h.jpg"} alt="pankhurij"/>
+              <p style={{color:"black"}}>Pankhuri Jain</p>
+            </div>
+          </HashLink>
         </div>
       </div>
       <div  className='section2 p-3'>
