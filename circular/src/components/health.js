@@ -89,7 +89,7 @@ const Health = () => {
             </div>
         </div>
         <div id="lakshmamma" name="lakshmamma" className='section3 d-flex justify-content-center p-5'>
-            <div data-aos="zoom-in" data-aos-delay="100" className='cardbox d-flex'>
+            <div data-aos="zoom-in" className='cardbox d-flex'>
                 <img className='image-card' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849398/Circular%20website/story8_vggwax.jpg" alt="Lakshmamma"/>
                 <div className='textbox'>
                     <h1 className='audio-head' style={{fontWeight:"bold",marginBottom:"15px"}}>Lakshmamma</h1>

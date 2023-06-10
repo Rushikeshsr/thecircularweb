@@ -192,17 +192,19 @@ const Home = () => {
             <hr className='line' style={{'width':'250px'}}/>
         </div>
         <div className='d-flex justify-content-center mt-4'>
-          <div className='col-4 image-box'>
-            <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849394/Circular%20website/sridharp_asyeye.jpg"} alt="sridharp"/>
-            <p>Sridhar Pabbisetty</p>
-          </div>
+          <HashLink to="/humancapital/transparency#sridhar" style={{textDecoration:"none"}} name="sridhar" smooth> 
+            <div className='col-4 image-box'>
+              <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849394/Circular%20website/sridharp_asyeye.jpg"} alt="sridharp"/>
+              <p style={{color:"black"}}>Sridhar Pabbisetty</p>
+            </div>
+          </HashLink>
           <div className='col-4 image-box'>
             <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849389/Circular%20website/ripal_h77oin.jpg"} alt="ripal"/>
-            <p>Ripal Desai</p>
+            <p style={{color:"black"}}>Ripal Desai</p>
           </div>
           <div className='col-4 image-box'>
             <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849395/Circular%20website/vasudevv_sodpzp.jpg"} alt="vasudevv"/>
-            <p>Vasudev Vangara</p>
+            <p style={{color:"black"}}>Vasudev Vangara</p>
           </div>
          </div> 
          <div className='d-flex justify-content-center mt-4'>
@@ -214,11 +216,11 @@ const Home = () => {
           </HashLink>
           <div className='col-4 image-box'>
             <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849393/Circular%20website/sharitijas_lbtg2h.jpg"} alt="shartijas"/>
-            <p>Sharitija Saxena</p>
+            <p style={{color:"black"}}>Sharitija Saxena</p>
           </div>
           <div className='col-4 image-box'>
             <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849387/Circular%20website/pankhurij_ldow5h.jpg"} alt="pankhurij"/>
-            <p>Pankhuri Jain</p>
+            <p style={{color:"black"}}>Pankhuri Jain</p>
           </div>
         </div>
       </div>
