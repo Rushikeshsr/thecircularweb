@@ -86,7 +86,6 @@ const Nature = () => {
                 Vasudev has also made significant contributions in the non-profit sector. During his tenure at The Akshaya Patra Foundation and Samhita Social Ventures, he played a crucial role in forging strong corporate partnerships and implementing CSR (Corporate Social Responsibility) projects. His expertise and dedication helped create sustainable and impactful initiatives within these organizations.<br/><br/>
                 Furthermore, Vasudev's commitment to education and social upliftment led him to serve as a Teach For India fellow, where he had the privilege of teaching and guiding a group of exceptional children. His experience as an educator allowed him to make a meaningful difference in the lives of young learners. Currently, he's working as Senior Venture coach at GITAM University.<br/><br/>
                 Vasudev's extensive involvement in various initiatives and organizations highlights his multifaceted approach towards addressing environmental, educational, and social challenges. With his diverse background, entrepreneurial spirit, and unwavering commitment to sustainable practices, Vasudev Vangara is making a significant contribution towards creating a better and more inclusive world.
-                
                 </p>:null}
             </div>  
         </div>

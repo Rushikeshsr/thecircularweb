@@ -1,8 +1,20 @@
-import React,{useEffect} from 'react'
+import React,{useState, useEffect} from 'react';
+import { FaAngleDoubleDown, FaAngleDoubleUp } from "react-icons/fa";
 import '../css/health.css'
 import Aos from 'aos';
 
 const Skills = () => {
+    const [show,setShow]=useState(false);
+    const [showBtn,setBtn]=useState(true);
+    const showContent=()=>{
+        setShow(true)
+        setBtn(false)
+    }
+    const hideContent=()=>{
+        setShow(false)
+        setBtn(true)
+    }
+
     useEffect(()=>{
         Aos.init({duration:1000, easing:"ease-in"})
     },[])
@@ -42,6 +54,28 @@ const Skills = () => {
                 <img className='medpich' style={{height:"420px",width:"420px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685877405/Circular%20website/skills/sk8_piq7sg.jpg"} alt='cloudinery sk2'></img>
             </div>
         </div> 
+        <div id="sharitija" name="sharitija" className='section3 p-5'>
+            <div className='image-text'>
+                <div className='col-6 box-image'>
+                    <img data-aos="flip-left" className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849393/Circular%20website/sharitijas_lbtg2h.jpg" alt="sharitija"/>
+                    <p>Sharitija Saxena</p>
+                </div>
+                <p className='col-6 image-para'>
+                Sharitija Saxena has over 10 years of experience in analytics, implementation, and process design, Sharitija has emerged as a beacon of resilience and determination in her pursuit of a sustainable future.
+                Sharitija's journey has not been without its obstacles. In her insightful article titled "Three Things I Wish I Knew at the Beginning of My Career," she openly shares her personal experiences and the challenges she encountered along the way. Through her story, she highlights the importance of resilience, adaptability, and continuous learning in navigating the professional landscape.
+                    {showBtn?<button onClick={showContent} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
+                    <button onClick={hideContent} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
+                </p>  
+            </div>
+            <div className='col-12 image-text'>
+                {show?<p data-aos="fade-down" className='image-para'>One of the significant challenges Sharitija faced early on was the rapid transformation of SAP technologies from on-premise to cloud-based solutions. As someone deeply passionate about SAP, this transformation posed a unique set of hurdles. However, instead of being deterred, Sharitija embraced the challenge head-on, delving into the intricacies of cloud technologies and acquiring the necessary skills to stay at the forefront of innovation.<br/><br/>
+                Another obstacle Sharitija encountered was the need to effectively address supply chain business problems. With her technical expertise in SAP ABAP and functional knowledge in SAP MM and SAP Ariba, she recognized the importance of finding creative and sustainable solutions. Through a combination of analytical thinking, problem-solving abilities, and her passion for curating innovative strategies, Sharitija overcame this challenge and developed a profound understanding of how sustainable practices can drive positive change in supply chain management.<br/><br/>
+                Sharitija's journey is a testament to her unwavering determination and her willingness to embrace new opportunities for growth. She has overcome challenges by continuously expanding her skill set and seeking out diverse experiences. Her global work in 7 countries across Asia, Africa, and the Middle East has provided her with a rich tapestry of insights and perspectives, enabling her to connect with individuals from different backgrounds and industries.<br/><br/>
+                Outside of her professional endeavors, Sharitija finds solace and inspiration in the art of calligraphy. This passion not only serves as a creative outlet but also nurtures her problem-solving skills, patience, and love for language and writing. Her dedication to calligraphy mirrors her commitment to sustainability, as both require a balance of precision, creativity, and an appreciation for the beauty of the craft.<br/><br/>
+                Sharitija's remarkable journey towards sustainability is a testament to her resilience, adaptability, and unwavering commitment to making a difference. Her ability to overcome challenges, embrace change, and continuously learn and grow is an inspiration to all those striving to create a more sustainable world.<br/><br/>54
+                </p>:null}
+            </div>  
+        </div>
         <div id="neelmani" name="neelmani" className='section4 p-5'>
             <div data-aos="zoom-in"  className='cardbox d-flex' style={{height:"410px",boxShadow:"2px 2px 10px black"}}>
                 <img className='image-card' style={{height:"410px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849368/Circular%20website/1story_lab5zp.jpg"} alt="Neelmani"/>
