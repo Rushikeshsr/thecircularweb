@@ -43,19 +43,19 @@ const Health = () => {
         <div className='sec2 p-5'>
             <h1 className='text-head mb-2'>The Circular at Primary Health Centers in Rural Telangana.</h1>
             <div className='images-tag mb-4'>
-                <img data-aos="fade-left" data-aos-delay="100" className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849373/Circular%20website/health1_fxx78m.jpg" alt="health1" />
-                <img data-aos="fade-right" data-aos-delay="100" className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849373/Circular%20website/health3_n67n03.jpg" alt="health1" />
+                <img className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849373/Circular%20website/health1_fxx78m.jpg" alt="health1" />
+                <img className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849373/Circular%20website/health3_n67n03.jpg" alt="health1" />
             </div>
             <div className='d-flex justify-content-center mb-3'>
-                <img data-aos="fade-down" data-aos-delay="100" className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849372/Circular%20website/health2_zwp9nn.jpg" alt="health1" />
+                <img className='col-4 pic' style={{boxShadow:"none", width:"600px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849372/Circular%20website/health2_zwp9nn.jpg" alt="health1" />
             </div>
             <h1 className='text-head mb-2'>Awareness Campaigns</h1>
             <p className='paragraph'>We've  organized multiple awareness campaigns to make sure that healthcare is accessible across all the regions irrespective of their locality.</p>
             <div className='d-flex justify-content-start'>
-                <img data-aos="fade-left" data-aos-delay="100" className='col-12 big-image' style={{boxShadow:"none",marginLeft:"25px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849377/Circular%20website/health4_apuo8b.jpg" alt="health4" />
+                <img className='col-12 big-image' style={{boxShadow:"none",marginLeft:"25px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849377/Circular%20website/health4_apuo8b.jpg" alt="health4" />
             </div>
             <div className='d-flex justify-content-end'>
-            <img data-aos="fade-right" data-aos-delay="100" className='col-12 big-image' style={{boxShadow:"none",marginRight:"25px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849376/Circular%20website/health5_vuvaiy.jpg" alt="health5" />
+                <img className='col-12 big-image' style={{boxShadow:"none",marginRight:"25px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849376/Circular%20website/health5_vuvaiy.jpg" alt="health5" />
             </div>
         </div>
         <div id="aishwaryak" name="aishwaryak" className='section3 p-5'>
