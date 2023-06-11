@@ -27,3 +27,18 @@
     margin-top: 0;
     opacity: 1;
 }
+.desc{
+    font-size: 15px;
+    font-family: 'montserrat';
+}
+.more{
+    width:100px;
+    height: 30px;
+    border-width: 0px;
+    background-color: transparent;
+    color:blue;
+    text-align: left;
+}
+.more:hover{
+    color:aliceblue;
+}
