@@ -39,6 +39,10 @@ const Home = () => {
             <p className='para'>
             Our journey has been guided by emotions - a deep sense of responsibility, empathy for our fellow beings, and an unyielding love for our planet. We are driven by the profound belief that every individual has the power to make a difference, and it is through collective action that we can bring about transformative change.
             </p>
+            <div className='d-flex justify-content-center'>
+              <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859867/Circular%20website/75587568_732265917278541_7891593705902047232_n_wpuigk.jpg" alt="together1"/>
+              <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859865/Circular%20website/326721101_3368144893464345_705687219525769447_n_vgsvfm.jpg" alt="together2"/>
+           </div>
        </div>
        <div className='section4 p-5'>
           <div className='d-flex justify-content-center'>
@@ -92,11 +96,7 @@ const Home = () => {
           <p data-aos="flip-left" data-aos-delay="100" className='para text-center' style={{fontSize:"20px",fontWeight:"bold"}}>
             Together, let us reclaim our dark skies, inspire scientific curiosity,<br/>
             and establish healthy and sustainable communities.
-          </p>
-          <div className='d-flex justify-content-center'>
-            <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859867/Circular%20website/75587568_732265917278541_7891593705902047232_n_wpuigk.jpg" alt="together1"/>
-            <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859865/Circular%20website/326721101_3368144893464345_705687219525769447_n_vgsvfm.jpg" alt="together2"/>
-           </div> 
+          </p> 
        </div>
       <div className='section2 p-3'>
         <div className='text-center'>

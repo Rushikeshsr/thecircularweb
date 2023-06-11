@@ -71,7 +71,7 @@ const Transparency = () => {
                 </p>  
             </div>
             <div className='col-12 image-text'>
-                {show?<p data-aos="fade-down" className='image-para'>Currently, Sridhar holds the position of Dean at MIT School of Government in Pune. Also, he is the Founding Director of Gitam Institute of Public Policy, where he leads the establishment of a premier public policy school that contextualizes global advancements in public policy for India.<br/><br/>
+                {show?<p data-aos="fade-down" className='image-para'>Currently, Sridhar holds the position of Dean at MIT School of Government in Pune. Also, he is the Founding Director of Kautilya School of Public Policy at GITAM University, where he leads the establishment of a premier public policy school that contextualizes global advancements in public policy for India.<br/><br/>
                 Following his education, Sridhar embarked on a journey marked by continuous learning and impactful contributions. He has held various leadership roles and played instrumental roles in several organizations and initiatives.<br/><br/>
                 Prior to his current roles, Sridhar held the position of Chief Executive Officer at Namma Bengaluru Foundation, where he led the organization in setting strategies and visions. He focused on creating an organizational culture centered around high performance, innovation, and excellence while driving transformative changes within the organization.<br/><br/>
                 He actively engaged with the board of directors, advisors, and trustees to ensure organizational transformation and developed a robust fundraising ecosystem aligned with the organization's vision and on-ground impact.<br/><br/>

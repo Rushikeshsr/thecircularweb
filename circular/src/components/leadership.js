@@ -91,7 +91,7 @@ const Leadership = () => {
                         <p style={{fontSize: "25px", fontWeight:"bold"}}>Dr. S.K.Bikshapathy <br/> 
                         <span style={{fontSize:"20px", fontWeight:"100"}}>Chairman</span>
                         </p>
-                        <p>chairman@thecircular.in</p>
+                        <p style={{fontSize:"15px"}}>chairman@thecircular.in</p>
                         {showBtnC?<button onClick={showContentC} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                         <button onClick={hideContentC} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
                     </div>                
@@ -114,7 +114,7 @@ const Leadership = () => {
                         <p style={{fontSize: "25px", fontWeight:"bold"}}>Abhay Chakra Sadineni<br/>
                         <span style={{fontSize:"20px", fontWeight:"100"}}>President</span>
                         </p>
-                        <p>president@thecircular.in</p>
+                        <p style={{fontSize:"15px"}}>president@thecircular.in</p>
                         {showBtnP?<button onClick={showContentP} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                         <button onClick={hideContentP} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
                     </div>                
@@ -136,7 +136,7 @@ const Leadership = () => {
                         <p style={{fontSize: "25px", fontWeight:"bold"}}>Rushikeshwar Sunkey<br/>
                         <span style={{fontSize:"20px", fontWeight:"100"}}>General Secretary</span>
                         </p>
-                        <p>secretary@thecircular.in</p>
+                        <p style={{fontSize:"15px"}}>secretary@thecircular.in</p>
                         {showBtnS?<button onClick={showContentS} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                         <button onClick={hideContentS} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
                     </div>                
