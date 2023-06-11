@@ -40,7 +40,6 @@ import pdf1 from './resources/pdf1.pdf';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 
-
 function App() {
   return (
     <>
