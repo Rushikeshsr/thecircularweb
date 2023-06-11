@@ -233,13 +233,15 @@ const Home = () => {
         </div>
       </div>
       <div  className='section2 p-3'>
-        <div data-aos="zoom-in" data-aos-delay="200" id="krishna" className='image-row'>
+      <HashLink style={{textDecoration:"none"}} smooth to="/humancapital/quality#krishna">
+        <div data-aos="zoom-in" data-aos-delay="200" className='image-row'>
             <div className='col-8 d-flex justify-content-center'>
                 <div style={{height:"420px"}} className='image2 story11'>
                   <h2 className='name'>Krishna</h2>
                 </div>
               </div>
           </div>
+          </HashLink>    
         </div>
       <div className='section4 p-3'>
         <div className='text-logo mb-4'>

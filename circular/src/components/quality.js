@@ -50,7 +50,7 @@ const Quality = () => {
                 <span style={{color:"#00ff0d"}}>Long-Term Sustainability</span>: By promoting sustainability and circular economy principles, the Circular will contribute to the creation of a sustainable future. The adoption of environmentally friendly practices, resource efficiency, and responsible consumption will help mitigate the adverse effects of climate change and preserve natural resources for future generations.
             </p>
         </div>
-        <div className='p-5'>
+        <div id="krishna" name="krishna" className='p-5'>
             <div className='images-tag mb-4 d-flex justify-content-center'>
                 <img data-aos="fade-left" data-aos-delay="200" className='col-4 pic' style={{boxShadow:"none",height:"350px", width:"680px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685879766/Circular%20website/quality/qi1_lgrxcq.jpg"} alt="qi2" />
             </div>
