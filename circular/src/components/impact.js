@@ -8,6 +8,14 @@ const Impact = () => {
         <p className='para'>
         At <span style={{color:"00ffod"}}>The Circular</span>, our vision is to create a sustainable and inclusive world, where communities thrive in harmony with the environment. We envision zero-disease sustainable communities, where individuals have equal opportunities, access to essential services, and a high quality of life. We aspire to build a future where human well-being and ecological balance go hand in hand, fostering a resilient planet for generations to come.
         </p>
+        
+        {/* <a href="/aboutus/impact/pdf1">PDF1
+        <object data={pdf1} type="application/pdf" width="100%" height="100%">
+        </object>
+        </a> */}
+        <a href='/aboutus/impact/pdf1'>PDF1
+        </a>
+
         <h2 className='main-heading'>Mission</h2>
         <p className='para'>
         Our mission at The Circular is to catalyze positive change by addressing environmental risks, empowering individuals, and fostering sustainable practices across various sectors. We are committed to:

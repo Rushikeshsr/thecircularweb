@@ -35,8 +35,8 @@ import Fieldtrips from './components/fieldtrips';
 import Impact from './components/impact';
 
 import ContactUs from './components/contactUs';
-
-
+import AllPages from './components/pdfViewer';
+import pdf1 from './resources/pdf1.pdf';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 
@@ -79,6 +79,7 @@ function App() {
         <Route path="/aboutus/operations" element={<Operations/>}/>
         <Route path="/aboutus/fieldtrips" element={<Fieldtrips/>}/>
         <Route path="/aboutus/impact" element={<Impact/>}/>
+        <Route path="/aboutus/impact/pdf1" element={<AllPages pdf={pdf1}/>}/>
 
         <Route path="/contactus" element={<ContactUs/>}/>
         
