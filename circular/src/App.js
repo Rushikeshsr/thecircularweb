@@ -35,12 +35,6 @@ import Fieldtrips from './components/fieldtrips';
 import Impact from './components/impact';
 
 import ContactUs from './components/contactUs';
-import AllPages from './components/pdfViewer';
-import pdf1 from './resources/pdf1.pdf';
-import pdf2 from './resources/pdf2.pdf';
-import pdf3 from './resources/pdf3.pdf';
-import may from './resources/may.pdf';
-import TKHH_GREEN_CATEGORY_ABS from './resources/TKHH_GREEN_CATEGORY_ABS.xls';
 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -83,11 +77,6 @@ function App() {
         <Route path="/aboutus/operations" element={<Operations/>}/>
         <Route path="/aboutus/fieldtrips" element={<Fieldtrips/>}/>
         <Route path="/aboutus/impact" element={<Impact/>}/>
-        <Route path="/aboutus/impact/pdf1" element={<AllPages pdf={pdf1}/>}/>
-        <Route path="/aboutus/impact/pdf2" element={<AllPages pdf={pdf2}/>}/>
-        <Route path="/aboutus/impact/pdf3" element={<AllPages pdf={pdf3}/>}/>
-        <Route path="/aboutus/impact/may" element={<AllPages pdf={may}/>}/>
-        <Route path="/aboutus/impact/excel" element={<AllPages pdf={TKHH_GREEN_CATEGORY_ABS}/>}/>
 
         <Route path="/contactus" element={<ContactUs/>}/>
         
