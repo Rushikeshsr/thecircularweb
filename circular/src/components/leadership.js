@@ -189,9 +189,6 @@ const Leadership = () => {
                 </div>
             </div>
 
-        
-
-
         </div>
         <div className='section4 p-5'>
             <h2 className='main-heading text-center'>ADVISORS</h2>

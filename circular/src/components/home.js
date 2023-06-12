@@ -73,10 +73,10 @@ const Home = () => {
           <p className='para'>
             <span style={{fontWeight:"bold"}}>Economic Implications </span>: The unnecessary wastage of energy due to light pollution translates into a significant economic burden. By curbing light pollution, we can reduce energy consumption, lower costs, and redirect resources toward more sustainable and meaningful endeavors.
           </p>
-          <div className='d-flex justify-content-center'>
-            <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685861010/Circular%20website/homeImage_bgo7at.jpg" alt="circadian"/>
+          <div className='d-flex flex-column justify-content-center' style={{alignItems:"center"}}>
             <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859670/Circular%20website/nocturnal_xlx0v2.jpg" alt="nocturnal"/>
-           </div> 
+            <img className='medpich m-2' style={{borderWidth:"0px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686531266/Circular%20website/ca_rjwo9g.png" alt="circadian"/>
+          </div> 
           <p className='para'>
             <span style={{fontSize:"20px",fontWeight:"bold"}}>Solutions</span><br/>
             <span style={{fontWeight:"bold"}}>Responsible Outdoor Lighting </span>: Embrace the Five Principles for Responsible Outdoor Lighting by DarkSky International. Consider factors like light direction, shielding, and appropriate light intensity to minimize light spillage and glare.

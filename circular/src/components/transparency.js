@@ -54,7 +54,6 @@ const Transparency = () => {
             <div className='text-center m-3'>
                 <img className='medpich m-1' data-aos="fade-left" src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1686024346/Circular%20website/trans3_qecc3m.jpg"} alt='cloudinery trans3'></img>
                 <img className='medpich m-1' data-aos="fade-right"  src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1686024346/Circular%20website/trans4_aplvpk.jpg"} alt='cloudinery trans4'></img>
-                <img className='medpich m-2' data-aos="fade-left" style={{width:"400px",height:"400px"}}  src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1686024346/Circular%20website/trans2_xp4ekl.jpg"} alt='cloudinery tans2'></img>
                 <img className='medpich m-2' data-aos="fade-right" style={{width:"400px",height:"400px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1686025345/Circular%20website/trans1_pe3ivt.jpg"} alt='cloudinery tans1'></img>
             </div>
         </div>
