@@ -13,7 +13,9 @@
     top:0;
     padding: 10px;
   }
-  
+  .menu{
+    display: none;
+  }
   .logo{
     height:80px;
     width:80px;
@@ -82,3 +84,26 @@
     
   }
 
+@media screen and (max-width:600px){
+  .nav-bar{
+    height: 12vh;
+  }
+  .logo{
+    height:45px;
+    width:45px;
+  }
+  .main-head{
+    font-size: 25px;
+    flex-wrap: nowrap;
+  }
+  ul li{
+    display: none;
+  }
+  .menu{
+    display: initial;
+    margin-left: 10px;
+  }
+  .menu:hover{
+    color: #00ff0d;
+  }
+}

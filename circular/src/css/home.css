@@ -12,16 +12,22 @@
     width: 100%;
     height:100%;
     background-color:black;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .section3{
     width: 100%;
     height:100%;
     font-family: 'montserrat';
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .section4{
     width: 100%;
     height:100%;
     background-color: #00ff0d;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .video{
     width: 100%;
@@ -213,6 +219,35 @@
     transition: 0.3s;
 }
 @media screen and (max-width:600px){
+    .video{
+        max-width: 600px;
+    }
+    .content{
+        max-width: 600px;
+        color:aliceblue;
+        /* text-shadow:1.5px 1.5px black ; */
+        /* position:absolute;
+        width: 100%;
+        height: 100%;
+        top:0; */
+        font-size: 15px;
+        /* font-family: 'montserrat'; */
+       padding-left: 15px;
+       padding-right: 15px;
+       margin-left: 10px;
+      
+
+    }
+    .overlay{
+        /* position:absolute;
+        top:0;
+        left:0; */
+        /* margin-top:15vh; */
+        width: 100%;
+        height: 100%;
+        margin-top: 12vh;
+        background-color: rgba(0,0,0,0.5);
+    }    
     .sm-image{
         display: flex;
         flex-direction: column;
@@ -243,6 +278,7 @@
     }
     .sm-adbox{
         flex-direction: column;
+        align-items: center;
     }
     .text-logo{
         flex-direction: column;

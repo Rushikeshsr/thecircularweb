@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/header.css'
 import {Link} from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
-import { FaCaretDown } from "react-icons/fa";
+import { FaCaretDown, FaBars } from "react-icons/fa";
 const Header = () => {
   return (
     <>
@@ -14,6 +14,9 @@ const Header = () => {
                         <img className='logo' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849377/Circular%20website/logo_l4dzvx.png" alt="logo"/>
                         <h1 className='main-head'>The Circular</h1>
                     </Link>
+                </div>
+                <div className='menu'>
+                    <FaBars style={{fontSize:"20px"}}/>
                 </div>
                 <ul className='list'>
                     <div className='dropdown'>

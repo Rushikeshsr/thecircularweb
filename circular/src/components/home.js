@@ -16,16 +16,16 @@ const Home = () => {
           <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685849388/Circular%20website/homeVid_pbjtyk.mp4" loop autoPlay muted/>
           <div className='content d-flex flex-column justify-content-center'>
             <p>
-            Welcome to <span style={{color:"#00ff0d"}}>The Circular</span>, <br/>
-            where we strive to create sustainable livelihood opportunities for <br/>
-            the local communities in a way that promotes eco-friendly practices<br/> and reduces environmental impact.
-            Our mission is to build a thriving <br/>
-            local economy that works for everyone, while also protecting <br/>
+            Welcome to <span style={{color:"#00ff0d"}}>The Circular</span>, 
+            where we strive to create sustainable livelihood opportunities for 
+            the local communities in a way that promotes eco-friendly practices and reduces environmental impact.
+            Our mission is to build a thriving 
+            local economy that works for everyone, while also protecting 
             the environment and natural resources that make our region so special.
             </p>
           </div>   
       </div>
-      <div className='p-5'>
+      <div className='section3'>
             <p className='para'>
             At The Circular, we began our journey with a simple yet powerful mission: to clean communities, promote sustainable well-being, and combat the outbreak of diseases caused by unhealthy environments. What started as a humble initiative has now grown into a comprehensive organization making a significant impact on numerous lives. It was the realization that our planet and its inhabitants were facing unprecedented challenges that fueled our passion to make a difference. We were driven by a burning desire to transform the way we interact with the environment, our health, and each other.
             </p>
@@ -39,12 +39,12 @@ const Home = () => {
             <p className='para'>
             Our journey has been guided by emotions - a deep sense of responsibility, empathy for our fellow beings, and an unyielding love for our planet. We are driven by the profound belief that every individual has the power to make a difference, and it is through collective action that we can bring about transformative change.
             </p>
-            <div className='sm-image d-flex justify-content-center'>
+            <div className='sm-image d-flex justify-content-center' style={{alignItems:"center"}}>
               <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859867/Circular%20website/75587568_732265917278541_7891593705902047232_n_wpuigk.jpg" alt="together1"/>
               <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859865/Circular%20website/326721101_3368144893464345_705687219525769447_n_vgsvfm.jpg" alt="together2"/>
            </div>
        </div>
-       <div className='section4 p-5'>
+       <div className='section4'>
           <div className='d-flex justify-content-center'>
               <iframe src="https://www.youtube.com/embed/yflcBF8sH8E?rel=0"
                width={1000} height={500} title='The Circularstellar' 
@@ -184,7 +184,7 @@ const Home = () => {
           </div>
         </HashLink> 
       </div>
-      <div className='section3 p-4'>
+      <div className='section3'>
         <h2 data-aos="fade-right" className='sec3-head '>Triumphing over Challenges</h2>
          <p data-aos="fade-left" data-aos-delay="200" className='para'>Perseverance is the common thread that runs through the narratives of these professionals. Through sheer determination and an unwavering commitment to their dreams, they not only conquered their challenges but also emerged as stronger, wiser, and more resilient sustainability advocates. Their stories serve as a reminder that success often lies just beyond the realm of persistence.</p> 
         <div className='text-center  mt-4'>
