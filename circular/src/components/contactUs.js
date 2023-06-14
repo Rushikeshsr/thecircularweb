@@ -69,7 +69,7 @@ const ContactUs = () => {
             <h2 className='main-heading' style={{color:"aliceblue"}}>Contact Us</h2>
             <p className='paragh'>Please feel free to reach out to us for all your questions and concerns</p>
             <p className='paragh'><FaPhone style={{fontSize:'20px'}}/>&nbsp;&nbsp;+917032064985</p>
-            <p className='paragh'><FaEnvelope style={{fontSize:'20px'}}/>&nbsp;&nbsp; secretary@thecircular.in <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;president@thecircular.in</p>
+            <p className='paragh'><FaEnvelope style={{fontSize:'20px'}}/>&nbsp;&nbsp; president@thecircular.in <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;secretary@thecircular.in</p>
             <div className='d-flex paragh'>
                 <FaMapMarkerAlt style={{fontSize:'25px'}}/>
                 <div>
