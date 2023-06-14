@@ -21,3 +21,22 @@
     color:aliceblue;
     font-size: 15px;
 }
+@media screen and (max-width:600px){
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .footerIcon{
+        display: flex;
+        margin-top: 10px;
+
+    }
+    
+    .footerNews{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 60px;
+    }
+    .news{
+        margin-right: 8px;
+    }
+}

@@ -39,7 +39,7 @@ const Home = () => {
             <p className='para'>
             Our journey has been guided by emotions - a deep sense of responsibility, empathy for our fellow beings, and an unyielding love for our planet. We are driven by the profound belief that every individual has the power to make a difference, and it is through collective action that we can bring about transformative change.
             </p>
-            <div className='d-flex justify-content-center'>
+            <div className='sm-image d-flex justify-content-center'>
               <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859867/Circular%20website/75587568_732265917278541_7891593705902047232_n_wpuigk.jpg" alt="together1"/>
               <img className='medpich m-2' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685859865/Circular%20website/326721101_3368144893464345_705687219525769447_n_vgsvfm.jpg" alt="together2"/>
            </div>
@@ -191,7 +191,7 @@ const Home = () => {
             <h1 className='sec2-head'>SUSTAINABILITY ADVOCATES</h1>
             <hr className='line' style={{'width':'250px'}}/>
         </div>
-        <div className='d-flex justify-content-center mt-4'>
+        <div className='sm-adbox d-flex justify-content-center mt-4'>
           <HashLink to="/humancapital/transparency#sridhar" style={{textDecoration:"none"}} name="sridhar" smooth> 
             <div className='col-4 image-box'>
               <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849394/Circular%20website/sridharp_asyeye.jpg"} alt="sridharp"/>
@@ -211,7 +211,7 @@ const Home = () => {
             </div>
           </HashLink>
          </div> 
-         <div className='d-flex justify-content-center mt-4'>
+         <div className='sm-adbox d-flex justify-content-center mt-4'>
           <HashLink to="/humancapital/health#aishwaryak" style={{textDecoration:"none"}} name="aishwaryak" smooth> 
             <div className='col-4 image-box'>
               <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849362/Circular%20website/aishwaryak_vtp2qg.jpg"} alt="aishwaryak"/>
@@ -233,13 +233,13 @@ const Home = () => {
         </div>
       </div>
       <div  className='section2 p-3'>
-      <HashLink style={{textDecoration:"none"}} smooth to="/humancapital/quality#krishna">
-        <div data-aos="zoom-in" data-aos-delay="200" className='image-row'>
-            <div className='col-8 d-flex justify-content-center'>
-                <div style={{height:"420px"}} className='image2 story11'>
-                  <h2 className='name'>Krishna</h2>
+        <HashLink style={{textDecoration:"none"}} smooth to="/humancapital/quality#krishna">
+          <div data-aos="zoom-in" data-aos-delay="200" className='image-row'>
+              <div className='col-8 d-flex justify-content-center'>
+                  <div className='image2 story11'>
+                    <h2 className='name'>Krishna</h2>
+                  </div>
                 </div>
-              </div>
           </div>
           </HashLink>    
         </div>

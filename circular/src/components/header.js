@@ -8,7 +8,7 @@ const Header = () => {
     <>
     <div className='container-fluid'>
         <div className='row'>
-            <nav className='col-12 nav-bar'>
+            <nav className='nav-bar'>
                 <div className='logo-text'>
                     <Link className='link d-flex' style={{alignItems:"center"}} to="/home">
                         <img className='logo' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849377/Circular%20website/logo_l4dzvx.png" alt="logo"/>

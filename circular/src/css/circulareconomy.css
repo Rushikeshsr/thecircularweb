@@ -162,6 +162,12 @@
     border:2px solid white;
     border-radius: 15px;
 }
+@media screen and (max-width:600px){
+    .medpich{
+        width:225px;
+        height:150px;
+    }
+}
 .medpicv{
     width:340px;
     height:600px;
