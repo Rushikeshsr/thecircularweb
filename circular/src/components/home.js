@@ -16,7 +16,7 @@ const Home = () => {
           <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685849388/Circular%20website/homeVid_pbjtyk.mp4" loop autoPlay muted/>
           <div className='content d-flex flex-column justify-content-center'>
             <p>
-            Welcome to <span style={{color:"#00ff0d"}}>The Circular</span>, 
+            Welcome to <span style={{color:"#00ff0d"}}>The Circular</span>, <br/>
             where we strive to create sustainable livelihood opportunities for 
             the local communities in a way that promotes eco-friendly practices and reduces environmental impact.
             Our mission is to build a thriving 

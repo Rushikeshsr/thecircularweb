@@ -1,7 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .sec2{
     width: 100%;
     height:100%;
     background-color:black;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .paragh{
     font-size: 15px;
@@ -93,9 +99,57 @@
     margin-right:15px;
     margin-left: 15px;
 }
-
+.explore-sec{
+    display: flex;
+    justify-content: center;
+}
 @media screen and (max-width:600px){
     .sec2-head{
         font-size: 20px;
+    }
+    .sec2{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sec2-head{
+        font-size: 20px;
+    }
+    .image-arrange{
+        flex-direction: column;
+        align-items: center;
+    }
+    .black-image{
+        width: 320px !important;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+    .text-image-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ghmc{
+        width: 320px;
+        height: 200px;
+    }
+    .ghmc-text{
+        flex-direction: column;
+    }
+    .card-box{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .card-box h1{
+        font-size: 25px !important;
+        font-weight: bold;
+    }
+    .text-box{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
+        height: 200px;
+    }
+    .pic{
+        width:300px;
+        height:200px;
     }
 }
