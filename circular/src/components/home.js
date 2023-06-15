@@ -256,7 +256,7 @@ const Home = () => {
           <HashLink smooth to="/humancapital#top"><button className='button'>Human Capital</button></HashLink>
           <HashLink smooth to="/aboutus#top"><button className='button'>About Us</button></HashLink>
           <HashLink smooth to="/contactus#top"><button className='button'>Contact Us</button></HashLink>
-          <HashLink smooth to="/resources#top"><button className='button'>Impact Data</button></HashLink>
+          <HashLink smooth to="/aboutus/impact#top"><button className='button'>Impact Data</button></HashLink>
         </div>
         
       </div>

@@ -7,10 +7,10 @@ import { descGallery } from './descgallery';
 const Desc = () => {
   return (
     <>
-        <div className='cover-imageD p-5'>
+        <div className='cover-imageD '>
             <h1 className='cover-text' style={{color:"black", opacity:"0.8"}}>DESC</h1>
         </div>
-        <div className='section2 p-5'>
+        <div className='section2'>
             <p className='paragh'>
                 We are proud to announce our partnership with DESC (Digital Education and Skills Council) to promote sustainability through education across India. DESC is a remarkable initiative driven by influential government officials who hold key decision-making positions. With a shared commitment to supporting the United Nations Sustainable Development Goals (UN-SDG) by 2030, DESC focuses on leveraging education as a catalyst for positive change.
             </p>
