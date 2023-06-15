@@ -49,6 +49,10 @@
     height:700px;
     border-radius: 10px;
     border:2px solid black;
+    order:1;
+}
+.gpp{
+    order: 2;
 }
 .logo-text{
     display: flex;
@@ -59,4 +63,42 @@
     width:280px;
     height:100px;
    
+}
+
+@media screen and (max-width:600px) {
+    .partner-cover-image{
+        max-width: 600px;
+        display: flex;
+        justify-content: center;
+    }
+    .p-container{
+        padding-left: 10px;
+        padding-right:10px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;  
+    }
+    .gp{
+        order:2;
+        width: 180px;
+        height: 300px;
+    }
+    .gpp{
+        order:1;
+    }
+    .logo-text{
+        flex-wrap: wrap;
+    }
+    .logo-box{
+        width: 280px;
+    }
+    .logo-heading{
+        font-size: 20px;
+    }
+    .logo-name{
+        font-size: 15px;
+    }
+    .cg-logo{
+        width: 240px;
+    }
 }

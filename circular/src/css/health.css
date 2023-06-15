@@ -100,3 +100,9 @@
     font-family: 'montserrat';
     padding: 20px;
 }
+
+@media screen and (max-width:600px) {
+    .cover-text{
+        font-size: 40px;
+    }
+}
