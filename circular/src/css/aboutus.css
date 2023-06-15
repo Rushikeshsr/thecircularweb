@@ -25,7 +25,5 @@
     box-shadow: #2b15453d 1px 10px 10px 5px;
   }
   @media screen and (max-width:600px){
-    .image-gallery-wrapper{
-        max-width: 580px;
-    } 
+     
   }

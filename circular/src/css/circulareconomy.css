@@ -165,7 +165,13 @@
 @media screen and (max-width:600px){
     .medpich{
         width:280px;
-        height:180px;
+        height:190px !important;
+    }
+    .font-head{
+        font-size: 18px !important;
+    }
+    .aranyapic{
+        width: 330px !important;
     }
 }
 .medpicv{
