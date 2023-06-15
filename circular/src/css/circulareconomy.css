@@ -173,6 +173,12 @@
     .aranyapic{
         width: 330px !important;
     }
+    .other-head{
+        font-size: 25px !important;
+    }
+    .image-container{
+        flex-wrap: wrap;
+    }
 }
 .medpicv{
     width:340px;
