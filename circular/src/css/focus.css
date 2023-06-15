@@ -114,32 +114,41 @@
     .sec2-head{
         font-size: 20px;
     }
+    .paragh{
+        font-size: 12px;
+    }
     .image-arrange{
         flex-direction: column;
         align-items: center;
     }
     .black-image{
-        width: 320px !important;
-        height: 200px;
+        width: 300px !important;
+        height: 180px;
         margin-bottom: 15px;
     }
     .text-image-box{
         flex-direction: column;
         align-items: center;
     }
+    .water{
+        padding-left:10px !important;
+        text-align: center;
+    }
     .ghmc{
-        width: 320px;
-        height: 200px;
+        width: 300px;
+        height: 180px;
     }
     .ghmc-text{
         flex-direction: column;
+        font-size: 14px;
     }
     .card-box{
         flex-wrap: wrap;
         align-items: center;
+        font-size: 12px;
     }
     .card-box h1{
-        font-size: 25px !important;
+        font-size: 20px !important;
         font-weight: bold;
     }
     .text-box{
@@ -147,9 +156,16 @@
         margin-right: 10px;
         padding: 15px;
         height: 200px;
+        margin-bottom: 15px;
+        order: 1 !important;
     }
     .pic{
-        width:300px;
-        height:200px;
+        width:250px;
+        height:150px;
+        order: 2 !important;
+    }
+    .btnlr{
+        width: 90px;
+        height: 30px;
     }
 }

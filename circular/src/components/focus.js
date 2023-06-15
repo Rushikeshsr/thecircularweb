@@ -64,14 +64,14 @@ const Focus = () => {
             <img data-aos="fade-right" data-aos-delay="200" className='black-image col-6' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849365/Circular%20website/focuspic3_cpujlm.jpg"} alt="focuspic3"/>
             <img data-aos="fade-left" data-aos-delay="200" className='black-image col-6' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849367/Circular%20website/focuspic4_uajiir.jpg"} alt="focuspic4"/>
         </div>
-        <h1 data-aos="flip-left" className='heading' style={{paddingLeft:"60px"}}>Water Conservation and Rain Water Harvesting are always our focus areas.</h1>
+        <h1 data-aos="flip-left" className='heading water' style={{paddingLeft:"60px"}}>Water Conservation and Rain Water Harvesting are always our focus areas.</h1>
         <div className='text-image-box'>
             <img data-aos="fade-right" data-aos-delay="200" className='ghmc' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849366/Circular%20website/ghmc1_xdrbqh.png"} alt="ghmc1"/>
             <img data-aos="fade-left" data-aos-delay="200" className="ghmc" src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849367/Circular%20website/ghmc2_ap4fpb.png"} alt="ghmc2"/>
         </div> 
         <div className='ghmc-text mt-3 mb-3'>
             <img className='persons' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849377/Circular%20website/MadhuriR_zp3xti.jpg"} alt="MadhuriR"/>
-            <p style={{marginLeft:'30px'}}>Derived from the Ph.D thesis of Dr. Madhuri Rampalli at BITS - Pilani, Hyderabad. 
+            <p style={{marginLeft:'30px'}}>Derived from the Ph.D thesis of Dr. Madhuri Rampalli at BITS - Pilani, Hyderabad.&nbsp; 
             {showBtn?<button onClick={showContent} className='seemore' >See more<FaAngleDown style={{fontSize:'15px'}}/></button>:
             <button onClick={hideContent} className='seemore' >See less<FaAngleUp style={{fontSize:'15px'}}/></button>}
             </p>   
@@ -87,84 +87,94 @@ const Focus = () => {
         </p>
        </div>
        <div className='section3'>
-            <div className='text-center mb-3'>
+            <div className='text-center mb-2'>
                 <h1 className='sec2-head'>KEY AREAS</h1>
                 <hr className='line'/>
             </div>
-           
-            <div className='card-box mb-4'>
-                <div data-aos="fade-right" data-aos-delay="200" className='text-box'>
-                    <h1 style={{fontSize:'35px'}}>Circular Economy</h1> 
-                    <p>Discover how we integrate circular economy principles into local businesses,<br/>
-                    promoting waste reduction, recycling, and innovative approaches to resource management.
-                    </p> <br/><br/>
-                    <HashLink smooth to='/focus/circulareconomy#top'><button className='btnlr'>Learn More</button></HashLink>
-                </div>
-                <div data-aos="fade-left" data-aos-delay="200">
-                    <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849363/Circular%20website/Circulareconomy_ul7vt5.png"} alt="circular economy"/>
-                </div>
-            </div>
-            <div className='card-box mb-4'>
-                <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
-                    <h1 style={{fontSize:'35px'}}>Nature</h1> <br/>
-                    <p>Learn about our initiatives to protect and restore ecosystems, conserve biodiversity,<br/>
-                    and create sustainable solutions for a harmonious relationship between humans and nature.
-                    </p> <br/><br/>
-                    <HashLink smooth to='/focus/nature#top'><button className='btnlr'>Learn More</button></HashLink>
-                </div>
-                <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
-                    <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849388/Circular%20website/Nature_zgsy4z.jpg"} alt="Nature"/>
+            <div className='d-flex justidfy-content-center mb-4'>
+                <div className='card-box'>
+                    <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
+                        <h1 style={{fontSize:'35px'}}>Circular Economy</h1> 
+                        <p>Discover how we integrate circular economy principles into local businesses,<br/>
+                        promoting waste reduction, recycling, and innovative approaches to resource management.
+                        </p><br/><br/>
+                        <HashLink smooth to='/focus/circulareconomy#top'><button className='btnlr'>Learn More</button></HashLink>
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
+                        <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849363/Circular%20website/Circulareconomy_ul7vt5.png"} alt="circular economy"/>
+                    </div>
                 </div>
             </div>
-            <div className='card-box mb-4'>
-                <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
-                    <h1 style={{fontSize:'35px'}}>Medicine</h1> <br/>
-                    <p>We strive to advance equity in health, improve access to medicines,<br/>
-                    and promote preventive measures to ensure healthier lives for all.
-                    </p> <br/><br/>
-                    <HashLink smooth to='/focus/medicine#top'><button className='btnlr'>Learn More</button></HashLink>
-                </div>
-                <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
-                    <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849381/Circular%20website/Medicine_o2wetw.jpg"} alt="Medicine"/>
-                </div>
-            </div>
-            <div className='card-box mb-4'>
-                <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
-                    <h1 style={{fontSize:'35px'}}>Hospitality</h1> <br/>
-                    <p>Experience our sustainable hospitality initiatives, promoting responsible<br/>
-                    tourism, eco-friendly practices, and supporting local communities.
-                    </p> <br/><br/>
-                    <HashLink smooth to='/focus/hospitality#top'><button className='btnlr'>Learn More</button></HashLink>
-                </div>
-                <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
-                    <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849375/Circular%20website/Hospitality_iaobf5.jpg"} alt="Hospitality"/>
+            <div className='d-flex justidfy-content-center mb-4'>
+                <div className='card-box'>
+                    <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
+                        <h1 style={{fontSize:'35px'}}>Nature</h1> 
+                        <p>Learn about our initiatives to protect and restore ecosystems, conserve biodiversity,<br/>
+                        and create sustainable solutions for a harmonious relationship between humans and nature.
+                        </p> <br/><br/>
+                        <HashLink smooth to='/focus/nature#top'><button className='btnlr'>Learn More</button></HashLink>
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
+                        <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849388/Circular%20website/Nature_zgsy4z.jpg"} alt="Nature"/>
+                    </div>
                 </div>
             </div>
-            <div className='card-box mb-4'>
-                <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
-                    <h1 style={{fontSize:'35px'}}>Hepatology</h1> <br/>
-                    <p>Learn about our efforts to raise awareness, prevent, and treat liver <br/>
-                    diseases, ensuring liver health for individuals and communities.
-                    </p> <br/><br/>
-                    <HashLink smooth to='/focus/hepatology#top'><button className='btnlr'>Learn More</button></HashLink>
-                </div>
-                <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
-                    <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849374/Circular%20website/Hepatology_xfq0kd.jpg"} alt="Hepatology"/>
-                </div>
-            </div>
-            <div className='card-box mb-4'>
-                <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
-                    <h1 style={{fontSize:'35px'}}>Gynaecology</h1> <br/>
-                    <p>Discover our initiatives to promote women's health, provide reproductive <br/>
-                    healthcare services, and empower women with knowledge and support.
-                    </p> <br/><br/>
-                    <HashLink smooth to='/focus/gynaecology#top'><button className='btnlr'>Learn More</button></HashLink>
-                </div>
-                <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
-                    <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849368/Circular%20website/Gynaecology_k38hqo.jpg"} alt="Gynaecology"/>
+            <div className='d-flex justidfy-content-center mb-4'>
+                <div className='card-box'>
+                    <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
+                        <h1 style={{fontSize:'35px'}}>Medicine</h1> 
+                        <p>We strive to advance equity in health, improve access to medicines,<br/>
+                        and promote preventive measures to ensure healthier lives for all.
+                        </p> <br/><br/>
+                        <HashLink smooth to='/focus/medicine#top'><button className='btnlr'>Learn More</button></HashLink>
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
+                        <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849381/Circular%20website/Medicine_o2wetw.jpg"} alt="Medicine"/>
+                    </div>
                 </div>
             </div>
-
+            <div className='d-flex justidfy-content-center mb-4'>
+                <div className='card-box'>
+                    <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
+                        <h1 style={{fontSize:'35px'}}>Hospitality</h1> 
+                        <p>Experience our sustainable hospitality initiatives, promoting responsible<br/>
+                        tourism, eco-friendly practices, and supporting local communities.
+                        </p> <br/><br/>
+                        <HashLink smooth to='/focus/hospitality#top'><button className='btnlr'>Learn More</button></HashLink>
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
+                        <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849375/Circular%20website/Hospitality_iaobf5.jpg"} alt="Hospitality"/>
+                    </div>
+                </div>
+            </div>
+            <div className='d-flex justidfy-content-center mb-4'>
+                <div className='card-box'>
+                    <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
+                        <h1 style={{fontSize:'35px'}}>Hepatology</h1> 
+                        <p>Learn about our efforts to raise awareness, prevent, and treat liver <br/>
+                        diseases, ensuring liver health for individuals and communities.
+                        </p> <br/><br/>
+                        <HashLink smooth to='/focus/hepatology#top'><button className='btnlr'>Learn More</button></HashLink>
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
+                        <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849374/Circular%20website/Hepatology_xfq0kd.jpg"} alt="Hepatology"/>
+                    </div>
+                </div>
+            </div>
+            <div className='d-flex justidfy-content-center mb-5'>
+                <div className='card-box'>
+                    <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
+                        <h1 style={{fontSize:'35px'}}>Gynaecology</h1>
+                        <p>Discover our initiatives to promote women's health, provide reproductive <br/>
+                        healthcare services, and empower women with knowledge and support.
+                        </p> <br/><br/>
+                        <HashLink smooth to='/focus/gynaecology#top'><button className='btnlr'>Learn More</button></HashLink>
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
+                        <img className='pic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849368/Circular%20website/Gynaecology_k38hqo.jpg"} alt="Gynaecology"/>
+                    </div>
+                </div>
+            </div>
        </div>
     </div>
    </>

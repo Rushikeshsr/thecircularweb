@@ -262,6 +262,9 @@
     .para{
         font-size: 12px;
     }
+    .together{
+        font-size: 15px !important;
+    }
     .image-row{
         flex-direction: column;
     }
