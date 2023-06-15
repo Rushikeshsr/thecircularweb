@@ -33,10 +33,12 @@ const Smae = () => {
             </p>
         </div>
         <div className='section3'>
-            <div className="image-gallery-wrapper">
-                <ImageGallery autoPlay={true} showThumbnails={false} items={smaeGallery} />
+            <div className='p-3'>
+                <div className="image-gallery-wrapper">
+                    <ImageGallery autoPlay={true} showThumbnails={false} items={smaeGallery} />
+                </div>
             </div>
-            <p className='para mt-5'>
+            <p className='para mt-4'>
                 Through joint initiatives, workshops, and mentorship programs, we will provide students with the guidance and support they need to excel in their educational and professional journeys. By connecting them with industry professionals and exposing them to real-world challenges, we empower students to make a tangible difference in the automotive and mechanical engineering sectors.
             </p>
             <p className='para'>

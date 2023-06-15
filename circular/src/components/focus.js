@@ -91,7 +91,7 @@ const Focus = () => {
                 <h1 className='sec2-head'>KEY AREAS</h1>
                 <hr className='line'/>
             </div>
-            <div className='d-flex justidfy-content-center mb-4'>
+            <div className='d-flex justidfy-content-center mb-5'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Circular Economy</h1> 
@@ -105,7 +105,7 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-4'>
+            <div className='d-flex justidfy-content-center mb-5'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Nature</h1> 
@@ -119,7 +119,7 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-4'>
+            <div className='d-flex justidfy-content-center mb-5'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Medicine</h1> 
@@ -133,7 +133,7 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-4'>
+            <div className='d-flex justidfy-content-center mb-5'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Hospitality</h1> 
@@ -147,7 +147,7 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-4'>
+            <div className='d-flex justidfy-content-center mb-5'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Hepatology</h1> 
