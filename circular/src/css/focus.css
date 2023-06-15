@@ -99,9 +99,8 @@
     margin-right:15px;
     margin-left: 15px;
 }
-.explore-sec{
-    display: flex;
-    justify-content: center;
+.hline{
+    display: none;
 }
 @media screen and (max-width:600px){
     .sec2-head{
@@ -125,6 +124,10 @@
         width: 300px !important;
         height: 180px;
         margin-bottom: 15px;
+    }
+    .hline{
+        display: block;
+    
     }
     .text-image-box{
         flex-direction: column;
