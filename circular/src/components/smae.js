@@ -6,10 +6,10 @@ import { smaeGallery } from './smaegallery';
 const Smae = () => {
   return (
     <>
-        <div className='cover-imageS p-5'>
+        <div className='cover-imageS'>
             <h1 className='cover-text' style={{color:"aliceblue", opacity:"0.9",textShadow:"2px 2px 20px black"}}>SMAE</h1>
         </div>
-        <div className='section2 p-5'>
+        <div className='section2'>
             <p className='paragh'>
                 We partnered with SMAE (Society of Mechanical and Automotive Engineers) to drive innovation and sustainability in the automotive and mechanical engineering sectors. SMAE plays a crucial role in connecting students in educational institutions with real-time projects in the manufacturing industry, providing them with invaluable hands-on experience and exposure to sustainable manufacturing practices.
             </p>
@@ -32,7 +32,7 @@ const Smae = () => {
                 Furthermore, The Circular and SMAE recognize the importance of research and development in advancing electric vehicle technology. Together, we are focused on improving battery efficiency, optimizing vehicle performance, and enhancing user experiences in electric go-karts. By pushing the boundaries of electric vehicle technology, we aim to contribute to the growth and acceptance of sustainable transportation solutions.
             </p>
         </div>
-        <div className='p-5 '>
+        <div className='section3'>
             <div className="image-gallery-wrapper">
                 <ImageGallery autoPlay={true} showThumbnails={false} items={smaeGallery} />
             </div>

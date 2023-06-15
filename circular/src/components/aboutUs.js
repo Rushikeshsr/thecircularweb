@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import '../css/aboutus.css'
 import Aos from 'aos'
-import {Link} from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
 const AboutUs = () => {
@@ -10,7 +10,7 @@ const AboutUs = () => {
     },[])
   return (
     <>
-    <div className='p-5'>
+    <div className='section3'>
         <div className='text-center'>
          <h1 className='heading' style={{color:"black"}}>ABOUT US</h1>
          <hr className='line' style={{width:"80px"}}/>
@@ -31,8 +31,8 @@ const AboutUs = () => {
           We aim to engage and empower people with knowledge, inspiring them to embrace sustainable practices and take action to create a harmonious coexistence between humanity and the natural world. By forging collaborations with research organizations, policy makers, and think tanks, we strive to drive meaningful change and foster a collective commitment to building a better future for all.
         </p>
     </div>
-    <div className='section4 p-5'>
-        <div className='text-center'>
+    <div className='section4'>
+        <div className='text-center mb-4'>
             <h1 className='sec2-head' style={{fontSize:"20px"}}>FROM OUR PRESIDENT</h1>
             <hr className='line' style={{width:"200px",borderColor:"aliceblue"}}/>
         </div>
@@ -87,11 +87,11 @@ const AboutUs = () => {
         <p className='para'>President, <br/><span style={{fontWeight:"bold"}}>The Circular</span> </p>
     </div>
     <div className='navigator mb-2 p-4'>
-          <Link to="/aboutus/visionandmission"><button className='button' style={{boxShadow: "2px 2px 20px #00ff0d"}}>Vision & Mission</button></Link>
-          <Link to="/aboutus/leadership"><button className='button' style={{boxShadow: "2px 2px 20px #00ff0d"}}>Leadership</button></Link>
-          <Link to="/aboutus/operations"><button className='button' style={{boxShadow: "2px 2px 20px #00ff0d"}}>Operations</button></Link>
-          <Link to="/aboutus/fieldtrips"><button className='button' style={{boxShadow: "2px 2px 20px #00ff0d"}}>Field Trips</button></Link>
-          <Link to="/resources"><button className='button' style={{boxShadow: "2px 2px 20px #00ff0d"}}>Impact</button></Link>
+          <HashLink smooth to="/aboutus/visionandmission#top"><button className='button' style={{boxShadow: "2px 2px 20px #00ff0d"}}>Vision & Mission</button></HashLink>
+          <HashLink smooth to="/aboutus/leadership#top"><button className='button' style={{boxShadow: "2px 2px 20px #00ff0d"}}>Leadership</button></HashLink>
+          <HashLink smooth to="/aboutus/operations#top"><button className='button' style={{boxShadow: "2px 2px 20px #00ff0d"}}>Operations</button></HashLink>
+          <HashLink smooth to="/aboutus/fieldtrips#top"><button className='button' style={{boxShadow: "2px 2px 20px #00ff0d"}}>Field Trips</button></HashLink>
+          <HashLink smooth to="/aboutus/impact#top"><button className='button' style={{boxShadow: "2px 2px 20px #00ff0d"}}>Impact</button></HashLink>
     </div>
     </>
   )
