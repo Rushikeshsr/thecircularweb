@@ -18,7 +18,7 @@ const Rer = () => {
             </p>
           </div>   
         </div>
-        <div className='section2 p-5'>
+        <div className='section2'>
             <p className='paragh'>
                 Renewable Energy Resources (RER) is a collaborative effort with multiple renewable energy providers. Our partnership with RER aims to accelerate the adoption of renewable energy solutions, reduce carbon emissions, and create a clean energy future. By promoting sustainable energy practices, we contribute to the global transition towards a greener and more sustainable world.
             </p>
@@ -50,11 +50,11 @@ const Rer = () => {
             </p>
                         
         </div>
-        <div className='section3 p-5'>
+        <div className='section3'>
             <div className='text-center m-3'>
-                <img className='medpich' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858569/Circular%20website/rer%20images/ri2_xpafrb.jpg"} alt='cloudinery ci1'></img>
-                <img className='medpich' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858569/Circular%20website/rer%20images/ri3_krdq1q.jpg"} alt='cloudinery ci2'></img>
-                <img className='medpich' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858568/Circular%20website/rer%20images/ri1_nottjn.jpg"} alt='cloudinery ci4'></img>
+                <img className='medpich aranyapic' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858569/Circular%20website/rer%20images/ri2_xpafrb.jpg"} alt='cloudinery ci1'></img>
+                <img className='medpich aranyapic' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858569/Circular%20website/rer%20images/ri3_krdq1q.jpg"} alt='cloudinery ci2'></img>
+                <img className='medpich aranyapic' style={{height:"300px",width:"500px",padding:"5px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685858568/Circular%20website/rer%20images/ri1_nottjn.jpg"} alt='cloudinery ci4'></img>
             </div>              
         </div>
     </>

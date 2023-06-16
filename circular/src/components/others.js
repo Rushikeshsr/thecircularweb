@@ -4,13 +4,13 @@ import "../css/circulareconomy.css"
 const Others = () => {
   return (
     <>
-        <div className='cover-imageO p-5'>
-            <h1 className='cover-text' style={{fontSize:"40px",color:"aliceblue", opacity:"0.8", textShadow:"2px 2px 20px black"}}>
+        <div className='cover-imageO p-4'>
+            <h1 className='cover-text other-head' style={{fontSize:"40px",color:"aliceblue", opacity:"0.8", textShadow:"2px 2px 20px black"}}>
             Climate Dynamics, Weather Patterns, and Their Effect <br/>
             on Human Health Through the Lens of Celestial Observations
             </h1>
         </div>
-        <div className='section2 p-5'>
+        <div className='section2'>
             <p className='paragh'>
                 Recognizing the vital role of healthcare, The Circular has formed partnerships with primary healthcare centers (PHCs) and community health workers. These collaborations allow us to extend our reach to underserved communities, particularly in rural and tribal regions, where access to healthcare is limited. By working closely with PHCs and community health workers, we are able to provide essential healthcare services and education, addressing the healthcare gap and empowering individuals to take charge of their well-being. Together, we strive to build healthier and more resilient communities.
             </p>
@@ -28,13 +28,13 @@ const Others = () => {
             </p>
             <div className="image-container mb-4">
                 <div className='d-flex flex-column'>
-                    <img className='medpich m-1' style={{width:"550px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685870919/Circular%20website/oi1_igzyo6.jpg"} alt="oi1"/>
-                    <img className='medpich m-1' style={{width:"550px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685870909/Circular%20website/oi2_fbdc5e.jpg"} alt="oi2"/>
+                    <img className='medpich aranyapic m-2' style={{width:"550px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685870919/Circular%20website/oi1_igzyo6.jpg"} alt="oi1"/>
+                    <img className='medpich aranyapic m-2' style={{width:"550px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685870909/Circular%20website/oi2_fbdc5e.jpg"} alt="oi2"/>
                 </div>
                 <img className='medpicv' style={{width:"300px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685870909/Circular%20website/oi3_vs6k67.jpg"} alt="oi3"/>
             </div>
         </div>
-        <div className='p-5'>
+        <div className='section3'>
             <p className='para'>
                 Leveraging new technologies, we aim to accelerate and optimize research results for the benefit of patients and society as a whole. Furthermore, the observatory serves as a platform to disseminate research findings, making them accessible to the broader community. In addition, we actively seek solutions for data management and address legal gaps to ensure the responsible use of data generated through research. By harnessing the power of research and collaboration, we aim to generate a positive impact on the economy and contribute to the reduction of health spending.
             </p>
