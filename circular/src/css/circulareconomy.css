@@ -163,9 +163,21 @@
     border-radius: 15px;
 }
 @media screen and (max-width:600px){
+    .cover-imageC{
+        max-width: 600px;
+        text-align: center;
+    }
     .medpich{
         width:280px;
         height:190px !important;
+    }
+    .paper-bag-pic{
+        width: 220px !important;
+    }
+    .cimpic{
+        width:210px;
+        height:250px;
+        margin-bottom: 20px;
     }
     .font-head{
         font-size: 18px !important;
@@ -178,6 +190,14 @@
     }
     .image-container{
         flex-wrap: wrap;
+    }
+    .cir-video{
+        width: 250px;
+        height: 300px;
+    }
+    .cir-lastpic{
+        height: 150px;
+        width:250px !important;
     }
 }
 .medpicv{

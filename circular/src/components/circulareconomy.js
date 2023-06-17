@@ -11,7 +11,7 @@ const CircularEconomy = () => {
         <div className='cover-imageC p-5'>
             <h1 className='cover-text' style={{color:"aliceblue", opacity:"0.8",textShadow:"2px 2px 20px black"}}>CIRCULAR ECONOMY</h1>
         </div>
-        <div className='section2 p-5'>
+        <div className='section2'>
             <p className='paragh'>
                 We are passionate about creating a sustainable future by reimagining waste. Our focus extends to the often-neglected textile waste and other forms of discarded materials. We believe that every piece of waste holds untapped potential, waiting to be transformed into something valuable and meaningful.
             </p>
@@ -38,25 +38,25 @@ const CircularEconomy = () => {
                 <img data-aos="flip-left" data-aos-delay="200" className='cimpic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849393/Circular%20website/rishi_3_m94gkh.jpg"} alt="rishi_3"/>
             </div>
             <div className='image-container mb-4'>
-                <img data-aos="flip-right" data-aos-delay="200" className='medpich' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1686021928/Circular%20website/cirpaper_fao2ra.jpg"} alt="paperbag"/>
-                <img data-aos="flip-right" data-aos-delay="200" className='medpich' style={{width:"300px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1686022328/Circular%20website/cirpaperbag_nugdjm.jpg"} alt="paperbag"/>
+                <img data-aos="flip-right" data-aos-delay="200" className='medpich mb-3' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1686021928/Circular%20website/cirpaper_fao2ra.jpg"} alt="paperbag"/>
+                <img data-aos="flip-right" data-aos-delay="200" className='medpich paper-bag-pic mb-2' style={{width:"300px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1686022328/Circular%20website/cirpaperbag_nugdjm.jpg"} alt="paperbag"/>
             </div>
             <div className='paragh text-center'>
-                <video width="700px" height="500px" autoPlay={true} controls>
+                <video className='cir-video' width="700px" height="500px" autoPlay muted controls>
                     <source src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1686021947/Circular%20website/cirvideo_monbmb.mp4" type='video/mp4'/>
                 </video> 
             </div>
         </div>
-        <div className='p-5'>    
+        <div className='section3'>    
             <p className='para'>
             We are committed to fostering partnerships with businesses, organizations, and individuals who share our vision. Together, we can make a significant impact and reshape the way we think about waste. By supporting our initiatives, you become a catalyst for change, driving the transformation of textile waste into valuable resources and inspiring others to follow suit.
             </p>
             <div className="image-container mb-4">
-                <img data-aos="fade-left" data-aos-delay="100" className='cimpic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849362/Circular%20website/cir1_x9yh23.jpg"} alt="cir1"/>
-                <img data-aos="fade-right" data-aos-delay="100" className='cimpic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849363/Circular%20website/cir2_l5jd3j.jpg"} alt="cir2"/>
+                <img data-aos="fade-down" data-aos-delay="100" className='cimpic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849362/Circular%20website/cir1_x9yh23.jpg"} alt="cir1"/>
+                <img data-aos="fade-down" data-aos-delay="100" className='cimpic' src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849363/Circular%20website/cir2_l5jd3j.jpg"} alt="cir2"/>
             </div>
             <div className='d-flex justify-content-center'>
-                <img data-aos="fade-down" data-aos-delay="100" style={{width:"50%", borderRadius:"5%"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849368/Circular%20website/cir3_rtlnnm.jpg"} alt="cir3"/>
+                <img data-aos="fade-down" data-aos-delay="100" className='cir-lastpic' style={{width:"50%", borderRadius:"5%"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849368/Circular%20website/cir3_rtlnnm.jpg"} alt="cir3"/>
             </div>
         </div>
     </>
