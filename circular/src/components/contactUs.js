@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import emailjs from 'emailjs-com';
 import '../css/contactus.css';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope} from "react-icons/fa";
+
 const ContactUs = () => {
     const [form,setForm] = useState({user_name:"",
                         user_email:"",
@@ -33,7 +34,7 @@ const ContactUs = () => {
     }
   return (
     <>
-        <div id="joinus" className='section4 p-5'>
+        <div id="joinus" className='section4'>
             <h2 className='main-heading'>Join Us</h2>
             <form onSubmit={submit} className='form'>
                 <div className='form-group mb-3'>
@@ -65,7 +66,7 @@ const ContactUs = () => {
             {success?<div className='sub-heading text-alert'>{success}</div>:null}
             {error?<div className='sub-heading text-danger'>{error}</div>:null}
         </div>
-        <div className='section2 p-5'>
+        <div className='section2'>
             <h2 className='main-heading' style={{color:"aliceblue"}}>Contact Us</h2>
             <p className='paragh'>Please feel free to reach out to us for all your questions and concerns</p>
             <p className='paragh'><FaPhone style={{fontSize:'20px'}}/>&nbsp;&nbsp;+917032064985</p>
@@ -73,23 +74,23 @@ const ContactUs = () => {
             <div className='d-flex paragh'>
                 <FaMapMarkerAlt style={{fontSize:'25px'}}/>
                 <div>
-                    <p style={{fontSize:"20px", fontFamily:"montserrat"}}>&nbsp;India</p>
+                    <p className='font-head' style={{fontSize:"20px", fontFamily:"montserrat"}}>&nbsp;India</p>
                     <p style={{fontSize:"15px", fontFamily:"montserrat"}}>&nbsp;Hyderabad</p>
                     <p style={{fontSize:"15px", fontFamily:"montserrat"}}>&nbsp;New Delhi</p>
                 </div>
             </div>
         </div>
-        <div id="supportus" className='section3 p-5'>
-            <h2 className='main-heading'style={{color:"balck"}}>Support Us</h2>
+        <div id="supportus" className='section3'>
+            <h2 className='main-heading' style={{color:"balck"}}>Support Us</h2>
             <p className='para'>
             Hello, Distinguished and Passionate Humans.
             We hope all is well with you.
             We appreciate you stopping by and reading thus far on our website. We are aware of your never-ending workload in this VUCA world. Let's pause for a moment, though, to thank nature for being so patient despite how long we plunder the resources to sate our avarice. In this regard, it is our duty to ensure that we are protecting the environment and improving it for the sake of our future generations. Please donate what you can in order to help us serve our planet on your behalf.
             </p>
-            <p className='para d-flex' style={{justifyContent:"space-around",alignItems:"center"}}>
-                <img style={{width:"500px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685897213/Circular%20website/HypupAd-Pay-Frame006_nhsys2.png" alt="paymentoptions"/>
+            <p className='para supportus d-flex' style={{justifyContent:"space-around",alignItems:"center"}}>
+                <img className='payment' style={{width:"500px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685897213/Circular%20website/HypupAd-Pay-Frame006_nhsys2.png" alt="paymentoptions"/>
                 <div className='text-center'>
-                    <img style={{width:"200px", height:"200px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685897424/Circular%20website/IMG_20230604_185315_cxbqzg.jpg" alt="QRcode"/>
+                    <img className='qrcode' style={{width:"200px", height:"200px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685897424/Circular%20website/IMG_20230604_185315_cxbqzg.jpg" alt="QRcode"/>
                     <p className='para'>abhikeyfoundation@uboi</p>
                 </div>
                 

@@ -7,3 +7,30 @@
     font-size: 15px;
     font-family: 'montserrat';
 }
+
+@media screen and (max-width:600px) {
+    .form{
+        width: 80%;
+    }
+    .label{
+        font-size:14px;
+    }
+    input[type=text],input[type=email], input[type=number]{
+        font-size: 13px;
+    }
+
+    textarea[type=text]{
+        font-size: 13px;
+    }
+    .supportus{
+        flex-wrap: wrap;
+    }
+    .payment{
+        width: 280px !important;
+        margin-bottom: 15px;
+    }
+    .qrcode{
+        width: 150px !important;
+        height: 150px !important;
+    }
+}
