@@ -185,6 +185,10 @@
         max-width: 600px;
         text-align: center;
     }
+    .cover-imageM{
+        max-width: 600px;
+        text-align: center;
+    }
     .medpich{
         width:280px;
         height:190px !important;
@@ -225,6 +229,10 @@
         width: 180px;
         height:255px;
         margin-bottom: 15px;
+    }
+    .medpicv{
+        width:200px;
+        height:400px;
     }
     .abhay-pics{
         display: flex;
