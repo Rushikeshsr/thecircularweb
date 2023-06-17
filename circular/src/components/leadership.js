@@ -81,17 +81,19 @@ const Leadership = () => {
       },[]);
   return (
     <>
-        <div className='p-5'>
-            <h2 className='main-heading text-center'>LEADERSHIP</h2>
-            <hr className='h-line'/>
-            <div className='profile'>
+        <div className='section3'>
+            <div className='p-5 name-line'>
+                <h2 className='main-heading text-center'>LEADERSHIP</h2>
+                <hr className='h-line'/>
+            </div>
+            <div className='profile mb-4'>
                 <div data-aos="flip-right" data-aos-delay="100" className='lbox-image'>
                     <img className='lperson' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686030527/Circular%20website/skbp_pic_k9yxuw.jpg" alt="skbp"/>
                     <div className='lpara'>
-                        <p style={{fontSize: "25px", fontWeight:"bold"}}>Dr. S.K.Bikshapathy <br/> 
-                        <span style={{fontSize:"20px", fontWeight:"100"}}>Chairman</span>
+                        <p className='pname' style={{fontSize: "25px", fontWeight:"bold"}}>Dr. S.K.Bikshapathy <br/> 
+                        <span className='pdesg' style={{fontSize:"20px", fontWeight:"100"}}>Chairman</span>
                         </p>
-                        <p style={{fontSize:"15px"}}>chairman@thecircular.in</p>
+                        <p className='pemail' style={{fontSize:"15px"}}>chairman@thecircular.in</p>
                         {showBtnC?<button onClick={showContentC} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                         <button onClick={hideContentC} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
                     </div>                
@@ -107,14 +109,14 @@ const Leadership = () => {
                 </div>
 
             </div>
-            <div className='profile'>
+            <div className='profile mb-4'>
                 <div data-aos="flip-right" data-aos-delay="100" className='lbox-image'>
                     <img className='lperson' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849361/Circular%20website/AbhayCSwb_bfwjla.png" alt="abhay"/>
                     <div className='lpara'>
-                        <p style={{fontSize: "25px", fontWeight:"bold"}}>Abhay Chakra Sadineni<br/>
-                        <span style={{fontSize:"20px", fontWeight:"100"}}>President</span>
+                        <p className='pname' style={{fontSize: "25px", fontWeight:"bold"}}>Abhay Chakra Sadineni<br/>
+                        <span className='pdesg' style={{fontSize:"20px", fontWeight:"100"}}>President</span>
                         </p>
-                        <p style={{fontSize:"15px"}}>president@thecircular.in</p>
+                        <p className='pemail' style={{fontSize:"15px"}}>president@thecircular.in</p>
                         {showBtnP?<button onClick={showContentP} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                         <button onClick={hideContentP} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
                     </div>                
@@ -129,14 +131,14 @@ const Leadership = () => {
                     </p>:null}
                 </div>
             </div>
-            <div className='profile'>
+            <div className='profile mb-4'>
                 <div data-aos="flip-right" data-aos-delay="100" className='lbox-image'>
                     <img className='lperson' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686048185/Circular%20website/rushi_pic_s7qs8q.jpg" alt="rushi_pic"/>
                     <div className='lpara'>
-                        <p style={{fontSize: "25px", fontWeight:"bold"}}>Rushikeshwar Sunkey<br/>
-                        <span style={{fontSize:"20px", fontWeight:"100"}}>General Secretary</span>
+                        <p className='pname' style={{fontSize: "25px", fontWeight:"bold"}}>Rushikeshwar Sunkey<br/>
+                        <span className='pdesg' style={{fontSize:"20px", fontWeight:"100"}}>General Secretary</span>
                         </p>
-                        <p style={{fontSize:"15px"}}>secretary@thecircular.in</p>
+                        <p className='pemail' style={{fontSize:"15px"}}>secretary@thecircular.in</p>
                         {showBtnS?<button onClick={showContentS} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                         <button onClick={hideContentS} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
                     </div>                
@@ -150,12 +152,12 @@ const Leadership = () => {
                     </p>:null}
                 </div>
             </div>
-            <div className='profile'>
+            <div className='profile mb-4'>
                 <div data-aos="flip-right" data-aos-delay="100" className='lbox-image'>
                     <img className='lperson' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686047689/Circular%20website/passport_photo1_cm5emw.jpg" alt="saimanishekar"/>
                     <div className='lpara'>
-                        <p style={{fontSize: "25px",fontWeight:"bold"}}>Sai Mani Shekar Sundharagiri<br/>
-                        <span style={{fontSize:"20px", fontWeight:"100"}}>Head of Digital Transformation</span>
+                        <p className='pname' style={{fontSize: "25px",fontWeight:"bold"}}>Sai Mani Shekar Sundharagiri<br/>
+                        <span className='pdesg' style={{fontSize:"20px", fontWeight:"100"}}>Head of Digital Transformation</span>
                         </p>
                         {showBtnHD?<button onClick={showContentHD} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                         <button onClick={hideContentHD} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
@@ -169,12 +171,12 @@ const Leadership = () => {
                     </p>:null}
                 </div>
             </div>
-            <div className='profile'>
+            <div className='profile mb-4'>
                 <div data-aos="flip-right" data-aos-delay="100" className='lbox-image'>
                     <img className='lperson' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686048337/Circular%20website/Adi_Pic_xt0iiz.jpg" alt="adi_pic"/>
                     <div className='lpara'>
-                        <p style={{fontSize: "25px",fontWeight:"bold"}}>Adi Seshan Mula<br/>
-                        <span style={{fontSize:"20px", fontWeight:"100"}}>Head of Supply Chain Management</span>
+                        <p className='pname' style={{fontSize: "25px",fontWeight:"bold"}}>Adi Seshan Mula<br/>
+                        <span className='pdesg' style={{fontSize:"20px", fontWeight:"100"}}>Head of Supply Chain Management</span>
                         </p>
                         {showBtnHS?<button onClick={showContentHS} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                         <button onClick={hideContentHS} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
@@ -190,16 +192,18 @@ const Leadership = () => {
             </div>
 
         </div>
-        <div className='section4 p-5'>
-            <h2 className='main-heading text-center'>ADVISORS</h2>
-            <hr className='h-line' style={{borderColor:"aliceblue", opacity:"1"}}/>
-            <div className='profile'>
+        <div className='section4'>
+            <div className='p-5 name-line'>
+                <h2 className='main-heading text-center'>ADVISORS</h2>
+                <hr className='h-line' style={{borderColor:"aliceblue", opacity:"1"}}/>
+            </div>
+            <div className='profile mb-4'>
                 <div data-aos="flip-right" data-aos-delay="100" className='lbox-image'>
-                    <img className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686469642/Circular%20website/rukhmini_gq07iu.jpg" alt="rukhmini"/>
+                    <img className='lperson' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686469642/Circular%20website/rukhmini_gq07iu.jpg" alt="rukhmini"/>
                     <div className='lpara'>
-                        <p style={{fontSize: "25px", fontWeight:"bold"}}>Dr. J.Rukmini <span style={{fontSize:"13px"}}> M.Sc, Ph.D</span>          
+                        <p className='pname' style={{fontSize: "25px", fontWeight:"bold"}}>Dr. J.Rukmini <span style={{fontSize:"13px"}}> M.Sc, Ph.D</span>          
                         </p>
-                        <p><span style={{fontSize:"20px", fontWeight:"100"}}>Associate Professor</span><br/>
+                        <p><span className='pdesg' style={{fontSize:"20px", fontWeight:"100"}}>Associate Professor</span><br/>
                         Department of Astronomy, Osmania University, Hyderabad</p>
                         {showBtnR?<button onClick={showContentR} className='more'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                         <button onClick={hideContentR} className='more' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
@@ -216,10 +220,10 @@ const Leadership = () => {
             </div>
             <div className='profile'>
                 <div data-aos="flip-right" data-aos-delay="100" className='lbox-image'>
-                    <img className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686469848/Circular%20website/shankarJR_ayf8wv.jpg" alt="shankar"/>
+                    <img className='lperson' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686469848/Circular%20website/shankarJR_ayf8wv.jpg" alt="shankar"/>
                     <div className='lpara'>
-                        <p style={{fontSize: "25px", fontWeight:"bold"}}>Shankar Jamparathi</p>
-                        <p>Technical Incharge at Japal-Rangapur Observatory,<br/>
+                        <p className='pname' style={{fontSize: "25px", fontWeight:"bold"}}>Shankar Jamparathi</p>
+                        <p className='pdesg'>Technical Incharge at Japal-Rangapur Observatory,<br/>
                             Centre for Economic and Social Studies, Rangapur, Telangana
                         </p>
                         {showBtnJR?<button onClick={showContentJR} className='more'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:

@@ -3,12 +3,12 @@ import '../css/operations.css'
 const Operations = () => {
   return (
     <>
-    <div className='p-5'>
+    <div className='section3'>
         <h2 className='main-heading'>OPERATIONS</h2>
         <p className='para'>
             Operations and Implementation play a vital role in translating ideas and strategies into tangible outcomes and real-world impact. They are the driving force behind turning our vision into reality.
         </p>
-        <p className='para text-center' style={{fontSize:"20px",fontWeight:"bold"}}>OUR OPERATIONS TEAM</p>
+        <p className='para text-center font-head'  style={{fontSize:"20px",fontWeight:"bold"}}>OUR OPERATIONS TEAM</p>
         <div className='d-flex justify-content-center'>
             <table className='para w-50'>
                 <tr>

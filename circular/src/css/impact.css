@@ -5,3 +5,28 @@ button a{
 button a:hover{
     color: #00ff0d;
 }
+
+@media screen and (max-width:600px) {
+    .button-arr{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .button-arl{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .remove-margin{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .button-font{
+        font-size: 14px;
+    }
+    .font{
+        font-size:15px !important;
+    }
+}
