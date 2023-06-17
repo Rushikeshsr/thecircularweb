@@ -162,8 +162,8 @@
         order: 1 !important;
     }
     .pic{
-        width:250px;
-        height:150px;
+        width:260px !important;
+        height:170px !important;
         order: 2 !important;
     }
     .btnlr{

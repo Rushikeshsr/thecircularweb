@@ -201,6 +201,25 @@
         max-width: 600px;
         text-align: center;
     }
+    .cover-imageSk{
+        max-width: 600px;
+        text-align: center;
+    }
+    .cover-imageQ{
+        max-width: 600px;
+        text-align: center;
+    }
+    .cover-imageT{
+        max-width: 600px;
+        text-align: center;
+    }
+    .skills-pic{
+        height: 225px !important;
+        width: 160px !important;
+    }
+    .neelmani{
+        height: 260px !important;
+    }
     .medpich{
         width:280px !important;
         height:190px !important;
@@ -209,9 +228,12 @@
         width: 220px !important;
     }
     .cimpic{
-        width:210px;
+        width:210px !important;
         height:250px;
         margin-bottom: 20px;
+    }
+    .ripal-pics{
+        flex-wrap: wrap;
     }
     .font-head{
         font-size: 18px !important;
