@@ -7,7 +7,7 @@ const Gynaecology = () => {
         <div className='cover-imageG p-5'>
             <h1 className='cover-text' style={{color:"black", opacity:"0.8"}}>GYNAECOLOGY</h1>
         </div>
-        <div className='section3 p-5'>
+        <div className='section3'>
             <p className='para'>
                With a meticulous incision that traverses seven layers, the C-Section surgery demands awe and reverence. Yet, astonishingly, society often overlooks the monumental challenges faced by women who undergo this procedure. As we delve into the experiences of women who have undergone cesarean deliveries, a troubling pattern emerges. In suburban, rural, and even some urban middle-class families, the plight of these mothers is often met with indifference. It is disheartening to witness even elderly women in the household neglecting the needs of the mother, redirecting their focus solely on celebrating the arrival of the newborn.
             </p>

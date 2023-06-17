@@ -197,8 +197,12 @@
         max-width: 600px;
         text-align: center;
     }
+    .cover-imageG{
+        max-width: 600px;
+        text-align: center;
+    }
     .medpich{
-        width:280px;
+        width:280px !important;
         height:190px !important;
     }
     .paper-bag-pic{
