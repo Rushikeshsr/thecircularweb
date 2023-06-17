@@ -12,7 +12,7 @@ const Hepatology = () => {
         <div className='cover-imageHe p-5'>
             <h1 className='cover-text' style={{color:"black", opacity:"0.9"}}>Hepatology</h1>
         </div>
-        <div className='section2 p-5'>
+        <div className='section2'>
             <p className='paragh'>
                 Hepatitis is a global public health challenge that affects millions of lives. It is an inflammation of the liver, often caused by viral infections, toxins, or autoimmune diseases. If left undiagnosed and untreated, Hepatitis can lead to severe liver damage, liver failure, and even liver cancer. It is crucial to understand the different types of Hepatitis, their modes of transmission, and the potential consequences they pose.
             </p>
@@ -20,14 +20,14 @@ const Hepatology = () => {
                 There are several types of Hepatitis, including Hepatitis A, B, C, D, and E. Each type has unique characteristics and can be transmitted through various routes such as contaminated food and water, unsafe sexual practices, sharing of needles, or from mother to child during childbirth. By increasing awareness about the modes of transmission, we can take proactive measures to prevent Hepatitis infections.
             </p>
             <p className='paragh'>
-                <span style={{fontSize:"20px",color:"#00ff0d"}}>The Importance of Early Identification and Diagnosis</span><br/>
+                <span className='font-head' style={{fontSize:"20px",color:"#00ff0d"}}>The Importance of Early Identification and Diagnosis</span><br/>
                 Early identification and diagnosis play a vital role in managing Hepatitis and preventing its complications. Many people infected with Hepatitis may not exhibit noticeable symptoms initially, making it crucial to undergo regular screenings and tests. Routine blood tests can detect the presence of Hepatitis viruses, enabling early intervention and appropriate medical care.
             </p>
             <p className='paragh'>
                 At The Circular, we advocate for regular screenings, especially for individuals at higher risk, such as healthcare workers, individuals with multiple sexual partners, people who inject drugs, and those with a history of blood transfusions. By prioritizing early identification, we can ensure timely treatment, minimize liver damage, and improve long-term health outcomes.
             </p>
             <p className='paragh'>
-                <span style={{fontSize:"20px",color:"#00ff0d"}}>Understanding the Severity of Hepatitis B: Protecting Your Liver Health</span><br/>
+                <span className='font-head' style={{fontSize:"20px",color:"#00ff0d"}}>Understanding the Severity of Hepatitis B: Protecting Your Liver Health</span><br/>
                 Hepatitis B is a viral infection that affects the liver and can cause both acute and chronic liver disease. It is important to understand the severity of Hepatitis B and take appropriate measures to protect your liver health. Here's an overview of the different stages and potential complications associated with Hepatitis B
             </p>
             <p data-aos="fade-left" data-aos-delay="100" className='paragh'>
@@ -47,8 +47,8 @@ const Hepatology = () => {
                 Individuals with chronic Hepatitis B are at an increased risk of developing hepatocellular carcinoma (HCC), which is the most common form of liver cancer. Chronic inflammation and liver cirrhosis contribute to the development of liver cancer. Early detection and treatment are crucial for better outcomes.
             </p>
         </div>
-        <div className='section3 p-5'>
-            <span className='para' style={{fontSize:"20px",color:"#00ff0d",textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}}>Preventing Hepatitis B Transmission and Reducing Severity</span>
+        <div className='section3'>
+            <p className='para font-head' style={{fontSize:"20px",color:"#00ff0d",textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}}>Preventing Hepatitis B Transmission and Reducing Severity</p>
             <p data-aos="fade-right" data-aos-delay="100" className='para'>
                 <span style={{fontSize:"15px",color:"darkgreen"}}>Vaccination :</span> &nbsp;
                 The Hepatitis B vaccine is a safe and effective way to prevent Hepatitis B infection. It is recommended for all infants, children, and adults who have not been previously vaccinated.
@@ -77,7 +77,7 @@ const Hepatology = () => {
                 <span style={{fontSize:"15px",color:"darkgreen"}}>Regular Monitoring and Treatment :</span> &nbsp;
                 If you have chronic Hepatitis B, regular monitoring of your liver health through blood tests and imaging studies is important. Treatment options are available to help manage the infection and reduce the risk of complications.
             </p>
-            <span className='para' style={{fontSize:"20px",color:"#00ff0d",textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}}>Preventing Infections in Schools: Educating Kids and Parents</span>
+            <p className='para font-head' style={{fontSize:"20px",color:"#00ff0d",textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}}>Preventing Infections in Schools: Educating Kids and Parents</p>
             <p className='para'>
                 Schools play a crucial role in preventing Hepatitis infections and promoting liver health among children. Education is the key to empowering kids and parents with the knowledge and practices necessary to prevent transmission.
             </p>
@@ -87,7 +87,7 @@ const Hepatology = () => {
             <p className='para'>
                 By engaging parents in these initiatives, we create a supportive environment that reinforces healthy habits and encourages open conversations about Hepatitis and liver health. Together, we can build a strong foundation for preventive measures and instill lifelong practices that protect our children's well-being.
             </p>
-            <span className='para' style={{fontSize:"20px",color:"#00ff0d",textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}}>Focusing on Community Health: Empowering Individuals and Families</span>
+            <p className='para font-head' style={{fontSize:"20px",color:"#00ff0d",textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}}>Focusing on Community Health: Empowering Individuals and Families</p>
             <p className='para'>
                 Community health is at the core of our efforts to combat Hepatitis and promote liver health. We believe that a collective approach is essential to create sustainable change and ensure that every individual has access to necessary resources and support.
             </p>
@@ -97,11 +97,11 @@ const Hepatology = () => {
             <p className='para'>
                 Moreover, we actively collaborate with local schools, community centers, and religious institutions to disseminate information, engage in discussions, and address misconceptions surrounding Hepatitis. By fostering community involvement, we create a sense of ownership and collective responsibility for promoting liver health.
             </p>
-            <span className='para' style={{fontSize:"20px",color:"#00ff0d",textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}}>Comprehensive Care for Hepatitis: Healing Beyond Medical Intervention</span>
+            <p className='para font-head' style={{fontSize:"20px",color:"#00ff0d",textShadow:"-0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000"}}>Comprehensive Care for Hepatitis: Healing Beyond Medical Intervention</p>
             <p className='para'>
                 At The Circular, we recognize that individuals affected by Hepatitis require more than just medical intervention. The emotional and psychological toll of this condition can be significant, and that's why we offer comprehensive care that addresses the physical, mental, and emotional aspects of Hepatitis management. Our team of dedicated healthcare professionals and counselors are trained to provide holistic support, creating a nurturing environment where individuals feel understood, supported, and empowered throughout their Hepatology journey.
             </p>
-            <span className='para' style={{fontSize:"15px",color:"darkgreen"}}>A Holistic Approach to Hepatitis Care</span>
+            <p className='para' style={{fontSize:"15px",color:"darkgreen"}}>A Holistic Approach to Hepatitis Care</p>
             <p className='para'>
                 We believe in taking a holistic approach to Hepatitis care, considering the diverse needs and challenges faced by individuals affected by this condition. Our team understands that each person's experience with Hepatitis is unique, and we tailor our support to meet their specific requirements.
             </p>
@@ -130,7 +130,7 @@ const Hepatology = () => {
                 Hepatitis is a long-term condition that requires ongoing care and management. We provide a continuum of care, ensuring that individuals have access to regular check-ups, monitoring of liver function, and adjustments to treatment plans as needed. Our goal is to support individuals throughout their Hepatology journey, promoting long-term liver health and well-being.
             </p>
         </div>
-        <div className='section4 p-5'>
+        <div className='section4'>
             <HashLink className='redirect' smooth to="/contactus/#joinus"><h1 className='main-heading' >Join Us in Our Mission</h1></HashLink>
             <p className='paragh' style={{color:"darkgreen"}}>
                 At The Circular, we are committed to creating a future where Hepatitis is no longer a widespread public health concern. Through early identification, prevention in schools, and a community-focused approach, we strive to empower individuals, families, and communities to protect their liver health and well-being.
