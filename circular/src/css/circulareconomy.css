@@ -162,8 +162,26 @@
     border:2px solid white;
     border-radius: 15px;
 }
+
+.medpicv{
+    width:340px;
+    height:600px;
+    border:2px solid white;
+    border-radius: 15px;
+}
+.nepic{
+    width: 300px;
+    height:450px;
+    border:2px solid white;
+    border-radius: 15px;
+}
+
 @media screen and (max-width:600px){
     .cover-imageC{
+        max-width: 600px;
+        text-align: center;
+    }
+    .cover-imageN{
         max-width: 600px;
         text-align: center;
     }
@@ -199,16 +217,17 @@
         height: 150px;
         width:250px !important;
     }
-}
-.medpicv{
-    width:340px;
-    height:600px;
-    border:2px solid white;
-    border-radius: 15px;
-}
-.nepic{
-    width: 300px;
-    height:450px;
-    border:2px solid white;
-    border-radius: 15px;
+    .nature-video{
+        width: 270px !important;
+        height:200px !important;
+    }
+    .nepic{
+        width: 180px;
+        height:255px;
+        margin-bottom: 15px;
+    }
+    .abhay-pics{
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -34,7 +34,7 @@ const Fieldtrips = () => {
             </div>
         </div>
         <div className='para text-center mb-5'>
-            <div className="image-gallery-wrapper ">
+            <div className="image-gallery-wrapper">
                 <ImageGallery autoPlay={true} showThumbnails={false} items={fieldGalleryscl} />
                 <p className='para text-center'>At Schools, Farms, and Science Centers</p>
             </div>

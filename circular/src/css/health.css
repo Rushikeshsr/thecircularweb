@@ -108,4 +108,25 @@
     .image-para{
         font-size: 12px;
     }
+    .image-text{
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .person{
+        height: 150px;
+        width: 150px;
+    }
+    .cardbox{
+        flex-direction: column;
+        width: 260px;
+        height: 100%;
+    }
+    .image-card{
+        width: 260px;
+        height: 220px;
+    }
+    .audio-head{
+        font-size: 18px;
+    }
 }
