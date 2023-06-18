@@ -11,7 +11,9 @@
     background-color: black;
     color:aliceblue;
     top:0;
+    position:relative;
     padding: 10px;
+    z-index: 10;
   }
   #menu-bar{
     display: none;
@@ -91,6 +93,7 @@
 @media screen and (max-width:600px){
   .nav-bar{
     height: 12vh;
+    z-index: 10;
   }
   .logo{
     height:45px;
