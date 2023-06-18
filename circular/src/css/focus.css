@@ -30,6 +30,8 @@
 .text-box{
     margin:0;
     padding:0;
+    width: 500px;
+    height: 300px;
 }
 .btnlr{
     width:120px;
@@ -45,6 +47,13 @@
 
 }
 .pic{
+    width:400px;
+    height:300px;
+    border:2px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px #00ff0d;
+}
+.humanpic{
     width:400px;
     height:300px;
     border:2px solid black;
@@ -102,6 +111,8 @@
 .hline{
     display: none;
 }
+
+
 @media screen and (max-width:600px){
     .sec2-head{
         font-size: 20px;
@@ -148,6 +159,7 @@
         flex-wrap: wrap;
         align-items: center;
         font-size: 12px;
+        height: 360px;
     }
     .card-box h1{
         font-size: 20px !important;
@@ -156,14 +168,40 @@
     .text-box{
         margin-left: 10px;
         margin-right: 10px;
-        padding: 15px;
-        height: 200px;
         margin-bottom: 15px;
+        width: 250px;
+        height: 200px;
         order: 1 !important;
     }
+    .humanpic{
+        width: 200px;
+        height: 140px;
+        order: 2 !important;
+    }
+    .edubox{
+        height: 480px !important;
+    }
+    .healthbox{
+        height: 500px !important;
+    }
+    .qualitybox{
+        height: 410px !important;
+    }
+    .forspace{
+        margin-bottom: 150px;
+    }
+    .forskillsspace{
+        margin-bottom: 160px;
+    }
+    .forhealthspace{
+        margin-bottom: 180px;
+    }
+    .forquality{
+        margin-bottom: 100px;
+    }
     .pic{
-        width:260px !important;
-        height:170px !important;
+        width:250px !important;
+        height:160px !important;
         order: 2 !important;
     }
     .btnlr{

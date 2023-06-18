@@ -91,13 +91,13 @@ const Focus = () => {
                 <h1 className='sec2-head'>KEY AREAS</h1>
                 <hr className='line'/>
             </div>
-            <div className='d-flex justidfy-content-center mb-5'>
+            <div className='d-flex justidfy-content-center mb-3'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Circular Economy</h1> 
-                        <p>Discover how we integrate circular economy principles into local businesses,<br/>
+                        <p>Discover how we integrate circular economy principles into local businesses,
                         promoting waste reduction, recycling, and innovative approaches to resource management.
-                        </p><br/><br/>
+                        </p><br/>
                         <HashLink smooth to='/focus/circulareconomy#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":2}}>
@@ -105,13 +105,13 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-5'>
+            <div className='d-flex justidfy-content-center mb-3'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Nature</h1> 
-                        <p>Learn about our initiatives to protect and restore ecosystems, conserve biodiversity,<br/>
+                        <p>Learn about our initiatives to protect and restore ecosystems, conserve biodiversity,
                         and create sustainable solutions for a harmonious relationship between humans and nature.
-                        </p> <br/><br/>
+                        </p> <br/>
                         <HashLink smooth to='/focus/nature#top'><button className='btnlr'>Learn More</button></HashLink>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="200" style={{"order":1}}>
@@ -119,11 +119,11 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-5'>
+            <div className='d-flex justidfy-content-center mb-.'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Medicine</h1> 
-                        <p>We strive to advance equity in health, improve access to medicines,<br/>
+                        <p>We strive to advance equity in health, improve access to medicines,
                         and promote preventive measures to ensure healthier lives for all.
                         </p> <br/><br/>
                         <HashLink smooth to='/focus/medicine#top'><button className='btnlr'>Learn More</button></HashLink>
@@ -133,11 +133,11 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-5'>
+            <div className='d-flex justidfy-content-center mb-3'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Hospitality</h1> 
-                        <p>Experience our sustainable hospitality initiatives, promoting responsible<br/>
+                        <p>Experience our sustainable hospitality initiatives, promoting responsible
                         tourism, eco-friendly practices, and supporting local communities.
                         </p> <br/><br/>
                         <HashLink smooth to='/focus/hospitality#top'><button className='btnlr'>Learn More</button></HashLink>
@@ -147,11 +147,11 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-5'>
+            <div className='d-flex justidfy-content-center mb-3'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Hepatology</h1> 
-                        <p>Learn about our efforts to raise awareness, prevent, and treat liver <br/>
+                        <p>Learn about our efforts to raise awareness, prevent, and treat liver
                         diseases, ensuring liver health for individuals and communities.
                         </p> <br/><br/>
                         <HashLink smooth to='/focus/hepatology#top'><button className='btnlr'>Learn More</button></HashLink>
@@ -161,7 +161,7 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-5'>
+            <div className='d-flex justidfy-content-center mb-3'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Gynaecology</h1>
