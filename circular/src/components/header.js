@@ -15,9 +15,8 @@ const Header = () => {
                         <h1 className='main-head'>The Circular</h1>
                     </Link>
                 </div>
-                <div className='menu'>
-                    <FaBars style={{fontSize:"20px"}}/>
-                </div>
+                <input type='checkbox' id="menu-bar"/>
+                <label htmlFor='menu-bar'><FaBars style={{fontSize:"20px", marginRight:"20px"}}/></label> 
                 <ul className='list'>
                     <div className='dropdown'>
                         <Link className='link' to="/focus"><li className='list-items'>Focus <FaCaretDown style={{fontSize:'14px'}}/></li></Link>

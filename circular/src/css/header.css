@@ -13,7 +13,11 @@
     top:0;
     padding: 10px;
   }
-  .menu{
+  #menu-bar{
+    display: none;
+  }
+  label{
+    cursor:pointer;
     display: none;
   }
   .logo{
@@ -96,14 +100,34 @@
     font-size: 25px;
     flex-wrap: nowrap;
   }
-  ul li{
+  .list{
+    position: absolute;
+    top:12vh; left: 0; right: 0;
+    flex-direction: column;
+    background-color: black;
     display: none;
+    padding-bottom: 15px;
   }
-  .menu{
+  .list-items{
+    font-size: 15px;
+    color: aliceblue;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+  .focus-items{
+    position: relative;
+    width: 90%;
+  }
+  .focus-items .link{
+    font-size:14px;
+  }
+  label{
     display: initial;
-    margin-left: 10px;
   }
-  .menu:hover{
+  label:hover{
     color: #00ff0d;
+  }
+  #menu-bar:checked ~ .list{
+    display: block;
   }
 }

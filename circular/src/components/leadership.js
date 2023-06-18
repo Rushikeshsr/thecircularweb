@@ -159,6 +159,7 @@ const Leadership = () => {
                         <p className='pname' style={{fontSize: "25px",fontWeight:"bold"}}>Sai Mani Shekar Sundharagiri<br/>
                         <span className='pdesg' style={{fontSize:"20px", fontWeight:"100"}}>Head of Digital Transformation</span>
                         </p>
+                        <p className='pemail' style={{fontSize:"15px"}}>digital@thecircular.in</p>
                         {showBtnHD?<button onClick={showContentHD} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                         <button onClick={hideContentHD} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
                     </div>                
