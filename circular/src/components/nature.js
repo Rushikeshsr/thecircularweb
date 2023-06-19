@@ -67,20 +67,20 @@ const Nature = () => {
                 </video> 
             </div>
         </div>
-        <div id="vasudev" name="vasudev" className='section3 p-5'>
+        <div id="vasudev" name="vasudev" className='section3'>
             <div className='image-text'>
                 <div className='col-6 box-image'>
                     <img data-aos="flip-left" className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849395/Circular%20website/vasudevv_sodpzp.jpg" alt="vasudev"/>
                     <p>Vasudev Vangara</p>
                 </div>
-                <p className='image-para'>
+                <p className='para image-para'>
                 Vasudev Vangara is a passionate individual dedicated to making a positive impact on the environment and society. Currently, he holds the position of Head at Viswambhara Eco Services LLP, an organization committed to building soil health, conserving water, and promoting tree plantation for the betterment of all life forms.&nbsp;
                     {showBtn?<button onClick={showContent} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                     <button onClick={hideContent} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
                 </p>  
             </div>
             <div className='col-12 image-text'>
-                {show?<p data-aos="fade-down" className='image-para'>One of Vasudev's notable projects is "Premaculture," which embodies a profound love for nature and follows permaculture principles. Through this initiative, he aims to establish a deep and lasting connection with nature while fostering sustainability and ecological balance.
+                {show?<p data-aos="fade-down" className='para image-para'>One of Vasudev's notable projects is "Premaculture," which embodies a profound love for nature and follows permaculture principles. Through this initiative, he aims to establish a deep and lasting connection with nature while fostering sustainability and ecological balance.
                 Additionally, Vasudev is actively involved in several other projects, including "The Water Bank Project" and "The Veggie Civilization." These projects focus on promoting water conservation and creating backyards, lawns, and terrace kitchen gardens to encourage sustainable living practices.<br/><br/>
                 Prior to his current role, Vasudev served as the Head of Implementation at Creya Learning & Research, where he inspired and guided thousands of students to innovate through STEM (Science, Technology, Engineering, and Mathematics) and design thinking methodologies. His work at Creya played a pivotal role in nurturing the creative thinking and problem-solving skills of the younger generation.<br/><br/>
                 Vasudev has also made significant contributions in the non-profit sector. During his tenure at The Akshaya Patra Foundation and Samhita Social Ventures, he played a crucial role in forging strong corporate partnerships and implementing CSR (Corporate Social Responsibility) projects. His expertise and dedication helped create sustainable and impactful initiatives within these organizations.<br/><br/>

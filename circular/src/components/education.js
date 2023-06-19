@@ -41,13 +41,13 @@ const Education = () => {
                 Overall, our partnerships with educational institutions are designed to create a strong foundation for sustainable development. By combining academic knowledge, practical experience, and operational excellence, we empower students and institutions to make a lasting impact on society and the environment.
             </p> 
         </div>
-        <div id="ripal" name="ripal" className='section3'>
+        <div id="ripal" name="ripal" className='section3 p-4'>
             <div className='image-text'>
                 <div className='col-6 box-image'>
                     <img data-aos="flip-left" data-aos-delay="200" className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849389/Circular%20website/ripal_h77oin.jpg" alt="ripal"/>
                     <p>Ripal Desai</p>
                 </div>
-                <p className='para image-para'>
+                <p className='image-para'>
                 Ripal Desai is an exceptional individual whose journey in the SBI Youth for India fellowship for rural development has been a transformative experience. Over the course of 13 months, she not only achieved remarkable personal growth but also gained valuable insights into the essence of life and community.
                     {showBtn?<button onClick={showContent} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                     <button onClick={hideContent} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
@@ -60,7 +60,7 @@ const Education = () => {
                     <img className='cimpic' style={{width:"32%"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686401727/Circular%20website/ripal2_aiw4an.webp" alt="ripal" />
                     <img className='cimpic' style={{width:"32%"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686401723/Circular%20website/ripal3_fqi1ia.jpg" alt="ripal" />
                 </div>   
-                <p data-aos="fade-down" className='para image-para'>During this fellowship, Ripal discovered the immense impact that small steps can have on bringing about positive change. She realized that it is not just the actions themselves, but the way we engage and connect with people that truly matters. This understanding led her to prioritize meaningful relationships and empathetic interactions, transcending language barriers to create a sense of unity and belonging.<br/><br/>
+                <p data-aos="fade-down" className='image-para'>During this fellowship, Ripal discovered the immense impact that small steps can have on bringing about positive change. She realized that it is not just the actions themselves, but the way we engage and connect with people that truly matters. This understanding led her to prioritize meaningful relationships and empathetic interactions, transcending language barriers to create a sense of unity and belonging.<br/><br/>
                 Living and working in rural areas exposed Ripal to diverse challenges and living conditions. However, she embraced each obstacle as an opportunity for growth and adaptation. She learned to thrive in resource-limited environments, understanding that happiness and fulfillment can be found with minimal material possessions. Through experiences of conserving water, living without electricity, and immersing herself in the simplicity of life, Ripal gained a profound appreciation for the concept of "less is more."<br/><br/>
                 Throughout her fellowship, Ripal discovered the power of love and sharing as the true sources of happiness. She recognized that genuine connections and genuine happiness arise from celebrating others' joys and being grateful for the present moment. This profound understanding led her to realize that life's privileges are not a reflection of inherent superiority but rather a fortunate circumstance that should be utilized to make a positive impact on the lives of others.<br/><br/>
                 Ripal also developed a deep appreciation for the wisdom and purity of children. Their ability to teach valuable lessons and inspire with their innocence touched her heart and reaffirmed her commitment to creating a better future for the younger generations.<br/><br/>

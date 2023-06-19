@@ -1,7 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import '../css/health.css'
 import { FaAngleDoubleDown, FaAngleDoubleUp } from "react-icons/fa";
-import M_D_Surv_Abhay_DESC from '../images/audio/M_D_Surv_Abhay_DESC.mp3';
 import Aos from 'aos';
 
 const Health = () => {
@@ -58,20 +57,20 @@ const Health = () => {
                 <img className='col-12 big-image' style={{boxShadow:"none",marginRight:"25px"}} src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849376/Circular%20website/health5_vuvaiy.jpg" alt="health5" />
             </div>
         </div>
-        <div id="aishwaryak" name="aishwaryak" className='section3'>
+        <div id="aishwaryak" name="aishwaryak" className='section3 p-4'>
             <div className='image-text'>
                 <div className='col-6 box-image'>
                     <img data-aos="flip-left" className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849362/Circular%20website/aishwaryak_vtp2qg.jpg" alt="aishwaryak"/>
                     <p>Aishwarya Karnataki</p>
                 </div>
-                <p className='para image-para'>
-                    Aishwarya Karnataki is the Co-Founder of Glovatrix, and the visionary behind the groundbreaking wearable device, 'Fifth Sense.' Aishwarya's passion for bridging the communication gap for deaf individuals has led her on a remarkable journey of innovation and empowerment.
+                <p className='image-para'>
+                    Aishwarya Karnataki is the Co-Founder of Glovatrix, and the visionary behind the groundbreaking wearable device, 'Fifth Sense.' Aishwarya's passion for bridging the communication gap for deaf individuals has led her on a remarkable journey of innovation and empowerment.&nbsp;
                     {showBtn?<button onClick={showContent} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                     <button onClick={hideContent} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
                 </p>  
             </div>
             <div className='col-12 image-text'>
-                {show?<p data-aos="fade-down" className='para image-para'>Aishwarya's journey began in 2009 when she encountered a deaf child named Atharva who deeply inspired her. Witnessing the challenges Atharva faced in connecting with others due to the limited understanding of sign language, Aishwarya embarked on a mission to learn sign language herself. As she immersed herself in this new language, Atharva's joy and sense of belonging when she could communicate with him in sign language became the driving force behind her determination to make a difference.<br/><br/>
+                {show?<p data-aos="fade-down" className='image-para'>Aishwarya's journey began in 2009 when she encountered a deaf child named Atharva who deeply inspired her. Witnessing the challenges Atharva faced in connecting with others due to the limited understanding of sign language, Aishwarya embarked on a mission to learn sign language herself. As she immersed herself in this new language, Atharva's joy and sense of belonging when she could communicate with him in sign language became the driving force behind her determination to make a difference.<br/><br/>
                 Equipped with a degree in Electronics Engineering from Manipal University, Aishwarya chose to channel her knowledge and skills towards creating innovative solutions for the deaf community. Combining her expertise in electronics and her proficiency in sign language, the idea for the Fifth Sense translation gloves was born. These wearable devices aim to revolutionize communication for deaf individuals by translating sign language gestures into speech and text, making sign language more accessible and understandable to everyone.<br/><br/>
                 Through Glovatrix, Aishwarya envisions a world where deaf individuals can communicate effectively and confidently, without relying on sign language interpreters. The impact of this innovation is profound, allowing speech-disabled patients to have private conversations with their doctors, empowering deaf individuals to give presentations to large audiences, and enabling parents to hear the words 'I love you' from their deaf children for the first time. Aishwarya's vision is centered on empowering the deaf and speech-impaired community, enabling them to lead independent and dignified lives.<br/><br/>
                 Driven by her unwavering commitment to the cause, Aishwarya has worked tirelessly to bring the Fifth Sense device to life. Along her journey, she found a valuable partner in Parikshit, a data scientist with expertise in predictive analysis. Together, they formed Glovatrix, a testament to their shared dedication to transforming the lives of deaf individuals through technological innovation.<br/><br/>
@@ -84,7 +83,7 @@ const Health = () => {
             <div className='d-flex justify-content-center'>
                 <div data-aos="slide-right" data-aos-delay="100" className='audio-tag'>
                     <img className='small-image' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849361/Circular%20website/abhay_zmzwiq.jpg" alt="abhay"/>
-                    <audio src={M_D_Surv_Abhay_DESC} controls/>     
+                    <audio src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1687192736/Circular%20website/bg%20ovelay%20videos/M_D_Surv_Abhay_DESC_mrk9t7.mp3" controls/>     
                 </div>
             </div>
         </div>

@@ -30,5 +30,11 @@
     } 
     .main-heading{
         font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .sub-heading{
+        padding-left: 30px;
+        padding-right: 30px;
     }
   }

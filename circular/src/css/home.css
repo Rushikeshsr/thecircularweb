@@ -47,15 +47,6 @@
     margin-top: 85px;
     margin-left: 10px;
 }
-.overlay{
-    position:absolute;
-    top:0;
-    left:0;
-    margin-top:15vh;
-    width: 100%;
-    height: 102.5%;
-    background-color: rgba(0,0,0,0.5);
-}
 
 .heading{
     font-size: 25px;
@@ -235,13 +226,7 @@
        padding-left: 15px;
        padding-right: 15px;
        margin-left: 10px;
-    }
-    .overlay{
-        width: 100%;
-        height: 100%;
-        margin-top: 12vh;
-        background-color: rgba(0,0,0,0.5);     
-    }    
+    } 
     .sm-image{
         display: flex;
         flex-direction: column;
@@ -255,6 +240,8 @@
     }
     .para{
         font-size: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .together{
         font-size: 15px !important;

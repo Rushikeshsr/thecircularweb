@@ -24,8 +24,7 @@ const Focus = () => {
    <>
    <div className='main'>
       <div className='section1'> 
-          <div className='overlay'></div>
-          <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685849408/Circular%20website/focusbgVid_f4t2lw.mp4" loop autoPlay muted/>
+          <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1687192112/Circular%20website/bg%20ovelay%20videos/focus_bg_overlay_woz3gn.mp4" loop autoPlay muted/>
           <div className='content d-flex flex-column justify-content-center'>
             <p>
                 At <span style={{color:"#00ff0d"}}>The Circular</span>, <br/>
@@ -91,7 +90,7 @@ const Focus = () => {
                 <h1 className='sec2-head'>KEY AREAS</h1>
                 <hr className='line'/>
             </div>
-            <div className='d-flex justidfy-content-center mb-3'>
+            <div className='d-flex justify-content-center mb-3'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Circular Economy</h1> 
@@ -105,7 +104,7 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-3'>
+            <div className='d-flex justify-content-center mb-3'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Nature</h1> 
@@ -119,7 +118,7 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-.'>
+            <div className='d-flex justiffy-content-center mb-3'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Medicine</h1> 
@@ -133,7 +132,7 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-3'>
+            <div className='d-flex justify-content-center mb-3'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Hospitality</h1> 
@@ -147,7 +146,7 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-3'>
+            <div className='d-flex justify-content-center mb-3'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":1}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Hepatology</h1> 
@@ -161,7 +160,7 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justidfy-content-center mb-3'>
+            <div className='d-flex justify-content-center mb-3'>
                 <div className='card-box'>
                     <div data-aos="fade-right" data-aos-delay="200" style={{"order":2}} className='text-box'>
                         <h1 style={{fontSize:'35px'}}>Gynaecology</h1>

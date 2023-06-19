@@ -126,6 +126,8 @@
     }
     .paragh{
         font-size: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .image-arrange{
         flex-direction: column;

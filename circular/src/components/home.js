@@ -12,8 +12,7 @@ const Home = () => {
   return (
     <>
       <div className='section1'> 
-          <div className='overlay'></div>
-          <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685849388/Circular%20website/homeVid_pbjtyk.mp4" loop autoPlay muted/>
+          <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1687191900/Circular%20website/bg%20ovelay%20videos/home_bg_overlay_aoil42.mp4" loop autoPlay muted/>
           <div className='content d-flex flex-column justify-content-center'>
             <p>
             Welcome to <span style={{color:"#00ff0d"}}>The Circular</span>, <br/>

@@ -10,8 +10,7 @@ const Rer = () => {
   return (
     <>
         <div className='section1 col-12'> 
-          <div className='overlay'></div>
-          <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685863855/Circular%20website/rer_cover_rgkm91.mp4" loop autoPlay muted/>
+          <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1687190998/Circular%20website/bg%20ovelay%20videos/rer_bg_overlay_xg2ato.mp4" loop autoPlay muted/>
           <div className='content d-flex flex-column justify-content-center'>
             <p className='cover-text' style={{color:"aliceblue",opacity:"0.8", textShadow:"2px 2px 20px black"}}>
             RENEWABLE ENERGY RESOURCES

@@ -23,8 +23,7 @@ const HumanCapital = () => {
    <div className='main'>
         <div style={{backgroundColor:"black"}} >
             <div className='section1'> 
-            <div className='overlay'></div>
-            <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1685849392/Circular%20website/humanCapitalVid_benkbr.mp4" loop autoPlay muted/>
+            <video className='video' src="https://res.cloudinary.com/dh4bpcja3/video/upload/v1687192150/Circular%20website/bg%20ovelay%20videos/human_capital_bg_overlay_qwqecq.mp4" loop autoPlay muted/>
             <div className='content d-flex flex-column justify-content-center'>
                 <p className='human-font' style={{fontSize:"40px"}}>
                     Welcome to <br/>
@@ -58,20 +57,20 @@ const HumanCapital = () => {
                 <p data-aos="fade-left" data-aos-delay="200" className='paragh'>
                     The driving force behind The Circular's initiatives is a deep sense of responsibility, empathy for fellow beings, and an unwavering love for our planet. The belief that every individual has the power to make a difference is at the core of our efforts. Through collective action and collaboration, we strive to bring about transformative change and create a world where sustainability, equity, and compassion thrive.
                 </p>
-                <div id="pankhuri" name="pankhuri" className='section3'>
+                <div id="pankhuri" name="pankhuri" className='section3 p-4'>
                     <div className='image-text'>
                         <div className='col-6 box-image'>
                             <img data-aos="flip-left" className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849387/Circular%20website/pankhurij_ldow5h.jpg" alt="pankhuri"/>
                             <p style={{color:"aliceblue"}}>Pankhuri Jain</p>
                         </div>
-                        <p style={{color:"aliceblue"}} className='para image-para'>
+                        <p style={{color:"aliceblue"}} className='image-para'>
                         Pankhuri Jain is a highly accomplished Chemist with a passion for innovation and creativity. She holds a Master's degree in Chemistry from the prestigious Indian Institute of Technology, Madras. Prior to that, she completed her BSc (hons) in Chemistry from Miranda House. &nbsp;
                             {showBtn?<button onClick={showContent} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                             <button onClick={hideContent} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
                         </p>  
                     </div>
                     <div className='col-12 image-text'>
-                        {show?<p style={{color:"aliceblue"}} data-aos="fade-down" className='para image-para'>
+                        {show?<p style={{color:"aliceblue"}} data-aos="fade-down" className='image-para'>
                         With a strong foundation in chemistry, Pankhuri is driven to explore new areas and expand her knowledge. She has a keen interest in DSA (Data Structures and Algorithms), web development, and MySQL, demonstrating her versatility in both experimental work in the laboratory and computational chemistry. Her proficiency in various software applications related to computational chemistry allows her to leverage technology for effective problem-solving.<br/><br/>
                         Pankhuri is known for her resourcefulness and innovative thinking, which enables her to tackle challenges head-on. She possesses a quick-learning ability and a strong aptitude for acquiring new skills. Her dedication to continuous learning and staying updated with the latest advancements in her field make her a valuable asset to any team or project.<br/><br/>
                         With a strong academic background, a diverse skill set, and a passion for pushing the boundaries of chemistry, Pankhuri Jain is poised to make significant contributions in the field of science and technology.

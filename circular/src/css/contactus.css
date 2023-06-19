@@ -11,6 +11,8 @@
 @media screen and (max-width:600px) {
     .form{
         width: 80%;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .label{
         font-size:14px;

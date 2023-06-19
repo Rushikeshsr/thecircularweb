@@ -57,20 +57,20 @@ const Transparency = () => {
                 <img className='medpich m-2' data-aos="fade-right" style={{width:"400px",height:"400px"}} src={"https://res.cloudinary.com/dh4bpcja3/image/upload/v1686025345/Circular%20website/trans1_pe3ivt.jpg"} alt='cloudinery tans1'></img>
             </div>
         </div>
-        <div id="sridhar" name="sridhar" className='section3'>
+        <div id="sridhar" name="sridhar" className='section3 p-4'>
             <div className='image-text'>
                 <div className='col-6 box-image'>
                     <img data-aos="flip-left" className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849394/Circular%20website/sridharp_asyeye.jpg" alt="sridhar"/>
                     <p>Sridhar Pabbisetty</p>
                 </div>
-                <p className='para image-para'>
-                    Sridhar Pabbisetty is a dynamic professional with a diverse background and extensive experience in various fields, including public policy, governance, entrepreneurship, and urban development. He has held key positions in renowned institutions and organizations, contributing significantly to their growth and success. With a deep understanding of the Indian governance landscape, Sridhar has made significant contributions to inclusive growth, impact investing, enterprise development, urban poverty alleviation, and the informal economy. &nbsp;
+                <p className='image-para'>
+                    Sridhar Pabbisetty is a dynamic professional with a diverse background and extensive experience in various fields, including public policy, governance, entrepreneurship, and urban development. He has held key positions in renowned institutions and organizations, contributing significantly to their growth and success. With a deep understanding of the Indian governance landscape, Sridhar has made significant contributions to inclusive growth, impact investing, enterprise development, urban poverty alleviation, and the informal economy.
                     {showBtn?<button onClick={showContent} className='seemore'>More<FaAngleDoubleDown style={{fontSize:'18px'}}/></button>:
                     <button onClick={hideContent} className='seemore' >Less<FaAngleDoubleUp style={{fontSize:'18px'}}/></button>}
                 </p>  
             </div>
             <div className='col-12 image-text'>
-                {show?<p data-aos="fade-down" className='para image-para'>Currently, Sridhar holds the position of Dean at MIT School of Government in Pune. Also, he is the Founding Director of Kautilya School of Public Policy at GITAM University, where he leads the establishment of a premier public policy school that contextualizes global advancements in public policy for India.<br/><br/>
+                {show?<p data-aos="fade-down" className='image-para'>Currently, Sridhar holds the position of Dean at MIT School of Government in Pune. Also, he is the Founding Director of Kautilya School of Public Policy at GITAM University, where he leads the establishment of a premier public policy school that contextualizes global advancements in public policy for India.<br/><br/>
                 Following his education, Sridhar embarked on a journey marked by continuous learning and impactful contributions. He has held various leadership roles and played instrumental roles in several organizations and initiatives.<br/><br/>
                 Prior to his current roles, Sridhar held the position of Chief Executive Officer at Namma Bengaluru Foundation, where he led the organization in setting strategies and visions. He focused on creating an organizational culture centered around high performance, innovation, and excellence while driving transformative changes within the organization.<br/><br/>
                 He actively engaged with the board of directors, advisors, and trustees to ensure organizational transformation and developed a robust fundraising ecosystem aligned with the organization's vision and on-ground impact.<br/><br/>
