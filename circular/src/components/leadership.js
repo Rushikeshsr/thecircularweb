@@ -154,7 +154,7 @@ const Leadership = () => {
             </div>
             <div className='profile mb-4'>
                 <div data-aos="flip-right" data-aos-delay="100" className='lbox-image'>
-                    <img className='lperson' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686047689/Circular%20website/passport_photo1_cm5emw.jpg" alt="saimanishekar"/>
+                    <img className='lperson' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1687197647/Circular%20website/mypicf_zbv3nr.jpg" alt="saimanishekar"/>
                     <div className='lpara'>
                         <p className='pname' style={{fontSize: "25px",fontWeight:"bold"}}>Sai Mani Shekar Sundharagiri<br/>
                         <span className='pdesg' style={{fontSize:"20px", fontWeight:"100"}}>Head of Digital Transformation</span>
@@ -198,7 +198,7 @@ const Leadership = () => {
                 <h2 className='main-heading text-center'>ADVISORS</h2>
                 <hr className='h-line' style={{borderColor:"aliceblue", opacity:"1"}}/>
             </div>
-            <div className='profile mb-4'>
+            <div id="rukhmini" name="rukhmini" className='profile mb-4'>
                 <div data-aos="flip-right" data-aos-delay="100" className='lbox-image'>
                     <img className='lperson' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1686469642/Circular%20website/rukhmini_gq07iu.jpg" alt="rukhmini"/>
                     <div className='lpara'>
