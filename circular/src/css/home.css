@@ -259,6 +259,7 @@
     }
     .sec3-head{
         font-size:20px;
+        padding-left: 30px;
     }
     .sm-adbox{
         flex-direction: column;

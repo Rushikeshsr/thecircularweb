@@ -61,7 +61,7 @@ const Health = () => {
             <div className='image-text'>
                 <div className='col-6 box-image'>
                     <img data-aos="flip-left" className='person' src="https://res.cloudinary.com/dh4bpcja3/image/upload/v1685849362/Circular%20website/aishwaryak_vtp2qg.jpg" alt="aishwaryak"/>
-                    <p>Aishwarya Karnataki</p>
+                    <p>Aishwarya <br className='break'/> Karnataki</p>
                 </div>
                 <p className='image-para'>
                     Aishwarya Karnataki is the Co-Founder of Glovatrix, and the visionary behind the groundbreaking wearable device, 'Fifth Sense.' Aishwarya's passion for bridging the communication gap for deaf individuals has led her on a remarkable journey of innovation and empowerment.&nbsp;

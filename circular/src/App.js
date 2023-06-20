@@ -36,7 +36,7 @@ import Impact from './components/impact';
 
 import ContactUs from './components/contactUs';
 
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
 
 
 function App() {
@@ -79,6 +79,8 @@ function App() {
         <Route path="/aboutus/impact" element={<Impact/>}/>
 
         <Route path="/contactus" element={<ContactUs/>}/>
+
+        <Route path="*" element={<Navigate to="/home"/>}/>
         
       </Routes>
       <Footer/>

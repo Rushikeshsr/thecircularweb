@@ -100,7 +100,9 @@
     font-family: 'montserrat';
     padding: 20px;
 }
-
+.break{
+    display: none;
+}
 @media screen and (max-width:600px) {
     .cover-image{
         max-width: 600px;
@@ -132,6 +134,9 @@
     .person{
         height: 150px;
         width: 150px;
+    }
+    .break{
+        display: block;
     }
     .cardbox{
         flex-direction: column;

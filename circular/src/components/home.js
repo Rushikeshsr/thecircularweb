@@ -196,7 +196,7 @@ const Home = () => {
         </HashLink>
       </div>
       <div className='section3'>
-        <h2 data-aos="fade-right" className='sec3-head '>Triumphing over Challenges</h2>
+        <h2 data-aos="fade-right" className='sec3-head'>Triumphing over Challenges</h2>
         <p data-aos="fade-left" data-aos-delay="200" className='para'>Perseverance is the common thread that runs through the narratives of these professionals. Through sheer determination and an unwavering commitment to their dreams, they not only conquered their challenges but also emerged as stronger, wiser, and more resilient sustainability advocates. Their stories serve as a reminder that success often lies just beyond the realm of persistence.</p>
         <div className='text-center  mt-4'>
           <h1 className='sec2-head'>SUSTAINABILITY ADVOCATES</h1>
